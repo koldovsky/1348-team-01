@@ -1,0 +1,28 @@
+.container {
+  margin: 0px 367px;
+  padding: 20px;
+}
+
+.logo {
+  display: block; width: 49px ; height: 49px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  margin: 0;
+}
+
+.header-socials li {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0;
+}
+
+.header-help-phone {
+  font-size: 16px;
+}
