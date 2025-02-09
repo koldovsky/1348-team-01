@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: calc(var(--containerWidth) + var(--containerPadding));
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 calc(var(--containerPadding));
+}
