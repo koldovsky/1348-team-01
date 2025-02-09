@@ -1,0 +1,31 @@
+.header {
+    background-color: #1C4C97;
+    padding: 5px 0;
+}
+
+.header__info-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__info-links {
+    font-weight: 700;
+    display: flex;
+    gap: 25px;
+    color: white;
+}
+
+.header__socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__social-link svg {
+    fill: white;
+}
+
+.header__main {
+    display: block;
+}
