@@ -1,0 +1,35 @@
+.sales {
+    text-align: center;
+}
+
+.sales__title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 54.5px;
+    color: rgb(236, 116, 17); /* тимчасовий колір */
+    white-space: nowrap; /* залишити, якщо потрібно уникнути переносу рядка */
+    margin: bottom 60px;
+}
+
+.sales__description {
+    font-family: "Nunito", sans-serif;
+    font-size: 19px;
+    color: rgba(17, 11, 3, 0.8); /* тимчасовий колір */
+    margin-top: 20px; 
+}
+
+.sales__shop-btn {
+    background-color: #ff7f1f;
+    font-family: "Nunito", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: opacity 0.3s;
+    margin-top: 20px;
+}
+
+.sales__shop-btn:hover {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.993);
+}

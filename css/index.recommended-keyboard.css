@@ -1,0 +1,55 @@
+.recommended-keyboard__label {
+  font-size: 18px;
+  color: rgb(255, 123, 22);
+  font-family: "Nunito", sans-serif;
+}
+
+.recommended-keyboard__title {
+  font-size: 1.5em;
+  color: rgb(39, 39, 39);
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+.recommended-keyboard__price {
+  font-size: 18px;
+  color: rgb(255, 123, 22);
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+.recommended-keyboard__description {
+  font-size: 17px;
+  white-space: nowrap;
+  color: rgb(106, 106, 106);
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+.recommended-keyboardy__specs-title {
+  font-size: 24px;
+  color: rgb(28, 76, 151);
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+
+.recommended-keyboard__list {
+  font-size: 15px;
+  color: rgb(106, 106, 106);
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+
+.recommended-keyboard__shop-btn {
+  background-color: #ff7f1f;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight:550;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: opacity 0.3s;
+  margin-top: 20px;
+}
+
+.recommended-keyboard__shop-btn:hover {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.993);
+}
