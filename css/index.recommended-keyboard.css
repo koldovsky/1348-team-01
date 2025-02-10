@@ -1,55 +1,64 @@
-.recommended-keyboard__label {
-  font-size: 18px;
-  color: rgb(255, 123, 22);
+.recommended-keyboard {
+  display: flex;
+  justify-content: space-between;
   font-family: "Nunito", sans-serif;
+}
+
+.recommended-keyboard__label {
+  font-size: 12px;
+  color: #ff7b16;
+  margin-bottom: 10px;
 }
 
 .recommended-keyboard__title {
-  font-size: 1.5em;
-  color: rgb(39, 39, 39);
-  font-family: "Nunito", sans-serif;
-  margin-top: 10px;
+  font-size: 52px;
+  color: #272727;
+  margin-bottom: 10px;
 }
+
 .recommended-keyboard__price {
-  font-size: 18px;
-  color: rgb(255, 123, 22);
-  font-family: "Nunito", sans-serif;
-  margin-top: 10px;
+  font-size: 33px;
+  color: #ff7b16;
+  margin-bottom: 10px;
 }
+
+.divider {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #00000012;
+}
+
 .recommended-keyboard__description {
-  font-size: 17px;
-  white-space: nowrap;
-  color: rgb(106, 106, 106);
-  font-family: "Nunito", sans-serif;
-  margin-top: 10px;
+  font-size: 15px;
+  color: #6a6a6a;
 }
-.recommended-keyboardy__specs-title {
+
+.recommended-keyboard__specs-title {
   font-size: 24px;
-  color: rgb(28, 76, 151);
-  font-family: "Nunito", sans-serif;
-  margin-top: 10px;
+  color: #1c4c97;
+  margin-top: 15px;
 }
 
 .recommended-keyboard__list {
-  font-size: 15px;
-  color: rgb(106, 106, 106);
-  font-family: "Nunito", sans-serif;
-  margin-top: 10px;
+  font-size: 17px;
+  color: #6a6a6a;
+  margin-bottom: 30px;
 }
 
 .recommended-keyboard__shop-btn {
-  background-color: #ff7f1f;
-  font-family: "Nunito", sans-serif;
+  background: #ff7f1f;
   font-size: 15px;
-  font-weight:550;
-  color: white;
+  font-weight: 550;
+  color: #fff;
   padding: 12px 20px;
   border-radius: 8px;
-  transition: opacity 0.3s;
-  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .recommended-keyboard__shop-btn:hover {
-  background-color: #ffffff;
-  color: rgba(0, 0, 0, 0.993);
+  background: #000;
+  color: #fffbfb;
 }
