@@ -14,20 +14,23 @@
     color: var(--dark-gray-color);
 }
 
-.subtitle span {
-    color: var(--orange-color);
-}
 
 .text {
     color: var(--light-gray-color);
     font-size: 19px;
 }
 
+.text span, .subtitle span {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+
 .btn {
     font-size: 15.4px;
     color: white;
+    font-weight: 700;
     cursor: pointer;
-    padding: 20px;
+    padding: 20px 35px;
     background-color: var(--blue-color);
     border-radius: 5px;
 }
@@ -38,6 +41,7 @@
 }
 
 .small-btn {
+    font-weight: 700;
     font-size: 14px;
     color: var(--white-color);
     cursor: pointer;
