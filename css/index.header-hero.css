@@ -1,7 +1,7 @@
 .header__hero {
     padding-top: 125px;
     padding-bottom: 30px;
-    background-image: url('./img/index/hero-bg.jpg');
+    background-image: url('../img/index/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 }
 
 .hero__title {
-    margin-bottom: 24px;
+    margin-bottom: 30px;
     max-width: 536px;
 }
 

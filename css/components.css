@@ -1,6 +1,7 @@
 .main-title {
     font-family: "Bebas Neue", serif; 
     font-size: 109px;
+    font-weight: 400;
 }
 
 .title {
@@ -18,6 +19,8 @@
 .text {
     color: var(--light-gray-color);
     font-size: 19px;
+    line-height: 1.4;
+    font-weight: 600;
 }
 
 .text span, .subtitle span {
@@ -30,7 +33,7 @@
     color: white;
     font-weight: 700;
     cursor: pointer;
-    padding: 20px 35px;
+    padding: 17px 40px;
     background-color: var(--blue-color);
     border-radius: 5px;
 }
