@@ -1,9 +1,9 @@
-.header {
+.header__info-social {
     background-color: #1C4C97;
     padding: 5px 0;
 }
 
-.header__info-social {
+.header__info-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +11,7 @@
 
 .header__info-links {
     font-weight: 700;
+    font-size: 14px;
     display: flex;
     gap: 25px;
     color: white;
@@ -27,5 +28,42 @@
 }
 
 .header__main {
-    display: block;
+    background-color: #272727;
+    padding: 20px 0;
+}
+
+.header__main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__main-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__main-logo img{
+    max-width: 47px;
+    margin-right: 90px;
+}
+
+.header__main-phone {
+    font-size: 15px;
+    color: #F8F3EF;
+}
+
+.header__main-phone span {
+    color: #FF7B16;
+    font-weight: 700;
+}
+
+.header__main-items {
+    display: flex;
+    gap: 15px;
+    color: #FFFFFFC2;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
 }
