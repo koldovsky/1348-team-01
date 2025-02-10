@@ -1,0 +1,47 @@
+.main-title {
+    font-family: "Bebas Neue", serif; 
+    font-size: 109px;
+}
+
+.title {
+    font-size: 12px;
+    color: #FF7B16;
+}
+
+.title span {
+    color: #FF7B16;
+}
+
+.subtitle {
+    font-family: "Bebas Neue", serif; 
+    font-size: 64px;
+    color: #272727;
+}
+
+.text {
+    color: #6a6a6a;
+    font-size: 19px;
+}
+
+.btn {
+    font-size: 15.4px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    background-color: #1C4C97;
+    border-radius: 5px;
+}
+
+.small-btn {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    background-color: #FF7B16;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+
+.btn:hover, .small-btn:hover {
+    background-color: #272727;
+    transition: color 0.3s ease
+}

@@ -1,4 +1,5 @@
 @import "./global.css";
+@import "./components.css";
 @import "./global.header.css";
 @import "./index.header-hero.css";
 @import "./index.recommended-display.css";
