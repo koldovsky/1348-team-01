@@ -1,6 +1,0 @@
-:root {
-  --containerWidth: 1169px;
-  --containerPadding: 20px;
-  --containerSidePadding: calc(var(--containerPadding) / 2);
-  --containerMargin: 367px;
-} 
