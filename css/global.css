@@ -16,6 +16,11 @@ html {
     /* font-family: "Bebas Neue", serif; */
     font-family: "Nunito", serif;
     scroll-behavior: smooth;
+    --orange-color: #FF7B16;
+    --dark-gray-color: #272727;
+    --light-gray-color: #6b6b6b;
+    --blue-color: #1C4C97;
+    --white-color: #fff;
 }
 
 a {
@@ -30,5 +35,5 @@ li {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }

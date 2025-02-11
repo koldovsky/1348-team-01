@@ -1,0 +1,60 @@
+.main-title {
+    font-family: "Bebas Neue", serif; 
+    font-size: 109px;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 12px;
+    color: var(--orange-color);
+}
+
+.subtitle {
+    font-family: "Bebas Neue", serif; 
+    font-size: 64px;
+    color: var(--dark-gray-color);
+}
+
+
+.text {
+    color: var(--light-gray-color);
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.text span, .subtitle span {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+
+.btn {
+    font-size: 15.4px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 17px 40px;
+    background-color: var(--blue-color);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--dark-gray-color);
+    transition: color 0.3s ease
+}
+
+.small-btn {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--orange-color);
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+
+.small-btn:hover {
+    color: var(--subtitle-color);
+    background-color: var(--white-color);
+    transition: color 0.3s ease
+}

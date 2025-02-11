@@ -1,9 +1,9 @@
-.header {
-    background-color: #1C4C97;
+.header__info-social {
+    background-color: var(--blue-color);
     padding: 5px 0;
 }
 
-.header__info-social {
+.header__info-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,9 +11,10 @@
 
 .header__info-links {
     font-weight: 700;
+    font-size: 14px;
     display: flex;
     gap: 25px;
-    color: white;
+    color: var(--white-color);
 }
 
 .header__socials {
@@ -23,9 +24,46 @@
 }
 
 .header__social-link svg {
-    fill: white;
+    fill: var(--white-color);
 }
 
 .header__main {
-    display: block;
+    background-color: var(--dark-gray-color);
+    padding: 20px 0;
+}
+
+.header__main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__main-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__main-logo img{
+    max-width: 47px;
+    margin-right: 90px;
+}
+
+.header__main-phone {
+    font-size: 15px;
+    color: #F8F3EF;
+}
+
+.header__main-phone span {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+
+.header__main-items {
+    display: flex;
+    gap: 15px;
+    color: #FFFFFFC2;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
 }
