@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-*,
-::before, 
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     /* font-family: "Bebas Neue", serif; */
     font-family: "Nunito", serif;
@@ -17,15 +9,6 @@
     --light-gray-color: #6b6b6b;
     --blue-color: #1C4C97;
     --white-color: #fff;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-li {
-    list-style-type: none;
 }
 
 .container {
