@@ -1,0 +1,109 @@
+.news-gadgets {
+    background-color: #fef8f3;
+    padding: 120px 20px;
+    text-align: center;
+    font-size:Nunito, sans-serif;
+}
+
+/* Заголовок та опис */
+.news-gadgets__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:60px;
+}
+
+.news-gadgets__category {
+    color: #f77f00;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    margin-bottom:15px;
+}
+
+.news-gadgets__title {
+    font-size: 64px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    letter-spacing: normal;
+    margin-bottom:15px;
+}
+
+.news-gadgets__description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.news-gadgets__line {
+  width: 100%;
+  max-width: 944px;
+  border: none;
+  height: 1px;
+  background-color: #00000012;
+}
+
+/* Сітка */
+.news-gadgets__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Картки */
+.news-gadgets__item {
+    padding: 25px;
+    width: 350px;
+    text-align: left;
+}
+
+.news-gadgets__image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.news-gadgets__tag {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.news-gadgets__subtitle {
+    font-size: 24px;
+    font-weight:700;
+    margin: 10px 0;
+}
+
+.news-gadgets__text {
+    font-size: 17px;
+    color: var(--light-gray-color);
+    margin-bottom: 30px;
+}
+
+/* Кнопка */
+
+.news-gadgets__button {
+    background: #ff7f1f;
+    font-size: 15px;
+    font-weight: 550;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .news-gadgets__button:hover {
+    background: #000;
+    color: #fffbfb;
+  }
+/* Адаптивність */
+@media (max-width: 375px) {
+    .news-gadgets__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
