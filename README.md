@@ -29,7 +29,8 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 ```
 
 
-Team 1 
+## Team 1
+
 - Yuliia Ivaniuk
 - Vitalii Liakh
 - Roman Kopanskyi
