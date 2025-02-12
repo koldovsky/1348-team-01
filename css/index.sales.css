@@ -1,12 +1,10 @@
 .sales {
-  text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/index/sales-bunner.png");
-  background-size: cover;
+  url("../img/index/sales-bunner.png");
+  text-align: center;
   background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed; 
 }
 
@@ -42,25 +40,29 @@
   color: var(--white-color);
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 320px) {
   .sales {
-    padding-top: 100px; 
-    padding-bottom: 100px; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: scroll;
+    background-size: cover;
+    
   }
-
+}
   .sales__title {
-    font-size: 50px; 
+    font-size: 40px; 
+    white-space: normal; 
   }
 
   .sales__description {
-    font-size: 16px; 
+    font-size: 14px; 
     margin-top: 20px;
     margin-bottom: 40px; 
   }
 
   .sales__shop-btn {
-    font-size: 14px; 
-    padding: 10px 15px; 
+    font-size: 12px; 
+    padding: 8px 12px; 
     border-radius: 6px; 
   }
-}
+
