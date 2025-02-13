@@ -1,0 +1,27 @@
+.store-keyboards {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+  
+  .store-keyboards__link {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    font-size: 17px;
+  }
+  
+  .store-keyboards_title {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .store-keyboards__description{
+    margin-bottom: 50px;
+    font-size: 17px;
+  }
+  
+  .store-keyboards__subtitle{
+    margin-bottom: 60px;
+    font-size: 36px;
+  }

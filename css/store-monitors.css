@@ -1,0 +1,27 @@
+.monitors {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+  
+  .shop-monitors__link {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    font-size: 17px;
+  }
+  
+  .monitors__title {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+
+  .monitors__description{
+    margin-bottom: 50px;
+    font-size: 17px;
+  }
+
+  .monitors__subtitle{
+    margin-bottom: 60px;
+    font-size: 36px;
+  }

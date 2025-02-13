@@ -1,0 +1,27 @@
+.store-headphones {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.store-headphones__link {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    font-size: 17px;
+}
+
+.store-headphones_title {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.store-headphones__description {
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.store-headphones__subtitle {
+    margin-bottom: 60px;
+    font-size: 36px;
+}

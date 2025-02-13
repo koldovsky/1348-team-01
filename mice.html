@@ -10,17 +10,12 @@
       href="./img/global/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/mice.css">
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/shop.css">
-
   </head>
   <body>
     <header class="header">
@@ -30,13 +25,12 @@
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
-    
     </header>
     <main>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="shop.store-homepage.partial.html"
+        data-hx-get="store-mice.partial.html"
       ></section>
     </main>
     <footer></footer>
