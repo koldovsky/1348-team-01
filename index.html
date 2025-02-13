@@ -18,7 +18,7 @@
     ></script>
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <nav
         class="header__nav"
         data-hx-trigger="load"
@@ -31,9 +31,14 @@
         data-hx-swap="outerHTML"
         data-hx-get="index.header-hero.partial.html"
       ></section>
-    </header>
+    </header> -->
     <main>
       <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.bestsellers.partial.html"
+      ></section>
+      <!-- <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="index.sales.partial.html"
@@ -67,7 +72,7 @@
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="index.news-gadgets.partial.html"
-      ></section>
+      ></section> -->
     </main>
     <footer></footer>
   </body>
