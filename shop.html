@@ -4,54 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About us</title>
+    <title>Electronics Store Website</title>
     <link
       rel="shortcut icon"
       href="./img/global/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/about_us.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/shop.css">
+
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav
+        class="header__nav"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.header-hero.partial.html"
-      ></section>
+    
     </header>
     <main>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="about_us.our-mission.partial.html"
+        data-hx-get="shop.store-homepage.partial.html"
       ></section>
-
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="about_us.our-story.partial.html"
-      ></section>
-
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.expert-reviews.partial.html"
-      ></section>
-      <section
-      data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.vacancies.partial.html"
+        data-hx-get="shop.monitors.partial.html"
       ></section>
     </main>
     <footer></footer>
