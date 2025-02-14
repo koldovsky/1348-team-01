@@ -14,22 +14,22 @@
 }
 
 .sales__description {
-  color: #ffffff;
+  color: var(--light-color);
   margin-top: 40px;
   margin-bottom: 70px;
 }
 
 .sales__shop-btn {
-  background: var(--orange-color);
-  color: var(--white-color);
+  background: var(--accent-color);
+  color: var(--light-color);
   border: none;
   cursor: pointer;
   text-decoration: none;
 }
 
 .sales__shop-btn:hover {
-  background: var(--dark-gray-color);
-  color: var(--white-color);
+  background: var(--title-color);
+  color: var(--light-color);
 }
 
 @media (max-width: 320px) {
