@@ -1,8 +1,7 @@
 .news-gadgets {
     background-color: #fef8f3;
-    padding: 120px 20px;
+    padding: 120px 0px;
     text-align: center;
-    font-size:Nunito, sans-serif;
 }
 
 /* Заголовок та опис */
@@ -53,7 +52,7 @@
 /* Картки */
 .news-gadgets__item {
     padding: 25px;
-    width: 350px;
+    max-width: 350px;
     text-align: left;
 }
 

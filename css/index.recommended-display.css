@@ -16,7 +16,6 @@
 .recommended-display__content {
   position: relative;
   width: 50%;
-  white-space: nowrap;
 }
 
 .recommended-display__label {
@@ -94,11 +93,11 @@
 
   .recommended-display__content {
     width: 100%; 
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 
   .recommended-display__label {
-    font-size: 12px; /
+    font-size: 12px; 
     margin-top: 30px;
     margin-bottom: 20px;
   }
