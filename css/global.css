@@ -4,11 +4,12 @@
     /* font-family: "Bebas Neue", serif; */
     font-family: "Nunito", serif;
     scroll-behavior: smooth;
-    --orange-color: #FF7B16;
-    --dark-gray-color: #272727;
-    --light-gray-color: #6b6b6b;
-    --blue-color: #1C4C97;
-    --white-color: #fff;
+    --accent-color: #FF7B16;
+    --title-color: #272727;
+    --text-color: #6b6b6b;
+    --main-bg-color: #272727;
+    --secondary-bg-color: #1C4C97;
+    --light-color: #fff;
 }
 
 .container {

@@ -34,7 +34,7 @@
 
 .hero__button--secondary p {
     font-size: 15.4px;
-    color: var(--dark-gray-color);
+    color: var(--title-color);
 }
 
 .hero__button--secondary img {
@@ -52,7 +52,7 @@
     align-items: center;
     gap: 10px;
     padding: 5px;
-    border-right: 1px solid var(--light-gray-color); 
+    border-right: 1px solid var(--text-color); 
 }
 
 .hero__category svg {
@@ -62,7 +62,7 @@
 .hero__category p {
     font-size: 15px;
     font-weight: 700;
-    color: var(--light-gray-color);
+    color: var(--text-color);
     text-align: center;
 }
 
@@ -105,7 +105,7 @@
         display: flex;
         justify-content: center;
         border-right: none;
-        border-bottom: 1px solid var(--light-gray-color); 
+        border-bottom: 1px solid var(--text-color); 
         gap: 15px;
     }
 } 
