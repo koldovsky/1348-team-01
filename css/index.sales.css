@@ -20,10 +20,7 @@
 .sales__shop-btn {
   background: var(--accent-color);
   color: var(--light-color);
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
+} 
 
 .sales__shop-btn:hover {
   background: var(--main-bg-color);

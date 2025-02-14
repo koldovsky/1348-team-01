@@ -31,7 +31,6 @@
 }
 
 .btn {
-    display: block;
     font-size: 15.4px;
     color: white;
     font-weight: 700;
@@ -39,6 +38,10 @@
     padding: 17px 40px;
     background-color: var(--secondary-bg-color);
     border-radius: 5px;
+}
+
+.btn a {
+    display: block;
 }
 
 .btn:hover {
