@@ -8,22 +8,21 @@
 }
 
 .hero__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 80px;
 }
 
 .hero__title {
     margin-bottom: 30px;
-    max-width: 536px;
 }
 
 .hero__description {
     margin-bottom: 31px;
-    max-width: 562px;
 }
 
 .hero__buttons {
     display: flex;
-    margin-right: auto;
     gap: 20px;
 }
 
@@ -31,32 +30,92 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    p {
-        font-size: 15.4px;
-        color: var(--dark-gray-color);
-    }
-    img {
-        max-width: 27px;
-    }   
 }
+
+.hero__button--secondary p {
+    font-size: 15.4px;
+    color: var(--dark-gray-color);
+}
+
+.hero__button--secondary img {
+    max-width: 27px;
+}   
 
 .hero__categories {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.hero__category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-right: 1px solid var(--light-gray-color); 
+}
+
+.hero__category svg {
+    width: 20px;
+}
+
+.hero__category p {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--light-gray-color);
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .hero__content {
+        margin-bottom: 50px;
+    }
+    .hero__category {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__categories {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .hero__category {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 560px) {
+    .header__hero {
+        padding-top: 90px;
+    }
+    .hero__content {
+        grid-template-columns: 80% 20%;
+    }
+    .hero__buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hero__categories {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
     .hero__category {
         display: flex;
         justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 5px;
-        border-right: 1px solid var(--light-gray-color);
-        svg {
-            width: 20px;
-        }
-        p {
-            font-size: 15px;
-            font-weight: 700;
-            color: var(--light-gray-color);
-        }
+        border-right: none;
+        border-bottom: 1px solid var(--light-gray-color); 
+        gap: 15px;
+    }
+} 
+
+@media (max-width: 425px) {
+    .header__hero {
+        padding-top: 70px;
+    }
+    .hero__content {
+        grid-template-columns: 1fr;
+        margin-bottom: 15px;
     }
 }

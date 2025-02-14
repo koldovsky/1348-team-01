@@ -31,6 +31,7 @@
 }
 
 .btn {
+    display: block;
     font-size: 15.4px;
     color: white;
     font-weight: 700;
@@ -65,13 +66,29 @@
 /* Responsive design */
 
 @media (max-width: 1024px) {
+    .main-title {
+        font-size: 84px;
+    }
     .title {
         font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 60px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 12px 25px;
     }
 }
 
 @media (max-width: 425px) {
     .title {
         font-size: 8px;
+    }
+    .text {
+        font-size: 15px;
     }
 }
