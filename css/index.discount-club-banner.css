@@ -1,5 +1,6 @@
 .discount-banner__title {
     font-size: 54px;
+}
 .discount-section {
     display: flex;
     align-items: center;
@@ -22,18 +23,18 @@
 }
 
 .discount-text h2 span {
-    color: #ff7300; 
+    color: var(--accent-color); 
 }
 
 .discount-text p {
     font-size: 16px;
-    color: #666;
+    color: var(--text-color); 
     margin-top: 10px;
 }
 
 .discount-text p small {
     font-style: italic;
-    color: #888;
+    color: var(--text-color);
 }
 
 .discount-btn {
@@ -42,8 +43,8 @@
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    color: #fff;
-    background: #0056b3;
+    color: var(--light-color);
+    background: var(--secondary-bg-color);
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -51,7 +52,7 @@
 }
 
 .discount-btn:hover {
-    background: #003d80;
+    background: var(--main-bg-color);
 }
 
 .discount-image {
@@ -63,6 +64,5 @@
     border-radius: 10px;
 }
 .discount-banner__note {
-    font-size:14px;
-    font-family:Nunito, sans-serif;
+    font-size: 14px;
 }

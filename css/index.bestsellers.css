@@ -25,7 +25,7 @@
     background-image: url(../img/index/bestsellers2.webp);
     color: var(--light-color);
     .bestsellers__item-title {
-        color: var(--white-color);
+        color: var(--light-color);
     }
 }
 
