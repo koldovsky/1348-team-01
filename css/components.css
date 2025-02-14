@@ -9,14 +9,20 @@
     color: var(--accent-color);
     letter-spacing: 1.2px;
     font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
 }
 
 .subtitle {
     font-family: "Bebas Neue", serif; 
     font-size: 64px;
     color: var(--title-color);
+    font-weight: 400;
 }
 
+.subtitle span {
+    color: var(--secondary-bg-color);
+}
 
 .text {
     color: var(--text-color);
@@ -25,7 +31,7 @@
     font-weight: 600;
 }
 
-.text span, .subtitle span {
+.text span {
     color: var(--accent-color);
     font-weight: 700;
 }
@@ -38,15 +44,13 @@
     padding: 17px 40px;
     background-color: var(--secondary-bg-color);
     border-radius: 5px;
-}
-
-.btn a {
-    display: block;
+    flex-grow: 0;
+    align-self: start;
 }
 
 .btn:hover {
     background-color: var(--title-color);
-    transition: color 0.3s ease
+    transition: background 0.3s ease
 }
 
 .small-btn {
@@ -57,23 +61,32 @@
     background-color: var(--accent-color);
     padding: 15px 22px;
     border-radius: 5px;
+    flex-grow: 0;
+    align-self: start;
 }
 
 .small-btn:hover {
     color: var(--main-bg-color);
     background-color: var(--light-color);
-    transition: color 0.3s ease
+    transition: background 0.3s ease
 }
 
 
 /* Responsive design */
 
 @media (max-width: 1024px) {
+    .title {
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 992px) {
     .main-title {
         font-size: 84px;
     }
-    .title {
-        font-size: 10px;
+    .subtitle {
+        font-size: 54px;
     }
 }
 
@@ -87,9 +100,14 @@
     }
 }
 
+
+
 @media (max-width: 425px) {
     .title {
         font-size: 8px;
+    }
+    .subtitle {
+        font-size: 40px;
     }
     .text {
         font-size: 15px;

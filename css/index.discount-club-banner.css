@@ -1,5 +1,5 @@
-.discount-banner__title {
-    font-size: 54px;
+.discount-banner__title span{
+    color: var(--accent-color);
 }
 .discount-section {
     display: flex;
