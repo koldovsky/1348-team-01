@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 :root {
-    /* font-family: "Bebas Neue", serif; */
-    font-family: "Nunito", serif;
-    scroll-behavior: smooth;
-    --accent-color: #FF7B16;
-    --title-color: #272727;
-    --text-color: #6b6b6b;
-    --main-bg-color: #272727;
-    --secondary-bg-color: #1C4C97;
-    --light-bg-color: #f8f3ef;
-    --light-color: #fff;
+  /* font-family: "Bebas Neue", serif; */
+  font-family: "Nunito", serif;
+  scroll-behavior: smooth;
+  --accent-color: #ff7b16;
+  --title-color: #272727;
+  --subtitle-color: #4d4d4d;
+  --text-color: #6b6b6b;
+  --main-bg-color: #272727;
+  --secondary-bg-color: #1c4c97;
+  --light-bg-color: #f8f3ef;
+  --light-color: #fff;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
