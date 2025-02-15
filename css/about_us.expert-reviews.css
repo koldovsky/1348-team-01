@@ -1,0 +1,104 @@
+/* Liubomyr Bishko */
+.expert-reviews {
+  background-image: url(../img/about_us/bg-black-mouse.png);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-position: 58% 50%;
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container {
+    padding: 0px 24px;
+    .expert-reviews__content {
+      .expert-reviews__title {
+        font-weight: bold;
+        font-size: 12.5px;
+        color: var(--accent-color);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .expert-reviews__headline {
+        font-weight: 200;
+        margin-top: 20px;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 60px;
+        color: var(--light-color);
+        text-transform: uppercase;
+      }
+      .expert-reviews__features {
+        margin-top: 35px;
+        line-height: 1.4;
+        .expert-reviews__feature {
+          color: #ffffffb1;
+          font-size: 14px;
+          span {
+            font-weight: bold;
+            color: var(--accent-color);
+          }
+        }
+      }
+    }
+    .expert-reviews__details {
+      margin-top: 60px;
+      .expert-reviews__icon {
+        width: 70px;
+        height: 70px;
+        background: rgba(255, 255, 255, 0.22);
+        border-radius: 50%;
+        display: flex; /* Додано для використання Flexbox */
+        justify-content: center; /* Горизонтальне вирівнювання по центру */
+        align-items: center; /* Вертикальне вирівнювання по центру */
+        svg {
+          height: 40px;
+          width: 40px;
+        }
+      }
+      .expert-reviews__name {
+        font-size: 22px;
+        color: var(--light-color);
+        margin-top: 25px;
+        font-weight: 700;
+      }
+      .expert-reviews__price {
+        margin-top: 25px;
+        .expert-reviews__price-current {
+          font-size: 35px;
+          color: var(--accent-color);
+          font-weight: 700;
+        }
+        .expert-reviews__price-old {
+          font-size: 17px;
+          color: #ffffffcc;
+          /* text-decoration: line-through; */
+        }
+      }
+      .expert-reviews__button {
+        margin-top: 35px;
+        height: 40px;
+        width: 126px;
+        font-weight: 700;
+        font-size: 14px;
+        color: var(--light-color);
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+
+      .expert-reviews__button:hover {
+        background-color: white;
+        color: black;
+        transition-delay: 0.1s;
+      }
+    }
+  }
+}
