@@ -9,27 +9,22 @@
 }
 
 .sales__title {
-  color: var(--white-color);
-  white-space: nowrap;
+  color: var(--light-color);
 }
 
 .sales__description {
-  color: #ffffff;
   margin-top: 40px;
   margin-bottom: 70px;
 }
 
 .sales__shop-btn {
-  background: var(--orange-color);
-  color: var(--white-color);
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
+  background: var(--accent-color);
+  color: var(--light-color);
+} 
 
 .sales__shop-btn:hover {
-  background: var(--dark-gray-color);
-  color: var(--white-color);
+  background: var(--main-bg-color);
+  color: var(--light-color);
 }
 
 @media (max-width: 320px) {
@@ -41,20 +36,3 @@
     
   }
 }
-  .sales__title {
-    font-size: 40px; 
-    white-space: normal; 
-  }
-
-  .sales__description {
-    font-size: 14px; 
-    margin-top: 20px;
-    margin-bottom: 40px; 
-  }
-
-  .sales__shop-btn {
-    font-size: 12px; 
-    padding: 8px 12px; 
-    border-radius: 6px; 
-  }
-

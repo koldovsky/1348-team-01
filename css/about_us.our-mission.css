@@ -1,0 +1,84 @@
+/* Liubomyr Bishko */
+.our-mission {
+  min-width: 320px;
+  background-color: var(--light-bg-color);
+
+  .container {
+    @media (min-width: 768px) {
+      padding-right: 0;
+    }
+
+    .our-story__container {
+      @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        padding: 0 0;
+        align-items: stretch;
+      }
+
+      .our-mission__content {
+        padding: 90px 15px;
+        @media (min-width: 768px) {
+          width: 50%;
+          padding: 105px 30px;
+        }
+
+        .our-mission__text-box {
+          .our-mission__title {
+            font-size: 12.5px;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+
+          .our-mission__headline {
+            line-height: 1.2;
+            margin-top: 20px;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 40px;
+            color: var(--main-bg-color);
+            text-transform: uppercase;
+            span {
+              color: var(--secondary-bg-color);
+            }
+            @media (min-width: 768px) {
+              font-size: 52px;
+            }
+            @media (min-width: 1024px) {
+              font-size: 64px;
+            }
+          }
+          .our-mission__tagline {
+            font-weight: 600;
+            margin-top: 25px;
+            font-size: 19px;
+            color: var(--subtitle-color);
+            line-height: 1.4;
+          }
+
+          .our-mission__text {
+            line-height: 1.4;
+            margin-top: 25px;
+            font-size: 17px;
+            color: var(--text-color);
+          }
+        }
+      }
+      .our-mission__img-box {
+        background-image: url("../img/about_us/computer-on-table.png");
+        background-size: cover;
+        background-position: 50% 23%;
+        background-repeat: no-repeat;
+        height: 60vw;
+        margin-left: -15px;
+        margin-right: -15px;
+        @media (min-width: 768px) {
+          background-position: center;
+          width: 50%;
+          height: unset;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

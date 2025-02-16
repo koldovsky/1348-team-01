@@ -1,64 +1,135 @@
 .recommended-keyboard {
+  background-color: var(--light-bg-color);
+}
+
+.recommended-keyboard__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  
+}
+
+.recommended-keyboard__image {
+  width: 100%; 
+  height: 100%; 
+  background-image: url("https://electronics-store.weblium.site/res/66bb1b6c8af1cd801b782997/66ea914feb993594e1f2d27f_optimized_1048_c1048x1239-0x0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.recommended-keyboard__content {
   display: flex;
-  justify-content: space-between;
-  font-family: "Nunito", sans-serif;
+  flex-direction: column;
+  padding: 120px 30px;
 }
 
 .recommended-keyboard__label {
-  font-size: 12px;
-  color: #ff7b16;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+  color:var(--accent-color);
+  font-size:15px ;
 }
 
-.recommended-keyboard__title {
-  font-size: 52px;
-  color: #272727;
-  margin-bottom: 10px;
+.recommended-keyboard__title{
+  font-size:42px;
+}
+
+
+.recommended-keyboard__divider {
+  margin: 20px 0;
 }
 
 .recommended-keyboard__price {
-  font-size: 33px;
-  color: #ff7b16;
-  margin-bottom: 10px;
-}
-
-.divider {
-  width: 100%;
-  border: none;
-  height: 1px;
-  background-color: #00000012;
-}
-
-.recommended-keyboard__description {
-  font-size: 15px;
-  color: #6a6a6a;
+  font-size: 36px;
+  color: var(--accent-color);
+  margin-bottom: 35px;
+  font-weight: 700;
 }
 
 .recommended-keyboard__specs-title {
+  color: var(--secondary-bg-color);
   font-size: 24px;
-  color: #1c4c97;
-  margin-top: 15px;
-}
-
-.recommended-keyboard__list {
-  font-size: 17px;
-  color: #6a6a6a;
+  margin-top: 35px;
   margin-bottom: 30px;
 }
 
-.recommended-keyboard__shop-btn {
-  background: #ff7f1f;
+.recommended-keyboard__list li {
+  color: var(--text-color);
   font-size: 15px;
-  font-weight: 550;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.recommended-keyboard__list strong {
+  color: var(--title-color);
+}
+
+.recommended-keyboard__shop-btn {
+  margin-top: 35px;
 }
 
 .recommended-keyboard__shop-btn:hover {
-  background: #000;
-  color: #fffbfb;
+  background-color: var(--title-color);
+  color: var(--light-bg-color);
+  transition: background 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .recommended-keyboard__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .recommended-keyboard__content {
+    padding: 60px 15px;
+  }
+  .recommended-keyboard__label {
+    margin-bottom: 25px;
+  }
+  .recommended-keyboard__title{
+    font-size:32px;
+  }
+  .recommended-keyboard__divider {
+    margin: 15px 0;
+  }
+  .recommended-keyboard__price {
+    margin-bottom: 25px;
+  }
+  .recommended-keyboard__specs-title {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .recommended-keyboard__shop-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .recommended-keyboard__content {
+    padding: 40px 10px;
+  }
+  .recommended-keyboard__label {
+    margin-bottom: 15px;
+  }
+  .recommended-keyboard__price {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .recommended-keyboard__description {
+    font-size: 16px;
+  }
+  .recommended-keyboard__specs-title {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .recommended-keyboard__shop-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .recommended-keyboard__content {
+    padding: 40px 0;
+  }
+  .recommended-keyboard__list li {
+    font-size: 14px;
+  }
 }

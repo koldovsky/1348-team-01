@@ -6,27 +6,33 @@
 
 .title {
     font-size: 12px;
-    color: var(--orange-color);
+    color: var(--accent-color);
     letter-spacing: 1.2px;
     font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
 }
 
 .subtitle {
     font-family: "Bebas Neue", serif; 
     font-size: 64px;
-    color: var(--dark-gray-color);
+    color: var(--title-color);
+    font-weight: 400;
 }
 
+.subtitle span {
+    color: var(--secondary-bg-color);
+}
 
 .text {
-    color: var(--light-gray-color);
+    color: var(--text-color);
     font-size: 19px;
     line-height: 1.4;
     font-weight: 600;
 }
 
-.text span, .subtitle span {
-    color: var(--orange-color);
+.text span {
+    color: var(--accent-color);
     font-weight: 700;
 }
 
@@ -36,29 +42,33 @@
     font-weight: 700;
     cursor: pointer;
     padding: 17px 40px;
-    background-color: var(--blue-color);
+    background-color: var(--secondary-bg-color);
     border-radius: 5px;
+    flex-grow: 0;
+    align-self: start;
 }
 
 .btn:hover {
-    background-color: var(--dark-gray-color);
-    transition: color 0.3s ease
+    background-color: var(--title-color);
+    transition: background 0.3s ease
 }
 
 .small-btn {
     font-weight: 700;
     font-size: 14px;
-    color: var(--white-color);
+    color: var(--light-color);
     cursor: pointer;
-    background-color: var(--orange-color);
+    background-color: var(--accent-color);
     padding: 15px 22px;
     border-radius: 5px;
+    flex-grow: 0;
+    align-self: start;
 }
 
 .small-btn:hover {
-    color: var(--subtitle-color);
-    background-color: var(--white-color);
-    transition: color 0.3s ease
+    color: var(--main-bg-color);
+    background-color: var(--light-color);
+    transition: background 0.3s ease
 }
 
 
@@ -68,10 +78,38 @@
     .title {
         font-size: 10px;
     }
+    
 }
+
+@media (max-width: 992px) {
+    .main-title {
+        font-size: 84px;
+    }
+    .subtitle {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 60px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+}
+
+
 
 @media (max-width: 425px) {
     .title {
         font-size: 8px;
+    }
+    .subtitle {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 15px;
     }
 }

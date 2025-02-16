@@ -76,7 +76,7 @@
 
 .monitors__products-price {
   font-size: 18px;
-  color: var(--orange-color);
+  color: var(--accent-color);
   font-weight: bold;
   white-space: nowrap;
 }
@@ -98,14 +98,14 @@
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 14px;
-  background: var(--orange-color);
-  color: var(--white-color);
+  background: var( --accent-color);
+  color: var(--light-color);
   border: none;
   cursor: pointer;
   text-decoration: none;
 }
 
 .monitors__products-button:hover {
-  background: var(--dark-gray-color);
-  color: var(--white-color);
+  background: var(--main-bg-color);
+  color: var( --light-color);
 }

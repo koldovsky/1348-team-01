@@ -1,5 +1,5 @@
 .header__info-social {
-    background-color: var(--blue-color);
+    background-color: var(--secondary-bg-color);
     padding: 5px 0;
 }
 
@@ -14,7 +14,7 @@
     font-size: 14px;
     display: flex;
     gap: 25px;
-    color: var(--white-color);
+    color: var(--light-color);
 }
 
 .header__socials {
@@ -24,11 +24,11 @@
 }
 
 .header__social-link svg {
-    fill: var(--white-color);
+    fill: var(--light-color);
 }
 
 .header__main {
-    background-color: var(--dark-gray-color);
+    background-color: var(--title-color);
     padding: 20px 0;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .header__main-phone a {
-    color: var(--orange-color);
+    color: var(--accent-color);
     font-weight: 700;
 }
 

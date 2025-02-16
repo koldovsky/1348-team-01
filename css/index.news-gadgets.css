@@ -1,8 +1,7 @@
 .news-gadgets {
     background-color: #fef8f3;
-    padding: 120px 20px;
+    padding: 120px 0px;
     text-align: center;
-    font-size:Nunito, sans-serif;
 }
 
 /* Заголовок та опис */
@@ -14,7 +13,7 @@
 }
 
 .news-gadgets__category {
-    color: #f77f00;
+    color: var( --accent-color);
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2.4px;
@@ -22,16 +21,15 @@
 }
 
 .news-gadgets__title {
-    font-size: 64px;
+    font-size: 40px;
     text-transform: uppercase;
     margin: 10px 0;
-    letter-spacing: normal;
     margin-bottom:15px;
 }
 
 .news-gadgets__description {
     font-size: 16px;
-    color: #555;
+    color:var(--text-color);
     margin-bottom: 20px;
 }
 
@@ -43,17 +41,15 @@
   background-color: #00000012;
 }
 
-/* Сітка */
 .news-gadgets__list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-/* Картки */
 .news-gadgets__item {
     padding: 25px;
-    width: 350px;
+    max-width: 350px;
     text-align: left;
 }
 
@@ -65,7 +61,7 @@
 .news-gadgets__tag {
     font-size: 14px;
     font-weight: bold;
-    color: var(--blue-color);
+    color: var( --secondary-bg-color);
     text-transform: uppercase;
     margin-top: 20px;
 }
@@ -83,12 +79,11 @@
 }
 
 /* Кнопка */
-
 .news-gadgets__button {
-    background: #ff7f1f;
+    background: var( --accent-color);
     font-size: 15px;
     font-weight: 550;
-    color: #fff;
+    color:var( --light-color);
     padding: 12px 20px;
     border-radius: 8px;
     border: none;
@@ -98,12 +93,5 @@
   
   .news-gadgets__button:hover {
     background: #000;
-    color: #fffbfb;
+    color: var( --light-color);
   }
-/* Адаптивність */
-@media (max-width: 375px) {
-    .news-gadgets__list {
-        flex-direction: column;
-        align-items: center;
-    }
-}
