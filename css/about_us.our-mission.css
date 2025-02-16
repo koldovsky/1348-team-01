@@ -65,7 +65,7 @@
         }
       }
       .our-mission__img-box {
-        background-image: url("/img/about_us/computer-on-table.png");
+        background-image: url("../img/about_us/computer-on-table.png");
         background-size: cover;
         background-position: 50% 23%;
         background-repeat: no-repeat;
