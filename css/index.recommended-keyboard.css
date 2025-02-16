@@ -11,7 +11,7 @@
 
 .recommended-keyboard__image {
   width: 100%; 
-  height: 810px; 
+  height: 100%; 
   background-image: url("https://electronics-store.weblium.site/res/66bb1b6c8af1cd801b782997/66ea914feb993594e1f2d27f_optimized_1048_c1048x1239-0x0");
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +26,14 @@
 
 .recommended-keyboard__label {
   margin-bottom: 35px;
+  color:var(--accent-color);
+  font-size:15px ;
 }
+
+.recommended-keyboard__title{
+  font-size:42px;
+}
+
 
 .recommended-keyboard__divider {
   margin: 20px 0;
@@ -75,6 +82,9 @@
   }
   .recommended-keyboard__label {
     margin-bottom: 25px;
+  }
+  .recommended-keyboard__title{
+    font-size:32px;
   }
   .recommended-keyboard__divider {
     margin: 15px 0;

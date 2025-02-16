@@ -18,7 +18,7 @@
     ></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -30,30 +30,30 @@
         data-hx-get="about_us.header-hero.partial.html"
       ></section>
     </header>
-    <main>
-      <section
+    <div class="body__wrapper">
+      <main class="main">
+        <section
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="about_us.our-mission.partial.html"
+        ></section>
+        <section
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="about_us.our-story.partial.html"
+        ></section>
+        <section
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="about_us.expert-reviews.partial.html"
+        ></section>
+        <section
         data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.our-mission.partial.html"
-      ></section>
-
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.our-story.partial.html"
-      ></section>
-
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.expert-reviews.partial.html"
-      ></section>
-      <section
-      data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about_us.vacancies.partial.html"
-      ></section>
-    </main>
-    <footer></footer>
+          data-hx-swap="outerHTML"
+          data-hx-get="about_us.vacancies.partial.html"
+        ></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
