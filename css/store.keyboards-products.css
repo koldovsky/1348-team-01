@@ -1,87 +1,54 @@
-.mice {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 75px;
-}
-
-.mice__link {
-  margin-top: 120px;
-  margin-bottom: 60px;
-  font-size: 17px;
-}
-
-.mice__title {
-  margin-top: 15px;
-  margin-bottom: 40px;
-  font-size: 36px;
-}
-
-.mice__description {
-  margin-bottom: 50px;
-  font-size: 17px;
-}
-
-.mice__subtitle {
-  margin-bottom: 60px;
-  font-size: 36px;
-}
-
-.mice__products {
-  max-width: 1200px;
-  margin: 0 auto;
-  
-}
-
-.mice__products-title {
+/* Список продуктів */
+.keyboards-products__title {
   font-size: 33px;
   margin-bottom: 30px;
 }
 
-.mice__products-list {
+.keyboards-products__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
-.mice__products-item {
+.keyboards-products__item {
   position: relative;
   max-width: 1200px;
   text-align: left;
 }
 
-.mice__products-image {
+.keyboards-products__image {
   width: 100%;
   max-height: 200px;
   object-fit: contain;
 }
 
-.mice__products-name {
+.keyboards-products__name {
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.mice__products-prices {
+.keyboards-products__prices {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.mice__products-old-price {
-  font-size: 16px;
-  text-decoration: line-through;
-  color: black;
-  white-space: nowrap;
-}
-
-.mice__products-price {
+.keyboards-products__price {
   font-size: 18px;
   color: var(--accent-color);
   font-weight: bold;
   white-space: nowrap;
 }
 
-.badge {
+.keyboards-products__price--old {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: black;
+  white-space: nowrap;
+}
+
+.keyboards-products__badge {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -92,20 +59,19 @@
   border-radius: 4px;
 }
 
-
-.mice__products-button {
+.keyboards-products__button {
   margin-top: 15px;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 14px;
-  background: var( --accent-color);
+  background: var(--accent-color);
   color: var(--light-color);
   border: none;
   cursor: pointer;
   text-decoration: none;
 }
 
-.mice__products-button:hover {
+.keyboards-products__button:hover {
   background: var(--main-bg-color);
-  color: var( --light-color);
+  color: var(--light-color);
 }

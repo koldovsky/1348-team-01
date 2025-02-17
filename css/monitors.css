@@ -2,4 +2,5 @@
 @import "./global.css";
 @import "./components.css";
 @import "./global.header.css";
-@import "./store-monitors.css";
+@import "./store.monitors.css";
+@import "./store.monitors-products.css";

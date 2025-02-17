@@ -1,0 +1,22 @@
+
+.keyboards__link {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  font-size: 17px;
+}
+
+.keyboards__title {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.keyboards__description {
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.keyboards__subtitle {
+  margin-bottom: 60px;
+  font-size: 36px;
+}
