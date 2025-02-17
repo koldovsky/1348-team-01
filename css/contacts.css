@@ -1,2 +1,5 @@
 @import "./reset.css";
 @import "./global.css";
+@import "./components.css";
+@import "./contacts.header-contacts.css";
+@import "./contacts.header-contacts-hero.css"
