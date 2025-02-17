@@ -8,11 +8,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (min-width: 768px) {
+    padding: 105px 0px;
+  }
+  @media (min-width: 992px) {
+    padding: 120px 0px;
+  }
 
   .container {
     padding: 0px 24px;
+    @media (min-width: 768px) {
+      padding: 0px 2px;
+    }
+    @media (min-width: 992px) {
+      padding: 0px 10px;
+    }
     .expert-reviews__container {
+      @media (min-width: 768px) {
+        display: flex;
+        /* flex-direction: column; */
+      }
       .expert-reviews__content {
+        @media (min-width: 768px) {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          padding: 0 30px;
+        }
         .expert-reviews__title {
           font-weight: bold;
           font-size: 12.5px;
@@ -27,6 +49,12 @@
           font-size: 60px;
           color: var(--light-color);
           text-transform: uppercase;
+          @media (min-width: 768px) {
+            font-size: 84px;
+          }
+          @media (min-width: 992px) {
+            font-size: 109px;
+          }
         }
         .expert-reviews__features {
           margin-top: 35px;
@@ -34,6 +62,9 @@
           .expert-reviews__feature {
             color: #ffffffb1;
             font-size: 14px;
+            @media (min-width: 992px) {
+              font-size: 15px;
+            }
             span {
               font-weight: bold;
               color: var(--accent-color);
@@ -43,6 +74,13 @@
       }
       .expert-reviews__details {
         margin-top: 60px;
+        @media (min-width: 768px) {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          padding: 0 30px;
+          margin: 0;
+        }
         .expert-reviews__icon {
           width: 70px;
           height: 70px;
@@ -51,9 +89,17 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          @media (min-width: 768px) {
+            width: 100px;
+            height: 100px;
+          }
           svg {
             height: 40px;
             width: 40px;
+            @media (min-width: 768px) {
+              height: 60px;
+              width: 60px;
+            }
           }
         }
         .expert-reviews__name {
@@ -61,6 +107,12 @@
           color: var(--light-color);
           margin-top: 25px;
           font-weight: 700;
+          @media (min-width: 768px) {
+            font-size: 23px;
+          }
+          @media (min-width: 992px) {
+            font-size: 24px;
+          }
         }
         .expert-reviews__price {
           margin-top: 25px;
@@ -72,6 +124,12 @@
           .expert-reviews__price-old {
             font-size: 17px;
             color: #ffffffcc;
+          }
+        }
+        .expert-reviews__spacer-component {
+          @media (min-width: 768px) {
+            height: 97px;
+            background-color: transparent;
           }
         }
         .expert-reviews__button {
