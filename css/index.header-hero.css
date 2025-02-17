@@ -51,8 +51,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 5px;
-    border-right: 1px solid var(--text-color); 
+    padding: 15px;
+    border-right: 1px solid var(--border-color); 
 }
 
 .hero__category svg {
@@ -105,7 +105,7 @@
         display: flex;
         justify-content: center;
         border-right: none;
-        border-bottom: 1px solid var(--text-color); 
+        border-bottom: 1px solid var(--border-color); 
         gap: 15px;
     }
 } 
