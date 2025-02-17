@@ -32,7 +32,7 @@
         @media (min-width: 768px) {
           display: flex;
           flex-direction: column;
-          width: 50%;
+          width: 50.6%;
           padding: 0 30px;
         }
         .expert-reviews__title {
@@ -149,6 +149,9 @@
           padding: 0 15px;
           transition: background-color 0.3s ease;
           cursor: pointer;
+          @media (min-width: 992px) {
+            margin-top: 40px;
+          }
         }
 
         .expert-reviews__button:hover {
