@@ -4,6 +4,7 @@
 @import "./global.header.css";
 @import "./index.header-hero.css";
 @import "./index.bestsellers.css";
+@import "./index.popular.css";
 @import "./index.recommended-display.css";
 @import "./index.recommended-keyboard.css";
 @import "./index.sales.css";

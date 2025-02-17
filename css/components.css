@@ -46,6 +46,7 @@
     border-radius: 5px;
     flex-grow: 0;
     align-self: start;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -63,6 +64,7 @@
     border-radius: 5px;
     flex-grow: 0;
     align-self: start;
+    display: inline-block;
 }
 
 .small-btn:hover {
@@ -94,22 +96,36 @@
     .main-title {
         font-size: 60px;
     }
+    .subtitle {
+        font-size: 44px;
+    }
+    .text {
+        font-size: 17px;
+    }
     .btn {
         font-size: 12px;
         padding: 12px 25px;
     }
+    .small-btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
 }
 
-
+@media (max-width: 576px) {
+    .subtitle {
+        font-size: 38px;
+    }
+}
 
 @media (max-width: 425px) {
     .title {
         font-size: 8px;
     }
     .subtitle {
-        font-size: 40px;
+        font-size: 32px;
     }
     .text {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
