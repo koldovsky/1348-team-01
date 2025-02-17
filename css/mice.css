@@ -2,4 +2,5 @@
 @import "./global.css";
 @import "./components.css";
 @import "./global.header.css";
-@import "./store-mice.css";
+@import "./store.mice.css";
+@import "./store.mice-products.css";

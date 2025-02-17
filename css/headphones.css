@@ -2,4 +2,6 @@
 @import "./global.css";
 @import "./components.css";
 @import "./global.header.css";
-@import "./store-headphones.css";
+@import "./store.headphones.css";
+@import "./store.headphones-products.css";
+
