@@ -15,6 +15,9 @@
   max-width: 1200px;
   text-align: left;
 }
+.keyboards-products__badges {
+  all: unset; 
+}
 
 .keyboards-products__image {
   width: 100%;

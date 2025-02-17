@@ -16,6 +16,10 @@
     text-align: left;
 }
 
+.headphones-products__badges {
+    all: unset; 
+  }
+  
 .headphones-products__image {
     width: 100%;
     max-height: 200px;

@@ -16,6 +16,10 @@
   max-width: 1200px;
   text-align: left;
 }
+.store-products__badges {
+  all: unset; 
+}
+
 
 .store-products__image {
   width: 100%;

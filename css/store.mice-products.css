@@ -16,6 +16,10 @@
   text-align: left;
 }
 
+.mice-products__badges {
+  all: unset; 
+}
+
 .mice-products__image {
   width: 100%;
   max-height: 200px;
