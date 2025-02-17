@@ -1,4 +1,5 @@
 @import "./reset.css";
+@import "./components.css";
 @import "./global.css";
 @import "./global.header.css";
 @import "./about_us.our-mission.css";
