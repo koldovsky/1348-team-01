@@ -8,10 +8,12 @@
   --title-color: #272727;
   --subtitle-color: #4d4d4d;
   --text-color: #6b6b6b;
+  --secondary-text-color: #ffffffc2;
   --main-bg-color: #272727;
   --secondary-bg-color: #1c4c97;
   --light-bg-color: #f8f3ef;
   --light-color: #fff;
+
 }
 
 html, body {

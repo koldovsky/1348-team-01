@@ -6,9 +6,8 @@
 .discount-banner {
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
     justify-content: space-between;
-    border-radius:20px ;
+    border-radius:10px ;
 }
 
 .discount-banner__discription {
@@ -17,6 +16,7 @@
 
 .discount-banner__note {
     margin-bottom: 60px;
+    font-size: 14px;
 }
 
 .discount-banner__content {
@@ -28,9 +28,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius:20px ;
-    background-position-y:35.23%;
-    background-position-x:0;
+    border-radius:10px ;
+    padding-left: 55px;
+
 }
 
 .advantages_list {
@@ -46,7 +46,7 @@
 .advantages_title {
     font-size: 20px;
     font-family: "Nunito" sans-serif;
-    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .advantages {
@@ -65,11 +65,7 @@
 .advantages_icon {
     img {
         max-width: 50px;
-    }
-
-    background: white;
-    align-items: center;
-   
+    }  
 }
 
 .advantages_item {
@@ -81,6 +77,17 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.advantages_discription{
-    font-size: 5px;
+.advantages_description{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.feature_anderline{
+    width: 40px;
+    height: 3px;
+    background: #002366;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+
 }
