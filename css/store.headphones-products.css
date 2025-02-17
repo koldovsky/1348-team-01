@@ -56,8 +56,8 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    background: #333;
-    color: white;
+    background:  var(--subtitle-color);
+    color: var(--light-bg-color);
     padding: 4px 8px;
     font-size: 12px;
     border-radius: 4px;
@@ -77,5 +77,5 @@
 
 .headphones-products__button:hover {
     background: var(--main-bg-color);
-    color: var(--light-color);
+    color: var( --light-bg-color);
 }

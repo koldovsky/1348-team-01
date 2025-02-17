@@ -54,13 +54,13 @@
 
 .mice-products__badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background: #333;
-  color: white;
-  padding: 4px 8px;
-  font-size: 12px;
-  border-radius: 4px;
+    top: 10px;
+    left: 10px;
+    background:  var(--subtitle-color);
+    color: var(--light-bg-color);
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
 }
 
 .mice-products__button {
@@ -77,5 +77,6 @@
 
 .mice-products__button:hover {
   background: var(--main-bg-color);
-  color: var(--light-color);
+  color: var( --light-bg-color);
 }
+
