@@ -1,0 +1,145 @@
+/* Liubomyr Bishko */
+.offline-store {
+  min-width: 320px;
+  background-color: var(--light-bg-color);
+
+  .container {
+    @media (min-width: 768px) {
+      padding: 0;
+    }
+    .offline-store__container {
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        padding: 0 0;
+        align-items: stretch;
+      }
+      .offline-store__image {
+        background-image: url(../img/about_us/two-persons-in-music-store.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 58% 0%;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 60vw;
+        @media (min-width: 768px) {
+          background-position: 0% 50%;
+          width: 50%;
+          height: unset;
+          margin: 0;
+        }
+      }
+      .offline-store__content {
+        padding: 90px 15px;
+        @media (min-width: 768px) {
+          width: 50%;
+          padding: 105px 30px;
+        }
+        @media (min-width: 992px) {
+          padding: 120px 30px;
+        }
+
+        .offline-store__title {
+          font-weight: bold;
+          font-size: 12.5px;
+          color: var(--accent-color);
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        .offline-store__headline {
+          line-height: 1.2;
+          margin-top: 20px;
+          font-family: "Bebas Neue", sans-serif;
+          font-size: 40px;
+          color: var(--main-bg-color);
+          text-transform: uppercase;
+          span {
+            color: var(--secondary-bg-color);
+          }
+          @media (min-width: 768px) {
+            font-size: 52px;
+          }
+          @media (min-width: 992px) {
+            font-size: 64px;
+          }
+        }
+        .offline-store__subtitle {
+          font-size: 19px;
+          color: var(--subtitle-color);
+          margin-top: 25px;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        .offline-store__description {
+          line-height: 1.4;
+          font-size: 17px;
+          color: var(--text-color);
+        }
+        br {
+          line-height: 1.4;
+        }
+        .offline-store__expect-title {
+          margin-top: 20px;
+          font-size: 22px;
+          color: var(--secondary-bg-color);
+        }
+        .offline-store__list {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+
+          .offline-store__item {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            line-height: 1.4;
+            font-size: 17px;
+            color: var(--text-color);
+            margin-bottom: 18px;
+
+            .offline-store__icon-element {
+              height: 24px;
+              width: 20px;
+              img {
+                height: 24px;
+                width: 20px;
+              }
+            }
+            .offline-store__item-text {
+              margin-left: 10px;
+              .offline-store__highlight {
+                color: var(--main-bg-color);
+              }
+            }
+          }
+        }
+        .offline-store__button {
+          margin: 10px;
+          width: 143px;
+          height: 40px;
+          padding: 12px 12px;
+          background-color: var(--accent-color);
+          color: white;
+          border: none;
+          border-radius: 8px;
+          font-size: 14px;
+          font-weight: 700;
+          text-decoration: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .offline-store__button:hover {
+          background-color: var(--main-bg-color);
+          opacity: 1;
+          transition-delay: 0.1s;
+        }
+      }
+    }
+  }
+}
