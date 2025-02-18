@@ -1,47 +1,42 @@
 .discount-banner__title {
-    font-size: 54px;
     margin-bottom: 16px;
 }
 
+.discount-banner__title span {
+    color: var(--accent-color);
+}
+
 .discount-banner {
-    background-position: center;
-    background-size: cover;
-    justify-content: space-between;
-    border-radius:10px ;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .discount-banner__discription {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .discount-banner__note {
-    margin-bottom: 60px;
+    margin-bottom: 45px;
     font-size: 14px;
+    color: var(--text-color);
 }
 
 .discount-banner__content {
     text-align: left;
     max-width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: url(/img/index/discount-club-banner.png);
+    background: url(../img/index/discount-club-banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius:10px ;
-    padding-left: 55px;
-
+    padding: 60px 55px;
 }
 
 .advantages_list {
-    width: 100%;
-    display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap;
-    padding: 0;
-    list-style: none;
-    margin-top: 50px;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 20px;
+}
 
 .advantages_title {
     font-size: 20px;
@@ -50,37 +45,23 @@
 }
 
 .advantages {
-    width: 100%; 
-    max-width: none; 
-    padding: 20px 0;
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-
+    margin-top: 80px;
 }
 
-.advantages_icon {
-    img {
-        max-width: 50px;
-    }  
+.advantages_icon img{
+    max-width: 70px;
+    margin-bottom: 30px;
 }
 
 .advantages_item {
     display: flex;
     flex-direction: column;
-    align-items: right;
-    text-align: center;
-    max-width: 150px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
+
 .advantages_description{
-    font-size: 14px;
-    text-align: center;
+    font-size: 17px;
     margin-top: 10px;
+    color: var(--text-color);
 }
 .feature_anderline{
     width: 40px;
@@ -90,4 +71,29 @@
     margin-bottom: 5px;
     text-align: left;
 
+}
+
+
+@media (max-width: 992px) {
+    .advantages_list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .advantages_item {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .discount-banner__content {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 475px) {
+    .advantages_list {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 }
