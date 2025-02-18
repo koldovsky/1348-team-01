@@ -1,0 +1,58 @@
+.products-showcase {
+    background: url("../img/index/products-showcase.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 160px 0 160px;
+    display: flex;
+}
+
+.products-showcase__icon {
+    color: var(--accent-color);
+    font-size: 47px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.products-showcase__title {
+    padding-top: 17px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    color: var(--light-bg-color);
+    font-family: "Bebas Neue", serif;
+    display: block;
+    vertical-align: baseline;
+    background-clip: border-box;
+    max-width:42%;
+}
+
+.products-showcase__description {
+    color: (--secondary-text-color);
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+.products-showcase__links {
+    color: #f8f3ef;
+}
+.products-showcase__separator{
+    color:rgb(255, 123, 22);
+}
+@media (max-width: 768px) {
+    .products-showcase {
+        padding: 100px 0 80px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .products-showcase {
+        padding: 10px 0 15px;
+    }
+}
+@media (max-width: 475px) {
+    .products-showcase__links {
+        flex-direction: column;
+    }
+}
