@@ -13,7 +13,7 @@
   --secondary-bg-color: #1c4c97;
   --light-bg-color: #f8f3ef;
   --light-color: #fff;
-
+  --border-color: #c8c8c8;
 }
 
 html, body {
@@ -34,4 +34,14 @@ html, body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.big-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  width: 100%;
 }

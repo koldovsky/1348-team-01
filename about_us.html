@@ -10,7 +10,7 @@
       href="./img/global/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/about_us.css">
+    <link rel="stylesheet" href="css/about_us.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -48,7 +48,12 @@
           data-hx-get="about_us.expert-reviews.partial.html"
         ></section>
         <section
-        data-hx-trigger="load"
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="about_us.offline-store.partial.html"
+        ></section>
+        <section
+          data-hx-trigger="load"
           data-hx-swap="outerHTML"
           data-hx-get="about_us.vacancies.partial.html"
         ></section>

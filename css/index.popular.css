@@ -1,0 +1,141 @@
+.popular {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.popular__info-inner {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 35px;
+}
+
+.popular__info-title {
+    margin-bottom: 35px;
+}
+
+.popular__info-subtitle {
+    margin-bottom: 45px;
+}
+
+.popular__info-text {
+    margin-bottom: 25px;
+}
+
+.popular__items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.popular__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.popular__item-name {
+    margin-top: 24px;
+    font-size: 21px;
+    color: var(--title-color);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.popular__item-price {
+    font-size: 20px;
+    color: var(--accent-color);
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: auto;
+}
+
+.popular__item-btn {
+    margin-top: 14px;
+    background-color: var(--secondary-bg-color);
+    display: inline-block;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 992px) {
+    .popular__items {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .popular__info-inner {
+        margin-bottom: 20px;
+    }
+    .popular__info-title {
+        margin-bottom: 25px;
+    }
+    .popular__info-subtitle {
+        margin-bottom: 30px;
+    }
+    .popular__info-text {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .popular__info-title {
+        margin-bottom: 15px;
+    }
+    .popular__info-subtitle {
+        margin-bottom: 15px;
+    }
+    .popular__items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .popular__item-image img {
+        max-height: 230px;
+        max-width: 100%;
+    }
+    .popular__item-name {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .popular__item-price {
+        font-size: 16px;
+    }
+    .popular__item-btn {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .popular__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .popular__item-name {
+        font-size: 16px;
+    }
+    .popular__item-price {
+        font-size: 14px;
+    }
+    .popular__item-btn {
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 425px) {
+    .popular__items {
+        grid-template-columns: 1fr;
+    }
+    .popular__item-wrapper {
+        align-items: center;
+    }
+    .popular__item-name {
+        text-align: center;
+        font-size: 14px;
+    }
+    .popular__item-price {
+        font-size: 12px;
+    }
+    .popular__item-btn {
+        margin-top: 6px;
+        align-self: center;
+    }
+}

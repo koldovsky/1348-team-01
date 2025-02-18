@@ -4,8 +4,10 @@
 @import "./global.header.css";
 @import "./index.header-hero.css";
 @import "./index.bestsellers.css";
+@import "./index.popular.css";
 @import "./index.recommended-display.css";
 @import "./index.recommended-keyboard.css";
+@import "./index.free-shipping.css";
 @import "./index.sales.css";
 @import "./index.discount-club-banner.css";
 @import "./index.news-gadgets.css";

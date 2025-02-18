@@ -1,0 +1,135 @@
+.free-shipping {
+    padding: 30px 0 60px;
+}
+
+.free-shipping__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.free-shipping__item {
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+
+.item1 {
+    background-image: url(../img/index/shipping1.webp);
+    color: var( --title-color); 
+}
+
+.item2 {
+    background-image: url(../img/index/free-shipping_1.webp);
+    color: var(--light-color); 
+}
+
+
+.free-shipping__title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.item1 .free-shipping__title {
+    color: var( --title-color); 
+}
+
+.item2 .free-shipping__title {
+    color: var(--light-color); 
+}
+
+
+.free-shipping__product-name {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+
+.free-shipping__price,
+.free-shipping__new-price {
+    color: var(--secondary-bg-color);
+    font-weight: bold;
+}
+
+.free-shipping__old-price {
+    color: var(--text-color);
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.free-shipping__details {
+    padding-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:var(--text-color)
+    font-size 11px;
+}
+
+.free-shipping__details li {
+    margin-bottom: 5px;
+}
+
+.free-shipping__button {
+    margin-top: 20px;
+}
+.free-shipping__promo {
+   
+    margin-top: 60px;
+    padding-bottom: 25px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:var(--accent-color);
+    color: var(--light-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .free-shipping__title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .free-shipping__list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .free-shipping__item {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 580px) {
+    .free-shipping__item {
+        padding: 20px;
+    }
+    .free-shipping__title {
+        font-size: 22px;
+    }
+    .free-shipping__details {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px) {
+    .free-shipping__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .free-shipping__details {
+        padding-left: 5px;
+    }
+}
