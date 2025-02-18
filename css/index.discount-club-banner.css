@@ -24,7 +24,7 @@
     max-width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    background: url(/img/index/discount-club-banner.png);
+    background: url(./img/index/discount-club-banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,7 +32,9 @@
     padding-left: 55px;
 
 }
-
+.discount-banner__button{
+background-color: var(--secondary-bg-color);
+}
 .advantages_list {
     width: 100%;
     display: flex;
@@ -42,12 +44,13 @@
     list-style: none;
     margin-top: 50px;
     gap: 20px;
-
+}
 .advantages_title {
     font-size: 20px;
     font-family: "Nunito" sans-serif;
-    margin-bottom: 10px;
+    
 }
+
 
 .advantages {
     width: 100%; 
@@ -80,14 +83,11 @@
 .advantages_description{
     font-size: 14px;
     text-align: center;
-    margin-top: 10px;
+    
 }
-.feature_anderline{
+.feature-underline {
     width: 40px;
     height: 3px;
     background: #002366;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: left;
-
+    margin: 0 auto 10px auto;
 }
