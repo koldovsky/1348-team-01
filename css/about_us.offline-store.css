@@ -128,7 +128,7 @@
           font-weight: 700;
           text-decoration: none;
           cursor: pointer;
-          transition: background-color 0.3s ease;
+          transition: all 0.3s ease;
           display: flex;
           justify-content: center;
           align-items: center;
