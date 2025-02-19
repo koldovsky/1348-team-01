@@ -78,7 +78,6 @@
     margin-bottom: 30px;
 }
 
-/* Кнопка */
 .news-gadgets__button {
     background: var( --accent-color);
     font-size: 15px;
@@ -89,9 +88,11 @@
     border: none;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.3s;
   }
   
   .news-gadgets__button:hover {
-    background: #000;
+    background:var(--title-color);
     color: var( --light-color);
   }
+

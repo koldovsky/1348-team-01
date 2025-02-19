@@ -63,10 +63,10 @@
 
 .free-shipping__details {
     padding-left: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
-    color:var(--text-color)
-    font-size 11px;
+    color:var( --subtitle-color);
+    font-size: 13px;
 }
 
 .free-shipping__details li {
@@ -82,13 +82,16 @@
     padding-bottom: 25px;
 }
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color:var(--accent-color);
-    color: var(--light-color);
+    background: var( --accent-color);
+    font-size: 15px;
+    font-weight: 700;
+    color:var( --light-color);
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+    transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
