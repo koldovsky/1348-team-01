@@ -1,0 +1,57 @@
+.vacancies {
+    background-color: transparent;
+}
+
+.vacancies__header {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.vacancies__label {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 10px;
+    margin-top: 125px;
+}
+
+.vacancies__subtitle {
+    margin-bottom: 45px;
+}
+
+.vacancies__tech-specialist {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vacancies__tech-title {
+    font-family: "Nunito" sans-serif;
+    font-size: 22px;
+    color: var(--title-color);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.vacancies__tech-subtitle {
+    font-size: 14px;
+    font-family: "Nunito" sans-serif;
+    color: var(--subtitle-color);
+    margin-bottom: 15px;
+}
+
+.vacancies__tech-suggestion {
+    font-size: 14px;
+    font-family: "Nunito" sans-serif;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.vacancies__tech-highlight {
+    font-size: 18px;
+    font-family: "Nunito" sans-serif;
+    color: var(--secondary-bg-color);
+    text-align: center;
+}
+
+.vacancies__tech-discription {
+    text-align: center;
+}
