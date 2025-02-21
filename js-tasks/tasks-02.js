@@ -2,20 +2,11 @@
 
 // https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 
-function stringToArray(string) {
-  return string.split(" ");
-}
+const stringToArray = (string) => string.split(" ");
 
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
-
-function min(arr, mode) {
-  let minValue = Math.min(...arr);
-  let minIndex = arr.indexOf(minValue);
-  if (mode === "value") return minValue;
-  if (mode === "index") return minIndex;
-
-  return undefined;
-}
+const min = (arr, toReturn) =>
+  toReturn === "index" ? arr.indexOf(Math.min(...arr)) : Math.min(...arr);
 
 // https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
 
