@@ -21,6 +21,8 @@
 .vacancies__tech-specialist {
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: black;
+    margin: 10px;
 }
 
 .vacancies__tech-title {
@@ -54,4 +56,15 @@
 
 .vacancies__tech-discription {
     text-align: center;
+}
+.vacancies__tech-preferences{
+    text-align: right;
+    flex-direction: column;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 24px;
+    @media (min-width: 768px) {
+      padding: 0px 32px;
+    }
 }
