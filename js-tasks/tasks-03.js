@@ -35,29 +35,30 @@ const circleCircumference = (circle) => 2 * Math.PI * circle.radius;
 //https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
 
 function giveMeFive(obj) {
-    let result = [];
-    
-    for (let key in obj) {
-      if (key.length === 5) result.push(key);
-      if (typeof obj[key] === "string" && obj[key].length === 5) result.push(obj[key]);
-    }
-    
-    return result;
+  let result = [];
+
+  for (let key in obj) {
+    if (key.length === 5) result.push(key);
+    if (typeof obj[key] === "string" && obj[key].length === 5)
+      result.push(obj[key]);
   }
-  
+
+  return result;
+}
+
 //https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
 
 function buildFun(n) {
-    var res = [];
+  var res = [];
 
-    for (var i = 0; i < n; i++) {
-        res.push(
-            (function (x) {
-                return function () {
-                    return x;
-                };
-            })(i)
-        );
-    }
-    return res;
+  for (var i = 0; i < n; i++) {
+    res.push(
+      (function (x) {
+        return function () {
+          return x;
+        };
+      })(i)
+    );
+  }
+  return res;
 }
