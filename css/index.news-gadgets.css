@@ -4,7 +4,6 @@
     text-align: center;
 }
 
-/* Заголовок та опис */
 .news-gadgets__header {
     display: flex;
     flex-direction: column;
