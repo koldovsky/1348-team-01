@@ -1,0 +1,51 @@
+.return-refund-warranty {
+  padding: 40px 0px 90px 0px;
+  background-color: var(--light-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.return-refunds .warranty {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+}
+
+.return-refunds-warranty__title {
+  font-size: 40px;
+  color: var(--main-bg-color);
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.return-refund-warranty-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 0;
+  min-height: 100%;
+}
+
+.return-refund-warranty-wrapper h4 {
+  margin-top: 30px;
+  font-size: 22px;
+  min-height: 100%;
+  color: var(--secondary-bg-color);
+}
+
+.return-refund-warranty-wrapper-item-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin: 16px 0px;
+  min-height: 100%;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}

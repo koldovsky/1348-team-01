@@ -5,7 +5,7 @@
 
 .header-contacts-hero__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding-top: 60px;
   padding-bottom: 60px;
   gap: 15px;

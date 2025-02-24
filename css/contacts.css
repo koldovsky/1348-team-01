@@ -1,5 +1,9 @@
 @import "./reset.css";
 @import "./global.css";
 @import "./components.css";
-@import "./contacts.header-contacts.css";
-@import "./contacts.header-contacts-hero.css"
+@import "./global.header.css";
+@import "./contacts.header-contacts-hero.css";
+@import "./contacts.stores-location.css";
+@import "./contacts.return-refund-warranty.css";
+@import "./contacts.faq.partial.css";
+@import "./global.footer.css";
