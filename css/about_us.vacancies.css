@@ -1,10 +1,13 @@
 .vacancies {
-    background-color: transparent;
+    background-color: var(--light-bg-color);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .vacancies__header {
     text-align: center;
     margin-top: 125px;
+    margin-bottom: 20px;
 }
 
 .vacancies__label {
@@ -18,14 +21,107 @@
     margin-bottom: 45px;
 }
 
+.vacancies__divider {
+    margin: 20px 0;
+}
+
+.vacancies__list {
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
 .vacancies__tech-specialist {
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: black;
-    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Рівномірно розподіляє контент */
+    align-items: center; /* Вирівнює по центру вертикально */
+    background-color: var(--light-color);
 }
 
 .vacancies__tech-title {
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    color: var(--title-color);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.vacancies__tech-subtitle {
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    color: var(--subtitle-color);
+    margin-bottom: 10px;
+}
+
+.vacancies__tech-suggestion {
+    display: flex;
+    align-items: center; /* Вирівнюємо текст та іконку */
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 15px;
+}
+
+.vacancies__tech-highlight {
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    color: var(--secondary-bg-color);
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.vacancies__tech-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.vacancies__tech-description {
+    flex: 2; /* Дозволяє зайняти більше місця */
+    text-align: left;
+    padding-right: 20px;
+}
+
+.vacancies__tech-preferences {
+    
+        flex: 1;
+        list-style: none;
+        padding: 0;
+        text-align: right; /* Вирівнює текст по лівому краю */
+    
+    
+}
+
+.vacancies__tech-preferences li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.vacancies__tech-preferences li::before {
+    content: "✔"; /* Додаємо чекбокси */
+    color: blue;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.vacancies__sales-associate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--light-color);
+}
+
+.vacancies__sales-title {
     font-family: "Nunito" sans-serif;
     font-size: 22px;
     color: var(--title-color);
@@ -33,38 +129,96 @@
     margin-bottom: 25px;
 }
 
-.vacancies__tech-subtitle {
+.vacancies__sales-subtitle {
     font-size: 14px;
     font-family: "Nunito" sans-serif;
     color: var(--subtitle-color);
     margin-bottom: 15px;
+    padding: 15px;
 }
 
-.vacancies__tech-suggestion {
+.vacancies__sales-suggestion {
     font-size: 14px;
     font-family: "Nunito" sans-serif;
     margin-left: 20px;
     margin-bottom: 15px;
 }
 
-.vacancies__tech-highlight {
+.vacancies__sales-highlight {
     font-size: 18px;
     font-family: "Nunito" sans-serif;
     color: var(--secondary-bg-color);
     text-align: center;
 }
 
-.vacancies__tech-discription {
+.vacancies__sales-discription {
     text-align: center;
+    justify-content: center;
 }
-.vacancies__tech-preferences{
+
+.vacancies__sales-preferences {
     text-align: right;
     flex-direction: column;
+
 }
+
+.vacancies__support-agent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--light-color);
+}
+
+.vacancies__support-title {
+    font-family: "Nunito" sans-serif;
+    font-size: 22px;
+    color: var(--title-color);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.vacancies__support-subtitle {
+    font-size: 14px;
+    font-family: "Nunito" sans-serif;
+    color: var(--subtitle-color);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.vacancies__support-suggestion {
+    font-size: 14px;
+    font-family: "Nunito" sans-serif;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.vacancies__support-highlight {
+    font-size: 18px;
+    font-family: "Nunito" sans-serif;
+    color: var(--secondary-bg-color);
+    text-align: center;
+}
+
+.vacancies__support-discription {
+    text-align: center;
+}
+
+.vacancies__support-preferences {
+    text-align: right;
+    flex-direction: column;
+
+}
+
+
+
 .container {
     margin: 0 auto;
     padding: 0px 24px;
+
     @media (min-width: 768px) {
-      padding: 0px 32px;
+        padding: 0px 32px;
     }
 }
