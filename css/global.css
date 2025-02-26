@@ -17,6 +17,7 @@
 }
 
 html, body {
+  scroll-behavior: smooth;
   height: 100%;
 }
 
@@ -44,4 +45,8 @@ html, body {
 
 img {
   width: 100%;
+}
+
+body.lock {
+  overflow: hidden;
 }
