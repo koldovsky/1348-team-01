@@ -50,3 +50,38 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .store__categories-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding-bottom: 10px;
+    scrollbar-gutter: auto;
+  }
+
+  .store__categories-item {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .store__categories-item {
+    width: 65%;
+  }
+}
+
+@media (max-width: 375px) {
+  .store__categories-item {
+    width: 75%;
+  }
+}
+
+@media (max-width: 320px) {
+  .store__categories-item {
+    width: 85%;
+  }
+}
