@@ -100,17 +100,14 @@
 }
 
 .page-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 32px;
   height: 32px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
-  color: var(--text-color);
+  color: var(--light-gray-color);
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  border-radius: 8px;
+  transition: 0.3s;
 }
 
 .page-btn.active {
@@ -121,4 +118,9 @@
 
 .page-btn:hover {
   color: var(--title-color);
+}
+.page-btn.active:hover {
+  color: var(--light-color);
+  background:var(--title-color);
+
 }
