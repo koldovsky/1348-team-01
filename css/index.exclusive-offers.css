@@ -1,0 +1,178 @@
+.exclusive-offers {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.exclusive-offers__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.exclusive-offers__item {
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.item-01 {
+    background-image: url(../img/index/exclusive-offers1.webp);
+}
+
+.item-02 {
+    background-image: url(../img/index/exclusive-offers2.webp);
+
+}
+
+.item-03 {
+    background-image: url(../img/index/exclusive-offers3.webp);
+    color: var(--light-color);
+
+}
+
+.exclusive-offers__item-title-1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-left: 19px;
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+}
+
+.exclusive-offers__item-subtitle-1 {
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 19px;
+}
+
+.exclusive-offers__item-text-1 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.exclusive-offers__item-title-2 {
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-align: right;
+    padding-top: 100px;
+    color: var(--secondary-bg-color);
+}
+
+.exclusive-offers__item-subtitle-2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 32px;
+    margin-bottom: 20px;
+}
+
+.exclusive-offers__item-subtitle-2-1 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 32px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+
+
+.exclusive-offers__old-price {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.exclusive-offers__new-price {
+    color: var(--accent-color);
+}
+
+.exclusive-offers__item-text-2 {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 32px;
+    margin-bottom: 20px;
+}
+
+.exclusive-offers__item-title-3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+}
+
+.exclusive-offers__item-subtitle-3 {
+    font-weight: 700;
+    font-size: 25px;
+    justify-content: flex-start;
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.exclusive-offers__item-text-3 {
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: 170px;
+    color: var(--title-color);
+}
+
+.exclusive-offers__highlight {
+    color: var(--secondary-bg-color);
+}
+
+@media (max-width:1200px) {
+
+    .exclusive-offers__item-subtitle-1{
+        font-size: 13px;
+    }
+    .exclusive-offers__item-subtitle-2,
+    .exclusive-offers__item-subtitle-2-1,
+    .exclusive-offers__item-subtitle-3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .exclusive-offers__items {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .item-03 {
+        grid-column: 1/3;
+    }
+}
+
+@media (max-width:580px) {
+    .exclusive-offers__items {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+    .exclusive-offers__item {
+        padding: 50px 40px;
+    }
+
+    .item-03 {
+        grid-column: 1/1;
+    }
+}
+
+@media (max-width: 425px) {
+    .exclusive-offers__item-title-1,
+    .exclusive-offers__item-title-2,
+    .exclusive-offers__item-title-3 {
+        margin-bottom: 15px;
+    }
+}
