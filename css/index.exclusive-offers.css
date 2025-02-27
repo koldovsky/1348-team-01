@@ -76,7 +76,7 @@
     text-align: right;
     margin-right: 32px;
     margin-bottom: 20px;
-    margin-left: 160px;
+    margin-left: 60px;
 }
 
 
@@ -173,6 +173,33 @@
     .exclusive-offers__item-title-1,
     .exclusive-offers__item-title-2,
     .exclusive-offers__item-title-3 {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
+}
+@media(min-width: 320px) {
+    
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.countdown div {
+    
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 70px;
+}
+
+.countdown span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--title-color);
 }
