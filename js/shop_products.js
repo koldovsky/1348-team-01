@@ -1,5 +1,5 @@
 let currentPage = 0;
-const pageSizes = [20, 3];
+const pageSizes = [16,12,12,10];
 let allProducts = [];
 
 function startShop() {
@@ -12,6 +12,8 @@ function startShop() {
   let pageInUrl = window.location.search;
   if (pageInUrl === "?page=1") currentPage = 0;
   if (pageInUrl === "?page=2") currentPage = 1;
+  if (pageInUrl === "?page=3") currentPage = 2;
+  if (pageInUrl === "?page=4") currentPage = 3;
   showProducts();
 }
 
@@ -40,6 +42,8 @@ function showProducts() {
 
   if (currentPage === 0) window.history.pushState({}, "", "?page=1");
   if (currentPage === 1) window.history.pushState({}, "", "?page=2");
+  if (currentPage === 2) window.history.pushState({}, "", "?page=3");
+  if (currentPage === 3) window.history.pushState({}, "", "?page=4");
 }
 
 function goToPage(newPage) {
