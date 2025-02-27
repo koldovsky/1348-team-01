@@ -74,6 +74,7 @@
 .headphones-products__button {
     margin-top: 15px;
     padding: 8px 14px;
+    margin-bottom: 20px;
     border-radius: 5px;
     font-size: 14px;
     background: var(--accent-color);
