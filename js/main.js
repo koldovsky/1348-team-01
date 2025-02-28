@@ -3,6 +3,7 @@ function init() {
   import("./shop_products.js");
   import("./countdown.js");
   import("./about_us.our-story-carousel.js");
+  import("./about_us.in-store_services-carousel.js");
 }
 
 const totalPartials = document.querySelectorAll(
