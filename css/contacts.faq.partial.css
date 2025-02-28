@@ -1,0 +1,120 @@
+.contacts-faq {
+  padding: 120px 0px 120px 0px;
+  background-color: var(--light-bg-color);
+}
+
+.contacts-faq__questions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 40px;
+}
+
+.contacts-faq__left-side .contacts-faq__right-side {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+}
+
+.contacts-faq__label {
+  font-weight: bold;
+  font-size: 12.5px;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contacts-faq__title {
+  line-height: 1.2;
+  margin-top: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: var(--main-bg-color);
+  text-transform: uppercase;
+  .contacts-faq__highlight {
+    color: var(--secondary-bg-color);
+  }
+
+  @media (min-width: 768px) {
+    font-size: 52px;
+  }
+  @media (min-width: 991px) {
+    font-size: 64px;
+  }
+}
+
+.contacts-faq__subtitle {
+  font-size: 19px;
+  color: var(--subtitle-color);
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.contacts-faq__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  min-height: 100%;
+}
+
+.contacts-faq__wrapper-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 16px 0px;
+  min-height: 100%;
+}
+
+
+
+
+
+
+.faq-question-request-form {
+  flex: 1;
+  background-color: #fff;
+  padding: 60px 100px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question-request-form__input-item {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: var(--light-bg-color);
+}
+
+.faq-question-request-form__input-item.form__message-item {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.faq-question-request-form__input-item.form__message-item::placeholder {
+  text-align: left;
+  vertical-align: top;
+}
+
+.faq-question-request-form__button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 500ms ease;
+}
+
+.faq-question-request-form__button:hover {
+  background-color: var(--secondary-bg-color);
+}
