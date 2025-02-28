@@ -10,7 +10,7 @@
       href="./img/global/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/mice.css">
+    <link rel="stylesheet" href="css/mice.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -36,10 +36,13 @@
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="store.mice-products.partial.html"
-        ></section>
-        
-      
+      ></section>
     </main>
-    <footer></footer>
+    <footer
+      class="footer"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="shop.footer.partial.html"
+    ></footer>
   </body>
 </html>

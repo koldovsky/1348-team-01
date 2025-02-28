@@ -6,9 +6,9 @@
 }
 
 .keyboards__title {
-  margin-top: 15px;
-  margin-bottom: 40px;
-  font-size: 36px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  font-size: 25px;
 }
 
 .keyboards__description {
@@ -17,6 +17,6 @@
 }
 
 .keyboards__subtitle {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 36px;
 }

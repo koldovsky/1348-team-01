@@ -10,7 +10,7 @@
       href="./img/global/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/keyboards.css">
+    <link rel="stylesheet" href="css/keyboards.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -33,13 +33,16 @@
         data-hx-get="store.keyboards.partial.html"
       ></section>
       <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="store.keyboards-products.partial.html"
+      ></section>
+    </main>
+    <footer
+      class="footer"
       data-hx-trigger="load"
       data-hx-swap="outerHTML"
-      data-hx-get="store.keyboards-products.partial.html"
-    ></section>
-
-
-    </main>
-    <footer></footer>
+      data-hx-get="shop.footer.partial.html"
+    ></footer>
   </body>
 </html>
