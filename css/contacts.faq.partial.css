@@ -118,3 +118,53 @@
 .faq-question-request-form__button:hover {
   background-color: var(--secondary-bg-color);
 }
+
+
+
+
+
+
+.accordion-faq {
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-faq__item {
+  border-bottom: 1px solid gray;
+}
+
+.accordion-faq__header {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 19px;
+  line-height: 1.4;
+  font-weight: 600;
+  padding: 15px;
+  cursor: pointer;
+  background-color: var(--light-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary-bg-color);
+}
+
+.accordion-faq__header::after {
+  content: "+";
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-faq__header.active::after {
+  content: "-";
+}
+
+.accordion-faq__content {
+  padding: 0 15px 0px 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  line-height: 1.3;
+  background-color: var(--light-bg-color);
+}

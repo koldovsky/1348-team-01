@@ -52,3 +52,7 @@
   margin-right: 10px;
   flex-shrink: 0;
 }
+
+.item_text {
+  font-size: 15px;
+}
