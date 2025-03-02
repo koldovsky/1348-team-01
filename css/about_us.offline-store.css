@@ -21,8 +21,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 58% 0%;
-        margin-left: -15px;
-        margin-right: -15px;
+        margin-left: -24px;
+        margin-right: -24px;
         height: 60vw;
         @media (min-width: 768px) {
           background-position: 0% 50%;
