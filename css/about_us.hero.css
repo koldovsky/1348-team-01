@@ -1,0 +1,77 @@
+/* Liubomyr Bishko */
+.about-us-hero {
+  background-color: var(--title-color);
+  padding: 60px 0;
+
+  .container {
+    @media (min-width: 992px) {
+      padding: 0 40px;
+    }
+    .about-us-hero__content {
+      @media (min-width: 768px) {
+        display: flex;
+        align-items: center;
+      }
+      .about-us-hero__title-wrapper {
+        @media (min-width: 768px) {
+          width: 50%;
+          padding-right: 15px;
+        }
+        .about-us-hero__title {
+          font-family: "Bebas Neue", sans-serif;
+          font-size: 60px;
+          color: var(--accent-color);
+          font-weight: 300;
+
+          @media (min-width: 768px) {
+            font-size: 84px;
+          }
+          @media (min-width: 992px) {
+            font-size: 109px;
+          }
+        }
+        .about-us-hero__breadcrumbs {
+          margin-top: 35px;
+          font-size: 14px;
+
+          @media (min-width: 992px) {
+            font-size: 15px;
+            margin-top: 40px;
+          }
+          span {
+            color: #ffffffcc;
+          }
+
+          .about-us-hero__breadcrumb-link {
+            color: #ffffffcc;
+          }
+          .about-us-hero__breadcrumb-link:hover {
+            text-decoration: underline;
+          }
+          .about-us-hero__breadcrumb-current {
+            color: var(--light-color);
+            font-weight: bold;
+            text-decoration: underline;
+          }
+        }
+      }
+      .about-us-hero__description-wrapper {
+        margin-top: 50px;
+        text-align: justify;
+
+        @media (min-width: 768px) {
+          padding-left: 15px;
+          margin-top: 0;
+          width: 50%;
+        }
+
+        .about-us-hero__description {
+          font-size: 19px;
+          color: #ffffffcc;
+          font-weight: 500;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+}
