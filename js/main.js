@@ -5,6 +5,8 @@ function init() {
   import("./about_us.our-story-carousel.js");
   import("./about_us.in-store_services-carousel.js");
   import('./contacts-faq_accordion.js');
+  import("./index-popular.js");
+  import("./render-products.js");
 }
 
 const totalPartials = document.querySelectorAll(

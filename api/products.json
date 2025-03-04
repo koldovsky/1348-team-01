@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "NovaSound Pro 3000",
+        "price": 92.00,
+        "currency": "USD",
+        "category": "keyboard",
+        "image": "./img/index/popular__br-keyboard.png"
+    },
+    {
+        "id": 2,
+        "title": "Green Wireless Headphones",
+        "price": 120.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__green-headphones.png"
+    },
+    {
+        "id": 3,
+        "title": "Ultra HD Monitor",
+        "price": 250.00,
+        "currency": "USD",
+        "category": "monitor",
+        "image": "./img/index/popular__monitor.png"
+    },
+    {
+        "id": 4,
+        "title": "Orange Bass Headphones",
+        "price": 105.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__orange-headphones.png"
+    },
+    {
+        "id": 5,
+        "title": "Pink Gaming Mouse",
+        "price": 45.00,
+        "currency": "USD",
+        "category": "mouse",
+        "image": "./img/index/popular__pink-mouse.png"
+    },
+    {
+        "id": 6,
+        "title": "Red RGB Mouse",
+        "price": 50.00,
+        "currency": "USD",
+        "category": "mouse",
+        "image": "./img/index/popular__red-mouse.png"
+    },
+    {
+        "id": 7,
+        "title": "Ergonomic WBO Keyboard",
+        "price": 85.00,
+        "currency": "USD",
+        "category": "keyboard",
+        "image": "./img/index/popular__wbo-keyboard.png"
+    },
+    {
+        "id": 8,
+        "title": "White Studio Headphones",
+        "price": 130.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__white-headphones.png"
+    },
+    {
+        "id": 9,
+        "title": "Ultra Wide Monitor",
+        "price": 300.00,
+        "currency": "USD",
+        "category": "monitor",
+        "image": "./img/index/popular__wide-monitor.png"
+    },
+    {
+        "id": 10,
+        "title": "Wired Pro Headphones",
+        "price": 110.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__wired-headphones.png"
+    },
+    {
+        "id": 11,
+        "title": "Compact Gaming Keyboard",
+        "price": 70.00,
+        "currency": "USD",
+        "category": "keyboard",
+        "image": "./img/index/popular__br-keyboard.png"
+    },
+    {
+        "id": 12,
+        "title": "Surround Sound Headphones",
+        "price": 140.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__green-headphones.png"
+    },
+    {
+        "id": 13,
+        "title": "4K UHD Monitor",
+        "price": 280.00,
+        "currency": "USD",
+        "category": "monitor",
+        "image": "./img/index/popular__monitor.png"
+    },
+    {
+        "id": 14,
+        "title": "Bass Boost Headphones",
+        "price": 115.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__orange-headphones.png"
+    },
+    {
+        "id": 15,
+        "title": "RGB Pink Mouse",
+        "price": 55.00,
+        "currency": "USD",
+        "category": "mouse",
+        "image": "./img/index/popular__pink-mouse.png"
+    },
+    {
+        "id": 16,
+        "title": "Wireless Red Mouse",
+        "price": 60.00,
+        "currency": "USD",
+        "category": "mouse",
+        "image": "./img/index/popular__red-mouse.png"
+    },
+    {
+        "id": 17,
+        "title": "Mechanical WBO Keyboard",
+        "price": 95.00,
+        "currency": "USD",
+        "category": "keyboard",
+        "image": "./img/index/popular__wbo-keyboard.png"
+    },
+    {
+        "id": 18,
+        "title": "Studio White Headphones",
+        "price": 135.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__white-headphones.png"
+    },
+    {
+        "id": 19,
+        "title": "UltraWide Pro Monitor",
+        "price": 320.00,
+        "currency": "USD",
+        "category": "monitor",
+        "image": "./img/index/popular__wide-monitor.png"
+    },
+    {
+        "id": 20,
+        "title": "Hi-Fi Wired Headphones",
+        "price": 125.00,
+        "currency": "USD",
+        "category": "headphones",
+        "image": "./img/index/popular__wired-headphones.png"
+    }
+]
