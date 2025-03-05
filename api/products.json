@@ -1,162 +1,1143 @@
 [
     {
         "id": 1,
-        "title": "NovaSound Pro 3000",
-        "price": 92.00,
+        "title": "A4Tech FBX51C Wireless Grey",
+        "price": 39.99,
         "currency": "USD",
-        "category": "keyboard",
-        "image": "./img/index/popular__br-keyboard.png"
+        "category": "mouse",
+        "dpi": "1600",
+        "image": "./img/shop/products/a4tech-fbx51c-wireless-grey.jpg"
     },
     {
         "id": 2,
-        "title": "Green Wireless Headphones",
-        "price": 120.00,
+        "title": "AOC 34 Agon AG344UXM Black",
+        "price": 999.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__green-headphones.png"
+        "category": "monitor",
+        "diagonal": "34 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/aoc-34-agon-ag344uxm-black.png"
     },
     {
         "id": 3,
-        "title": "Ultra HD Monitor",
-        "price": 250.00,
+        "title": "A4Tech Bloody S98 RGB BLMS Red Switch Naraka",
+        "price": 89.99,
         "currency": "USD",
-        "category": "monitor",
-        "image": "./img/index/popular__monitor.png"
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Red Switch",
+        "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-naraka.jpg"
     },
     {
         "id": 4,
-        "title": "Orange Bass Headphones",
-        "price": 105.00,
+        "title": "Asus ROG Theta Electret",
+        "price": 299.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__orange-headphones.png"
+        "category": "headset",
+        "image": "./img/shop/products/asus-rog-theta-electret-90yh02ge-b1ua00-black.png"
     },
     {
         "id": 5,
-        "title": "Pink Gaming Mouse",
-        "price": 45.00,
+        "title": "Hator Pulsar 2 HTM-510",
+        "price": 69.99,
         "currency": "USD",
         "category": "mouse",
-        "image": "./img/index/popular__pink-mouse.png"
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-2-htm-510-black.jpg"
     },
     {
         "id": 6,
-        "title": "Red RGB Mouse",
-        "price": 50.00,
+        "title": "AOC 49 Agon AG493UCX2 Black",
+        "price": 1299.99,
         "currency": "USD",
-        "category": "mouse",
-        "image": "./img/index/popular__red-mouse.png"
+        "category": "monitor",
+        "diagonal": "49 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/aoc-488-ag493ucx2-black.jpg"
     },
     {
         "id": 7,
-        "title": "Ergonomic WBO Keyboard",
-        "price": 85.00,
+        "title": "Dark Project ALU87 Bushido",
+        "price": 129.99,
         "currency": "USD",
         "category": "keyboard",
-        "image": "./img/index/popular__wbo-keyboard.png"
+        "type": "mechanical",
+        "switches": "Gateron Red",
+        "image": "./img/shop/products/dark-project-alu87-bushido-abs-rgb-mech-g3ms-moonstone-dpkb-bushido-87-ansi-ua-blackwhite.jpg"
     },
     {
         "id": 8,
-        "title": "White Studio Headphones",
-        "price": 130.00,
+        "title": "Beyerdynamic DT 1770 Pro",
+        "price": 599.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__white-headphones.png"
+        "category": "headset",
+        "image": "./img/shop/products/beyerdynamic-dt-1770-pro-black.jpg"
     },
     {
         "id": 9,
-        "title": "Ultra Wide Monitor",
-        "price": 300.00,
+        "title": "Hator Pulsar 2 HTM-513",
+        "price": 69.99,
         "currency": "USD",
-        "category": "monitor",
-        "image": "./img/index/popular__wide-monitor.png"
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-2-htm-513-mint.png"
     },
     {
         "id": 10,
-        "title": "Wired Pro Headphones",
-        "price": 110.00,
+        "title": "Asus 27 ROG Strix XG27ACS",
+        "price": 799.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__wired-headphones.png"
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/asus-27-rog-strix-27-xg27acs-90lm09q0-b01170-black.jpg"
     },
     {
         "id": 11,
-        "title": "Compact Gaming Keyboard",
-        "price": 70.00,
+        "title": "Ducky One 3 TKL Cherry MX Speed Silver",
+        "price": 109.99,
         "currency": "USD",
         "category": "keyboard",
-        "image": "./img/index/popular__br-keyboard.png"
+        "type": "mechanical",
+        "switches": "Cherry MX Speed Silver",
+        "image": "./img/shop/products/ducky-one-3-tkl-cherry-mx-speed-silver-dkon2187-puapxmaeggc1-matcha-cream.jpg"
     },
     {
         "id": 12,
-        "title": "Surround Sound Headphones",
-        "price": 140.00,
+        "title": "Corsair Virtuoso RGB Wireless XT",
+        "price": 199.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__green-headphones.png"
+        "category": "headset",
+        "image": "./img/shop/products/corsair-virtuoso-rgb-wireless-xt-ca-9011188-eu-black.jpg"
     },
     {
         "id": 13,
-        "title": "4K UHD Monitor",
-        "price": 280.00,
+        "title": "Hator Pulsar 2 HTM-514",
+        "price": 69.99,
         "currency": "USD",
-        "category": "monitor",
-        "image": "./img/index/popular__monitor.png"
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-2-htm-514-lilac.png"
     },
     {
         "id": 14,
-        "title": "Bass Boost Headphones",
-        "price": 115.00,
+        "title": "Asus 27 ROG Swift PG27AQN",
+        "price": 899.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__orange-headphones.png"
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/asus-27-rog-swift-pg27aqn-90lm0820-b01370-black.png"
     },
     {
         "id": 15,
-        "title": "RGB Pink Mouse",
-        "price": 55.00,
+        "title": "Epomaker EP64 RGB Mechanical",
+        "price": 79.99,
         "currency": "USD",
-        "category": "mouse",
-        "image": "./img/index/popular__pink-mouse.png"
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Mulan Switch",
+        "image": "./img/shop/products/epomaker-ep64-rgb-mechanical-mulan-switch-hot-swap-ep64-b-m-black.jpg"
     },
     {
         "id": 16,
-        "title": "Wireless Red Mouse",
-        "price": 60.00,
+        "title": "Fifine H9",
+        "price": 49.99,
         "currency": "USD",
-        "category": "mouse",
-        "image": "./img/index/popular__red-mouse.png"
+        "category": "headset",
+        "image": "./img/shop/products/fifine-h9-black.jpg"
     },
     {
         "id": 17,
-        "title": "Mechanical WBO Keyboard",
-        "price": 95.00,
+        "title": "Hator Pulsar 3 Wireless HTM630",
+        "price": 99.99,
         "currency": "USD",
-        "category": "keyboard",
-        "image": "./img/index/popular__wbo-keyboard.png"
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-3-wireless-htm630-black.jpg"
     },
     {
         "id": 18,
-        "title": "Studio White Headphones",
-        "price": 135.00,
+        "title": "Dell Alienware AW3423DWF",
+        "price": 1499.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__white-headphones.png"
+        "category": "monitor",
+        "diagonal": "34 inches",
+        "panel_type": "OLED",
+        "image": "./img/shop/products/dell-3418-alienware-aw3423dwf-210-bfrq-black.png"
     },
     {
         "id": 19,
-        "title": "UltraWide Pro Monitor",
-        "price": 320.00,
+        "title": "GamePro MK130G Pro",
+        "price": 59.99,
         "currency": "USD",
-        "category": "monitor",
-        "image": "./img/index/popular__wide-monitor.png"
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Outemu Red",
+        "image": "./img/shop/products/gamepro-mk130g-pro-outemu-red-hot-swap-rgb-black.jpg"
     },
     {
         "id": 20,
-        "title": "Hi-Fi Wired Headphones",
-        "price": 125.00,
+        "title": "Hator Hypergang 2 HTA-910",
+        "price": 79.99,
         "currency": "USD",
-        "category": "headphones",
-        "image": "./img/index/popular__wired-headphones.png"
+        "category": "headset",
+        "image": "./img/shop/products/hator-hypergang-2-hta-910-black.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Hator Quasar 2 Ultra 4K Wireless HTM570BP",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-quasar-2-ultra-4k-wireless-htm570bp-blackpink.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Gigabyte 34 MO34WQC",
+        "price": 799.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "34 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/gigabyte-34-mo34wqc-black.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Hator Gravity X TKL Aurum",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Orange Linear",
+        "image": "./img/shop/products/hator-gravity-x-tkl-aurum-orange-linear-rev20-htk551ua-white.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Hator Hypergang 2 HTA-914",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/hator-hypergang-2-hta-914-lavander.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Hator Quasar 3 Ultra 8K Wireless HTM770",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-quasar-3-ultra-8k-wireless-htm770-blackviolet.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Lenovo 27 ThinkVision 3D",
+        "price": 799.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/lenovo-27-thinkvision-27-3d-63f1uat3ua-black.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Hator Hyperpunk 3 USB",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/hator-hyperpunk-3-usb-esh10-black.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Hator Quasar 3 Wireless HTM730",
+        "price": 179.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-quasar-3-wireless-htm730-black.jpg"
+    },
+    {
+        "id": 29,
+        "title": "Hator Icefall HTK401UA",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Blue Switch",
+        "image": "./img/shop/products/hator-icefall-htk401ua-blackgrey.jpg"
+    },
+    {
+        "id": 30,
+        "title": "HyperX Cloud Mini 7G8F5AA",
+        "price": 59.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/hyperx-cloud-mini-7g8f5aa-lavender.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Hator Rockfall 2 Mecha Orange HTK-711",
+        "price": 119.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Orange Switch",
+        "image": "./img/shop/products/hator-rockfall-2-mecha-orange-htk-711-white.png"
+    },
+    {
+        "id": 32,
+        "title": "Lenovo 397 ThinkVision P40w-20",
+        "price": 1299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "39.7 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/lenovo-397-thinkvision-p40w-20-62ddgat6ua-black.jpg"
+    },
+    {
+        "id": 33,
+        "title": "Hator Stellar Pro Wireless HTM-551",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-stellar-pro-wireless-htm-551-white.png"
+    },
+    {
+        "id": 34,
+        "title": "JBL Quantum 910",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/jbl-quantum-910-jblq910wlblk-black.jpg"
+    },
+    {
+        "id": 35,
+        "title": "Logitech G Pro X TKL Lightspeed Mechanical Tactile Wireless",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Tactile",
+        "image": "./img/shop/products/logitech-g-pro-x-tkl-lightspeed-mechanical-tactile-wireless-920-012148-white.jpg"
+    },
+    {
+        "id": 36,
+        "title": "MSI 27 MAG 275QF",
+        "price": 299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/msi-27-mag-275qf-black.png"
+    },
+    {
+        "id": 37,
+        "title": "Logitech G435 Lightspeed",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g435-lightspeed-981-001050-blackyellow.jpg"
+    },
+    {
+        "id": 38,
+        "title": "Logitech Pro 2 Lightspeed Wireless",
+        "price": 129.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/logitech-pro-2-lightspeed-wireless-910-007309-pink.jpg"
+    },
+    {
+        "id": 39,
+        "title": "MSI 31.5 MPG 321URX QD OLED",
+        "price": 999.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "31.5 inches",
+        "panel_type": "QD-OLED",
+        "image": "./img/shop/products/msi-315-mpg-321urx-qd-oled-black.png"
+    },
+    {
+        "id": 40,
+        "title": "Logitech G Pro X TKL Rapid Magnetic Linear",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Magnetic Linear",
+        "image": "./img/shop/products/logitech-g-pro-x-tkl-rapid-magnetic-linear-920-013253-magenta.jpg"
+    },
+    {
+        "id": 41,
+        "title": "Logitech G Pro X 2 Lightspeed Wireless",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001263-black.jpg"
+    },
+    {
+        "id": 42,
+        "title": "Razer Basilisk V3",
+        "price": 69.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "26000",
+        "image": "./img/shop/products/razer-basilisk-v3-rz01-04000100-r3u1-black.jpg"
+    },
+    {
+        "id": 43,
+        "title": "MSI 49 MPG 491CQP QD OLED",
+        "price": 1499.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "49 inches",
+        "panel_type": "QD-OLED",
+        "image": "./img/shop/products/msi-49-mpg-491cqp-qd-oled-black.png"
+    },
+    {
+        "id": 44,
+        "title": "Logitech K400 Plus Wireless Touch",
+        "price": 39.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "membrane",
+        "image": "./img/shop/products/logitech-k400-plus-wireless-touch-920-007145-black.jpg"
+    },
+    {
+        "id": 45,
+        "title": "Logitech G Pro X 2 Lightspeed Wireless White",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001269-white.jpg"
+    },
+    {
+        "id": 46,
+        "title": "Razer DeathAdder Essential 2021",
+        "price": 49.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "6400",
+        "image": "./img/shop/products/razer-deathadder-essential-2021-rz01-03850100-r3m1-black.png"
+    },
+    {
+        "id": 47,
+        "title": "Philips 48.8 49B2U6903CH00",
+        "price": 1299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "48.8 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/philips-488-49b2u6903ch00-blacksilver.jpg"
+    },
+    {
+        "id": 48,
+        "title": "Logitech Pebble Keys 2 K380s",
+        "price": 29.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "membrane",
+        "image": "./img/shop/products/logitech-pebble-keys-2-k380s-920-011852-white.jpg"
+    },
+    {
+        "id": 49,
+        "title": "Logitech G Pro X 2 Lightspeed Wireless Magenta",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001275-magenta.jpg"
+    },
+    {
+        "id": 50,
+        "title": "SteelSeries Aerox 3 Wireless",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "18000",
+        "image": "./img/shop/products/steelseries-aerox-3-wireless-62608-snow.png"
+    },
+    {
+        "id": 51,
+        "title": "Philips 48.9 Evnia 49M2C890000",
+        "price": 1399.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "48.9 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/philips-489-evnia-49m2c890000-white.jpg"
+    },
+    {
+        "id": 52,
+        "title": "Varmilo VPE87 Change White LED Cherry MX Red",
+        "price": 139.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Cherry MX Red",
+        "image": "./img/shop/products/varmilo-vpe87-change-white-led-cherry-mx-red-a50a054d4a3a01a043-blue.jpg"
+    },
+    {
+        "id": 53,
+        "title": "Logitech Pro X Gaming Headset",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-pro-x-gaming-headset-981-000818-black.jpg"
+    },
+    {
+        "id": 54,
+        "title": "SteelSeries Aerox 5",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "18000",
+        "image": "./img/shop/products/steelseries-aerox-5-62401-black.png"
+    },
+    {
+        "id": 55,
+        "title": "Samsung 24 Odyssey G3",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "24 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/samsung-24-odyssey-g3-ls24dg300eixci-black.jpg"
+    },
+    {
+        "id": 56,
+        "title": "A4Tech Bloody S98 RGB BLMS Red Switch Sports Red",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Red Switch",
+        "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-sports-red.jpg"
+    },
+    {
+        "id": 57,
+        "title": "SteelSeries Arctis Nova 7P Wireless",
+        "price": 179.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/steelseries-arctis-nova-7p-wireless-61561-white.jpg"
+    },
+    {
+        "id": 58,
+        "title": "SteelSeries Rival 600",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "12000",
+        "image": "./img/shop/products/steelseries-rival-600-black.jpg"
+    },
+    {
+        "id": 59,
+        "title": "Samsung 27 Odyssey G3",
+        "price": 249.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/samsung-27-odyssey-g3-ls27dg300eixci-black.jpg"
+    },
+    {
+        "id": 60,
+        "title": "A4Tech Bloody S98 RGB BLMS Red Switch Naraka",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Red Switch",
+        "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-naraka.jpg"
+    },
+    {
+        "id": 61,
+        "title": "SteelSeries Arctis Nova 7 Wireless Dragon Edition",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/steelseries-arctis-nova-7-wireless-dragon-edition-61557-red.jpg"
+    },
+    {
+        "id": 62,
+        "title": "A4Tech FBX51C Wireless Grey",
+        "price": 39.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "1600",
+        "image": "./img/shop/products/a4tech-fbx51c-wireless-grey.jpg"
+    },
+    {
+        "id": 63,
+        "title": "Samsung 27 Odyssey G5",
+        "price": 299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/samsung-27-odyssey-g5-ls27dg500eixci-black.jpg"
+    },
+    {
+        "id": 64,
+        "title": "Dark Project ALU87 Bushido",
+        "price": 129.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Gateron Red",
+        "image": "./img/shop/products/dark-project-alu87-bushido-abs-rgb-mech-g3ms-moonstone-dpkb-bushido-87-ansi-ua-blackwhite.jpg"
+    },
+    {
+        "id": 65,
+        "title": "SteelSeries Arctis Nova 7X Wireless",
+        "price": 179.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/steelseries-arctis-nova-7x-wireless-61567-white.jpg"
+    },
+    {
+        "id": 66,
+        "title": "Hator Pulsar 2 HTM-510",
+        "price": 69.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-2-htm-510-black.jpg"
+    },
+    {
+        "id": 67,
+        "title": "Samsung 27 ViewFinity S9 5K",
+        "price": 999.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/samsung-27-viewfinity-s9-5k-s27c900-ls27c902paixua-silver.jpg"
+    },
+    {
+        "id": 68,
+        "title": "Ducky One 3 TKL Cherry MX Speed Silver",
+        "price": 109.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Cherry MX Speed Silver",
+        "image": "./img/shop/products/ducky-one-3-tkl-cherry-mx-speed-silver-dkon2187-puapxmaeggc1-matcha-cream.jpg"
+    },
+    {
+        "id": 69,
+        "title": "SteelSeries Arctis Nova Pro Wireless X",
+        "price": 329.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/steelseries-arctis-nova-pro-wireless-x-61521-black.jpg"
+    },
+    {
+        "id": 70,
+        "title": "Hator Pulsar 2 HTM-513",
+        "price": 69.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-2-htm-513-mint.png"
+    },
+    {
+        "id": 71,
+        "title": "Samsung 32 Odyssey G5",
+        "price": 349.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "32 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/samsung-32-odyssey-g5-s32cg550-ls32cg550eixci-black.jpg"
+    },
+    {
+        "id": 72,
+        "title": "Epomaker EP64 RGB Mechanical",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Mulan Switch",
+        "image": "./img/shop/products/epomaker-ep64-rgb-mechanical-mulan-switch-hot-swap-ep64-b-m-black.jpg"
+    },
+    {
+        "id": 73,
+        "title": "SteelSeries Arctis Pro",
+        "price": 249.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/steelseries-arctis-pro-61486-black.png"
+    },
+    {
+        "id": 74,
+        "title": "Hator Pulsar 2 HTM-514",
+        "price": 69.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-2-htm-514-lilac.png"
+    },
+    {
+        "id": 75,
+        "title": "Samsung 34 C34G55TWWI",
+        "price": 499.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "34 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/samsung-34-c34g55twwi-lc34g55twwixci-black.png"
+    },
+    {
+        "id": 76,
+        "title": "Epomaker Shadow S TKL RGB Mechanical",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Mulan Switch",
+        "image": "./img/shop/products/epomaker-shadow-s-tkl-rgb-mechanical-mulan-switch-hot-swap-shs-w-m-white.jpg"
+    },
+    {
+        "id": 77,
+        "title": "Sony INZONE H9",
+        "price": 299.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/sony-inzone-h9-whg900nbce7-black.jpg"
+    },
+    {
+        "id": 78,
+        "title": "Hator Pulsar 3 Wireless HTM630",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-pulsar-3-wireless-htm630-black.jpg"
+    },
+    {
+        "id": 79,
+        "title": "Samsung 49 Odyssey OLED G9 G93SC",
+        "price": 1999.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "49 inches",
+        "panel_type": "OLED",
+        "image": "./img/shop/products/samsung-49-odyssey-oled-g9-g93sc-ls49cg930sixci-black.jpg"
+    },
+    {
+        "id": 80,
+        "title": "GamePro MK130G Pro",
+        "price": 59.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Outemu Red",
+        "image": "./img/shop/products/gamepro-mk130g-pro-outemu-red-hot-swap-rgb-black.jpg"
+    },
+    {
+        "id": 81,
+        "title": "Sony ULT Wear WHULT900NWCE7",
+        "price": 349.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/sony-ult-wear-whult900nwce7-white.jpg"
+    },
+    {
+        "id": 82,
+        "title": "Hator Quasar 2 Ultra 4K Wireless HTM570BP",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-quasar-2-ultra-4k-wireless-htm570bp-blackpink.jpg"
+    },
+    {
+        "id": 83,
+        "title": "Samsung 49 Odyssey OLED G9 G95SC",
+        "price": 2199.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "49 inches",
+        "panel_type": "OLED",
+        "image": "./img/shop/products/samsung-49-odyssey-oled-g9-g95sc-ls49cg954sixua-silver.jpg"
+    },
+    {
+        "id": 84,
+        "title": "Hator Gravity X TKL Aurum",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Orange Linear",
+        "image": "./img/shop/products/hator-gravity-x-tkl-aurum-orange-linear-rev20-htk551ua-white.jpg"
+    },
+    {
+        "id": 85,
+        "title": "Sony WF-1000XM5 Blue",
+        "price": 279.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/sony-wf-1000xm5-wh1000xm5lce7-blue.jpg"
+    },
+    {
+        "id": 86,
+        "title": "Hator Quasar 3 Ultra 8K Wireless HTM770",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-quasar-3-ultra-8k-wireless-htm770-blackviolet.jpg"
+    },
+    {
+        "id": 87,
+        "title": "AOC 34 Agon AG344UXM Black",
+        "price": 999.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "34 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/aoc-34-agon-ag344uxm-black.png"
+    },
+    {
+        "id": 88,
+        "title": "Hator Hypergang 2 HTA-910",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/hator-hypergang-2-hta-910-black.jpg"
+    },
+    {
+        "id": 89,
+        "title": "Hator Quasar 3 Wireless HTM730",
+        "price": 179.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-quasar-3-wireless-htm730-black.jpg"
+    },
+    {
+        "id": 90,
+        "title": "AOC 49 Agon AG493UCX2 Black",
+        "price": 1299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "49 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/aoc-488-ag493ucx2-black.jpg"
+    },
+    {
+        "id": 91,
+        "title": "Hator Icefall HTK401UA",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Blue Switch",
+        "image": "./img/shop/products/hator-icefall-htk401ua-blackgrey.jpg"
+    },
+    {
+        "id": 92,
+        "title": "Sony WF-1000XM5 Silver",
+        "price": 279.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/sony-wf-1000xm5-wh1000xm5sce7-silver.jpg"
+    },
+    {
+        "id": 93,
+        "title": "Hator Rockfall 2 Mecha Orange HTK-711",
+        "price": 119.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Orange Switch",
+        "image": "./img/shop/products/hator-rockfall-2-mecha-orange-htk-711-white.png"
+    },
+    {
+        "id": 94,
+        "title": "HyperX Cloud Mini 7G8F5AA",
+        "price": 59.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/hyperx-cloud-mini-7g8f5aa-lavender.jpg"
+    },
+    {
+        "id": 95,
+        "title": "Hator Stellar Pro Wireless HTM-551",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/hator-stellar-pro-wireless-htm-551-white.png"
+    },
+    {
+        "id": 96,
+        "title": "Asus 27 ROG Strix XG27ACS",
+        "price": 799.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/asus-27-rog-strix-27-xg27acs-90lm09q0-b01170-black.jpg"
+    },
+    {
+        "id": 97,
+        "title": "JBL Quantum 910",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/jbl-quantum-910-jblq910wlblk-black.jpg"
+    },
+    {
+        "id": 98,
+        "title": "Logitech G Pro X TKL Lightspeed Mechanical Tactile Wireless",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Tactile",
+        "image": "./img/shop/products/logitech-g-pro-x-tkl-lightspeed-mechanical-tactile-wireless-920-012148-white.jpg"
+    },
+    {
+        "id": 99,
+        "title": "SteelSeries Rival 600",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "12000",
+        "image": "./img/shop/products/steelseries-rival-600-black.jpg"
+    },
+    {
+        "id": 100,
+        "title": "Asus 27 ROG Swift PG27AQN",
+        "price": 899.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/asus-27-rog-swift-pg27aqn-90lm0820-b01370-black.png"
+    },
+    {
+        "id": 101,
+        "title": "Logitech G435 Lightspeed",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g435-lightspeed-981-001050-blackyellow.jpg"
+    },
+    {
+        "id": 102,
+        "title": "Logitech Pro 2 Lightspeed Wireless",
+        "price": 129.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "16000",
+        "image": "./img/shop/products/logitech-pro-2-lightspeed-wireless-910-007309-pink.jpg"
+    },
+    {
+        "id": 103,
+        "title": "MSI 27 MAG 275QF",
+        "price": 299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "27 inches",
+        "panel_type": "IPS",
+        "image": "./img/shop/products/msi-27-mag-275qf-black.png"
+    },
+    {
+        "id": 104,
+        "title": "Logitech G Pro X TKL Rapid Magnetic Linear",
+        "price": 149.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Magnetic Linear",
+        "image": "./img/shop/products/logitech-g-pro-x-tkl-rapid-magnetic-linear-920-013253-magenta.jpg"
+    },
+    {
+        "id": 105,
+        "title": "Logitech G Pro X 2 Lightspeed Wireless",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001263-black.jpg"
+    },
+    {
+        "id": 106,
+        "title": "Razer Basilisk V3",
+        "price": 69.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "26000",
+        "image": "./img/shop/products/razer-basilisk-v3-rz01-04000100-r3u1-black.jpg"
+    },
+    {
+        "id": 107,
+        "title": "MSI 31.5 MPG 321URX QD OLED",
+        "price": 999.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "31.5 inches",
+        "panel_type": "QD-OLED",
+        "image": "./img/shop/products/msi-315-mpg-321urx-qd-oled-black.png"
+    },
+    {
+        "id": 108,
+        "title": "Logitech K400 Plus Wireless Touch",
+        "price": 39.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "membrane",
+        "image": "./img/shop/products/logitech-k400-plus-wireless-touch-920-007145-black.jpg"
+    },
+    {
+        "id": 109,
+        "title": "Logitech G Pro X 2 Lightspeed Wireless White",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001269-white.jpg"
+    },
+    {
+        "id": 110,
+        "title": "Razer DeathAdder Essential 2021",
+        "price": 49.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "6400",
+        "image": "./img/shop/products/razer-deathadder-essential-2021-rz01-03850100-r3m1-black.png"
+    },
+    {
+        "id": 111,
+        "title": "MSI 49 MPG 491CQP QD OLED",
+        "price": 1499.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "49 inches",
+        "panel_type": "QD-OLED",
+        "image": "./img/shop/products/msi-49-mpg-491cqp-qd-oled-black.png"
+    },
+    {
+        "id": 112,
+        "title": "Logitech Pebble Keys 2 K380s",
+        "price": 29.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "membrane",
+        "image": "./img/shop/products/logitech-pebble-keys-2-k380s-920-011852-white.jpg"
+    },
+    {
+        "id": 113,
+        "title": "Logitech G Pro X 2 Lightspeed Wireless Magenta",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001275-magenta.jpg"
+    },
+    {
+        "id": 114,
+        "title": "SteelSeries Aerox 3 Wireless",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "18000",
+        "image": "./img/shop/products/steelseries-aerox-3-wireless-62608-snow.png"
+    },
+    {
+        "id": 115,
+        "title": "Philips 48.8 49B2U6903CH00",
+        "price": 1299.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "48.8 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/philips-488-49b2u6903ch00-blacksilver.jpg"
+    },
+    {
+        "id": 116,
+        "title": "Varmilo VPE87 Change White LED Cherry MX Red",
+        "price": 139.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Cherry MX Red",
+        "image": "./img/shop/products/varmilo-vpe87-change-white-led-cherry-mx-red-a50a054d4a3a01a043-blue.jpg"
+    },
+    {
+        "id": 117,
+        "title": "Logitech Pro X Gaming Headset",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/logitech-pro-x-gaming-headset-981-000818-black.jpg"
+    },
+    {
+        "id": 118,
+        "title": "SteelSeries Aerox 5",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "18000",
+        "image": "./img/shop/products/steelseries-aerox-5-62401-black.png"
+    },
+    {
+        "id": 119,
+        "title": "Philips 48.9 Evnia 49M2C890000",
+        "price": 1399.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "48.9 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/philips-489-evnia-49m2c890000-white.jpg"
+    },
+    {
+        "id": 120,
+        "title": "A4Tech Bloody S98 RGB BLMS Red Switch Sports Red",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Red Switch",
+        "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-sports-red.jpg"
+    },
+    {
+        "id": 121,
+        "title": "SteelSeries Arctis Nova 7P Wireless",
+        "price": 179.99,
+        "currency": "USD",
+        "category": "headset",
+        "image": "./img/shop/products/steelseries-arctis-nova-7p-wireless-61561-white.jpg"
+    },
+    {
+        "id": 122,
+        "title": "SteelSeries Rival 600",
+        "price": 79.99,
+        "currency": "USD",
+        "category": "mouse",
+        "dpi": "12000",
+        "image": "./img/shop/products/steelseries-rival-600-black.jpg"
+    },
+    {
+        "id": 123,
+        "title": "Samsung 24 Odyssey G3",
+        "price": 199.99,
+        "currency": "USD",
+        "category": "monitor",
+        "diagonal": "24 inches",
+        "panel_type": "VA",
+        "image": "./img/shop/products/samsung-24-odyssey-g3-ls24dg300eixci-black.jpg"
+    },
+    {
+        "id": 124,
+        "title": "A4Tech Bloody S98 RGB BLMS Red Switch Naraka",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Red Switch",
+        "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-naraka.jpg"
     }
 ]

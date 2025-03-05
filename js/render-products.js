@@ -21,7 +21,7 @@ export function renderProducts(products, destination, amount) {
                     <div class="product__item-name">${product.title}</div>
                 </a>
 
-                <div class="product__item-price">${product.price}${product.currency}</div>
+                <div class="product__item-price">${product.price} ${product.currency}</div>
                 <div class="product__item-btn small-btn"><a href="#">Buy Now</a></div>
             </div>
         </div>
