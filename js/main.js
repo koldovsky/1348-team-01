@@ -1,4 +1,5 @@
 function init() {
+  import("./header-navigation.js");
   import("./header_burger-menu.js");
   import("./shop_products.js");
   import("./countdown.js");
