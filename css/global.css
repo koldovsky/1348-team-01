@@ -14,6 +14,10 @@
   --light-bg-color: #f8f3ef;
   --light-color: #fff;
   --border-color: #c8c8c8;
+  --pre-order-text:#61a854 ;
+  --pre-order-bg: #e2ffdd;
+  --out-of-stock-text: #cc3833;
+  --out-of-stock-bg: #ffddd9;
 }
 
 html, body {

@@ -61,9 +61,14 @@
     right: 0;
 }
 
+@media (max-width: 600px) {
+    .slider__items .product__item .product__item-wrapper {
+        width: 260px;
+    }
+}
+
 @media (max-width: 468px) {
     .slider__items {
-        justify-content: center;
     }
     .product__item-btn {
         align-self: center;
@@ -72,6 +77,9 @@
         width: 100vw;
         justify-content: center;
         align-items: center;
+    }
+    .product__item-status {
+        left: 20px;
     }
 }
 
