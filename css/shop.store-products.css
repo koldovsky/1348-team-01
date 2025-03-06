@@ -24,13 +24,16 @@
   max-height: 200px;
   object-fit: contain;
   border-radius: 8px;
+  margin-bottom: 70px;
 }
 
 .store-products__name {
   font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  position: relative;
+  top: -15px;  
+  margin-bottom: 10px;
 }
+
 
 .store-products__prices {
   display: flex;
@@ -127,9 +130,12 @@
 }
 
 .store-products__status {
+  position: absolute;
+  top: 50%;
+  width: 100%;
   display: block;
   text-align: center;
-  padding: 5px 0;
+  padding: 6px 0;
   margin-top: 5px;
   border-radius: 5px;
   font-weight: bold;
