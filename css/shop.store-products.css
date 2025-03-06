@@ -125,3 +125,22 @@
   background:var(--title-color);
 
 }
+
+.store-products__status {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.store-products__out-of-stock {
+  background: rgba(255, 0, 0, 0.1);
+  color: red;
+}
+
+.store-products__pre-order {
+  background: rgba(0, 128, 0, 0.1);
+  color: green;
+}
