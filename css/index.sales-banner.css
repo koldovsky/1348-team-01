@@ -1,0 +1,40 @@
+.sales-banner {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../img/index/sales-bunner.png");
+  text-align: center;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.sales-banner__title {
+  color: var(--light-color);
+}
+
+.sales-banner__description {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.sales-banner__shop-btn {
+  background: var(--accent-color);
+  color: var(--light-color);
+} 
+
+.sales-banner__shop-btn:hover {
+  background: var(--main-bg-color);
+  color: var(--light-color);
+}
+
+@media (max-width: 320px) {
+  .sales-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: scroll;
+    background-size: cover;
+    
+  }
+}

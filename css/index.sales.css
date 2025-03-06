@@ -1,40 +1,102 @@
 .sales {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../img/index/sales-bunner.png");
-  text-align: center;
-  background-position: center;
-  background-attachment: fixed; 
-  background-size: cover;
-  background-repeat:no-repeat;
+    padding-bottom: 120px;
+    position: relative;
 }
 
-.sales__title {
-  color: var(--light-color);
+.slider__btn-prev, 
+.slider__btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background 0.3s ease-in-out;
+    z-index: 10;
 }
 
-.sales__description {
-  margin-top: 40px;
-  margin-bottom: 70px;
+.sales__info {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 35px;
 }
 
-.sales__shop-btn {
-  background: var(--accent-color);
-  color: var(--light-color);
-} 
-
-.sales__shop-btn:hover {
-  background: var(--main-bg-color);
-  color: var(--light-color);
+.slider__container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-@media (max-width: 320px) {
-  .sales {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-attachment: scroll;
-    background-size: cover;
-    
-  }
+.slider__items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
 }
+
+.slider__container.next .slider__items .product__item:nth-child(1) img{
+    /* width: 150px;
+    height: 220px; */
+    /* position: absolute;
+    bottom: 50px;
+    left: 50%;
+    border-radius: 30px;
+    animation: showImage .5s linear 1 forwards; */
+}
+@keyframes showImage{
+    to{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+
+/* .slider__btn-prev, 
+.slider__btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background 0.3s ease-in-out;
+    z-index: 10;
+} */
+
+.slider__btn-prev:hover,
+.slider__btn-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.slider__btn-prev {
+    left: -30px;
+}
+
+.slider__btn-next {
+    right: -30px;
+}
+
+/* Анімація при зміні слайдів
+.slider__container.next .slider__items {
+    transform: translateX(-100%);
+}
+
+.slider__container.prev .slider__items {
+    transform: translateX(100%);
+} */

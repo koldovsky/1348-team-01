@@ -1,13 +1,14 @@
 function init() {
   import("./header-navigation.js");
   import("./header_burger-menu.js");
+  import("./index-popular.js");
+  import("./render-products.js");
+  import("./index-sales.js")
   import("./shop_products.js");
   import("./countdown.js");
   import("./about_us.our-story-carousel.js");
   import("./about_us.in-store_services-carousel.js");
   import('./contacts-faq_accordion.js');
-  import("./index-popular.js");
-  import("./render-products.js");
 }
 
 const totalPartials = document.querySelectorAll(
