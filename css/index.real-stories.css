@@ -237,7 +237,6 @@
     object-fit: contain;
     clip-path: none;
   }
-
   .real-stories {
     flex-direction: column;
     padding: 40px 20px;
