@@ -58,17 +58,20 @@
   top: 0;
   left: 0;
   width: 100%;
-  transform: translateX(50px);
-  transition: opacity 2.3s ease, transform 1.8s ease;
+  clip-path: inset(0 100% 0 0);
+  transition: opacity 1s ease, clip-path 1.5s ease;
   pointer-events: none;
 }
 
 .real-stories__item.active {
   opacity: 1;
-  transform: translateX(0);
+  clip-path: inset(0 0 0 0);
   position: relative;
   pointer-events: auto;
 }
+
+
+
 
 .real-stories__quote {
   font-size: 100px;
