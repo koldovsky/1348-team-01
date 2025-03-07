@@ -1,0 +1,265 @@
+.real-stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: var(--light-color);
+  text-align: center;
+}
+
+.real-stories__subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.real-stories__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.real-stories__description {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.recommended-keyboard__divider {
+  max-width: 600px;
+}
+
+.real-stories__hero-image {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  clip-path: inset(0 0 60px 0);
+}
+
+.real-stories__slider {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.real-stories__content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.real-stories__item {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(50px);
+  transition: opacity 2.3s ease, transform 1.8s ease;
+  pointer-events: none;
+}
+
+.real-stories__item.active {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+  pointer-events: auto;
+}
+
+.real-stories__quote {
+  font-size: 100px;
+  color: var(--accent-color);
+  font-weight: bold;
+  display: block;
+}
+
+.real-stories__text {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 1.5;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.real-stories__author {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-bg-color);
+}
+
+.real-stories__date {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--secondary-bg-color);
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.real-stories__arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 320px) {
+  .real-stories__hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    clip-path: none;
+  }
+
+  .real-stories__title {
+    font-size: 24px;
+  }
+
+  .real-stories__description {
+    font-size: 14px;
+  }
+
+  .real-stories__quote {
+    font-size: 60px;
+  }
+
+  .real-stories__text {
+    font-size: 14px;
+  }
+
+  .real-stories__author {
+    font-size: 16px;
+  }
+
+  .real-stories__date {
+    font-size: 12px;
+  }
+
+  .real-stories__slider {
+    width: 100%;
+  }
+
+  .real-stories__hero-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .real-stories__hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    clip-path: none;
+  }
+
+  .real-stories__title {
+    font-size: 28px;
+  }
+
+  .real-stories__quote {
+    font-size: 70px;
+  }
+
+  .real-stories__slider {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .real-stories__title {
+    font-size: 30px;
+  }
+
+  .real-stories__quote {
+    font-size: 80px;
+  }
+
+  .real-stories__slider {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .real-stories__hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    clip-path: none;
+  }
+
+  .real-stories {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .real-stories__title {
+    font-size: 32px;
+  }
+
+  .real-stories__quote {
+    font-size: 90px;
+  }
+
+  .real-stories__slider {
+    width: 100%;
+  }
+
+  .real-stories__hero-image {
+    max-width: 100%;
+  }
+
+  .real-stories__description {
+    font-size: 15px;
+  }
+
+  .real-stories__author {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .real-stories__hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    clip-path: none;
+  }
+
+  .real-stories {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .real-stories__title {
+    font-size: 32px;
+  }
+
+  .real-stories__quote {
+    font-size: 90px;
+  }
+
+  .real-stories__slider {
+    width: 100%;
+  }
+
+  .real-stories__hero-image {
+    max-width: 100%;
+  }
+
+  .real-stories__description {
+    font-size: 15px;
+  }
+}
