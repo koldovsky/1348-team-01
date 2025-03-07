@@ -3,7 +3,7 @@ const pageSizes = [16,12,12,10];
 let allProducts = [];
 
 function startShop() {
-  allProducts = document.querySelectorAll(".store-products__item");
+  allProducts = document.querySelectorAll(".store-products__item"); 
   if (allProducts.length === 0) {
     console.log("Error!");
     return;

@@ -10,6 +10,8 @@ function init() {
   import("./about_us.in-store_services-carousel.js");
   import('./contacts-faq_accordion.js');
   import('./product-status-updater.js');
+  import('./index-deals-accordion.js');
+  import('./index-deals-countdown.js');
 }
 
 const totalPartials = document.querySelectorAll(
