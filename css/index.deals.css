@@ -1,0 +1,228 @@
+.deals {
+    padding: 120px 0;
+    background-color: var(--light-bg-color);
+}
+
+.deals__items {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.deals__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.deals__item-content {
+    padding: 60px;
+}
+
+.item-content__info {
+    margin-bottom: 20px;
+}
+
+.item-content__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--secondary-bg-color);
+}
+
+.item-content__subtitle {
+    line-height: 1.3;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-bg-color);
+    margin-bottom: 15px;
+}
+
+.item-content__price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    margin-bottom: 20px; 
+    font-weight: 700;
+}
+
+.item-content__price span {
+    color: var(--title-color);
+}
+
+.item-content__price p{
+    color: var(--accent-color);
+
+}
+.item-content__price div{
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.item-content__description {
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 1.4;
+}
+
+.deals__item-image {
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.deals-img1 {
+    background-image: url("../img/index/deals1.webp");
+    
+}
+
+.deals-img2 {
+    background-image: url("../img/index/deals2.webp");
+}
+
+
+/* Accordion */
+
+.deals__accordion {
+    padding: 15px 0;
+}
+
+.accordion__item {
+    overflow: hidden;
+}
+
+.accordion__item-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.accordion__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondary-bg-color);
+}
+
+.accordion__item-btn {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.accordion__item-btn span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--main-bg-color);
+}
+
+.accordion__line:nth-child(1) {
+    transform: rotate(90deg);
+}
+.accordion__line:nth-child(2) {
+    transform: translateY(0px);
+}
+
+.accordion__item-btn.open .accordion__line:nth-child(1){
+    display: none;
+}
+
+.accordion__item-descripton {
+    height: 0;
+    transition: all 0.8s linear;
+}
+
+.accordion__item-descripton--list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.accordion__item-descripton--list li{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.accordion__item-descripton--list li span{
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    width: 5px;
+    height: 5px;
+}
+
+.accordion__item-descripton--list li p{
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.accordion__item-descripton--list li p:nth-of-type(2){
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+/* Contdown */
+
+.deals__countdown {
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    gap: 20px;
+}
+
+.deals__countdown-item {
+    border: 2px solid var(--secondary-bg-color);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 90px;
+}
+
+.deals__countdown-item h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.deals__countdown-item p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .deals__item-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .deals__item {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .deals__countdown {
+        gap: 10px;
+    }
+    .deals__countdown-item {
+        padding: 10px;
+    }
+    .deals__countdown-item h1{
+        font-size: 16px;
+    }
+    .deals__countdown-item p{
+        font-size: 10px;
+    }
+}

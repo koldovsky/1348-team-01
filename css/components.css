@@ -39,6 +39,12 @@
     font-weight: 700;
 }
 
+.info {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 35px;
+}
+
 .btn {
     font-size: 15.4px;
     color: white;
@@ -77,8 +83,6 @@
 }
 
 /* Products style */
-.product__item {
-}
 
 .product__item-wrapper {
     position: relative;

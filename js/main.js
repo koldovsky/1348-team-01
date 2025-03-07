@@ -10,7 +10,12 @@ function init() {
   import("./about_us.in-store_services-carousel.js");
   import('./contacts-faq_accordion.js');
   import('./product-status-updater.js');
+<<<<<<< HEAD
   import('./real-stories.js');
+=======
+  import('./index-deals-accordion.js');
+  import('./index-deals-countdown.js');
+>>>>>>> 1570dd5a25781dc0068937a160cdea47a0635c99
 }
 
 const totalPartials = document.querySelectorAll(
