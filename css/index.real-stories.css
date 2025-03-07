@@ -2,30 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 100px 20px;
   background-color: var(--light-color);
   text-align: center;
 }
 
-.real-stories__subtitle {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: var(--accent-color);
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.real-stories__title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 .real-stories__description {
   font-size: 16px;
-  color: var(--text-color);
+  color: var(--subtitle-color);
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 .recommended-keyboard__divider {
@@ -70,9 +56,6 @@
   pointer-events: auto;
 }
 
-
-
-
 .real-stories__quote {
   font-size: 100px;
   color: var(--accent-color);
@@ -112,17 +95,13 @@
 }
 
 @media (max-width: 320px) {
+  .title {
+    font-size: 12px;
+  }
   .real-stories__hero-image {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
     object-fit: contain;
     clip-path: none;
-  }
-
-  .real-stories__title {
-    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   .real-stories__description {
@@ -155,17 +134,14 @@
 }
 
 @media (max-width: 375px) {
-  .real-stories__hero-image {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    clip-path: none;
+  .title {
+    font-size: 12px;
   }
 
-  .real-stories__title {
-    font-size: 28px;
+  .real-stories__hero-image {
+    object-fit: contain;
+    clip-path: none;
+    margin-bottom: 40px;
   }
 
   .real-stories__quote {
@@ -178,10 +154,6 @@
 }
 
 @media (max-width: 425px) {
-  .real-stories__title {
-    font-size: 30px;
-  }
-
   .real-stories__quote {
     font-size: 80px;
   }
@@ -193,21 +165,14 @@
 
 @media (max-width: 768px) {
   .real-stories__hero-image {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
     object-fit: contain;
     clip-path: none;
+    margin-bottom: 50px;
   }
 
   .real-stories {
     flex-direction: column;
     padding: 30px 15px;
-  }
-
-  .real-stories__title {
-    font-size: 32px;
   }
 
   .real-stories__quote {
@@ -233,20 +198,13 @@
 
 @media (max-width: 1024px) {
   .real-stories__hero-image {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
     object-fit: contain;
     clip-path: none;
+    margin-bottom: 20px;
   }
   .real-stories {
     flex-direction: column;
     padding: 40px 20px;
-  }
-
-  .real-stories__title {
-    font-size: 32px;
   }
 
   .real-stories__quote {
