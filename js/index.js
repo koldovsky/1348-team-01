@@ -8,6 +8,7 @@ function init() {
   import('./index-real-stories.js');
   import('./index-deals-accordion.js');
   import('./index-deals-countdown.js');
+  import('./index.partners.js');
 }
 
 const totalPartials = document.querySelectorAll(
