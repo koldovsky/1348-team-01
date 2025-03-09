@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="page-title"></title>
+    <link
+      rel="shortcut icon"
+      href="./img/global/favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="css/product-info.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
@@ -25,12 +30,12 @@
             <section
                 data-hx-trigger="load"
                 data-hx-swap="outerHTML"
-                data-hx-get="product-info.main-info.partial.html"
+                data-hx-get="product-info.main.partial.html"
             ></section>
             <section
                 data-hx-trigger="load"
                 data-hx-swap="outerHTML"
-                data-hx-get="product-info.products-propositions-slider.partial.html"
+                data-hx-get="product-info.propositions.partial.html"
             ></section>
         </main>
         <footer 
@@ -40,6 +45,6 @@
             data-hx-get="global.footer.partial.html">
         </footer>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./js/product-info.js"></script>
 </body>
 </html>

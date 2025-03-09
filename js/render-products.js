@@ -24,21 +24,31 @@ async function productInfoClick(event) {
     const productId = currentClick.dataset.id;
     const product = products.filter((product) => product.id == productId)[0];
     localStorage.product = JSON.stringify(product);
-    alert("yep")
+    // alert("yep")
 }
 
-export async function renderProducts(destination, amount, displayAllInfo = false, statusFilters = [], stockFilters = [], countAll = false) {
+export async function renderProducts(destination, amount, displayAllInfo = false, statusFilters = [], stockFilters = [], categoryFilters = [], countAll = false, exceptProducts = []) {
     const products = await fetchProducts();
     let productsHTML = "";
-    const isFiltering = statusFilters.length > 0 || stockFilters.length > 0 || displayAllInfo;
+    const isFiltering = statusFilters.length > 0 || stockFilters.length > 0 || categoryFilters.length > 0 || displayAllInfo;
+
+    if (amount === null) {
+        amount = products.length
+    }
 
     let filteredProducts = products.filter(product => {
         const matchesStatus = statusFilters.length === 0 || statusFilters.includes(product.status);
         const matchesStock = stockFilters.length === 0 || stockFilters.includes(product.stock);
+        const matchesCategory = categoryFilters.length === 0 || categoryFilters.includes(product.category);
+        const matchException = exceptProducts.includes(product.id);
+        if (matchException) {
+            console.log("Find exeception")
+            return false;
+        }
         if (countAll){
-            return matchesStatus && matchesStock;
+            return matchesStatus && matchesStock && matchesCategory;
         } else {
-            return matchesStatus || matchesStock;
+            return matchesStatus || matchesStock || matchesCategory;
         }
     }).slice(0, amount);
 

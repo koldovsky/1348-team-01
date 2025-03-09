@@ -3,18 +3,11 @@ function init() {
   import("./header_burger-menu.js");
   import("./index-popular.js");
   import("./render-products.js");
+  import("./countdown.js")
   import("./index-sales.js")
-  import("./shop_products.js");
-  // import("./countdown.js");
-  import("./about_us.our-story-carousel.js");
-  import("./about_us.in-store_services-carousel.js");
-  import('./contacts-faq_accordion.js');
-  import('./product-status-updater.js');
-  import('./real-stories.js');
+  import('./index-real-stories.js');
   import('./index-deals-accordion.js');
   import('./index-deals-countdown.js');
-  import('./info-page-render.js');
-  import('./info-page-slider.js');
 }
 
 const totalPartials = document.querySelectorAll(

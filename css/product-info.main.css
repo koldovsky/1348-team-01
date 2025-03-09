@@ -28,8 +28,6 @@
 .product-info__item:nth-child(1){
     display: flex;
     justify-content: center;
-    align-items: center;
-    
 }
 
 .product-info__item:nth-child(2){
@@ -38,8 +36,8 @@
 }
 
 .product-info__img {
-    max-width: 425px;
-    max-height: 425px;
+    max-width: 325px;
+    max-height: 325px;
     width: 100%;
     height: 100%;
 }
@@ -128,24 +126,23 @@
 
 /* TABS */
 
-.product-info__tabs {
+.tab-item__buttons {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .tab-item__content {
+    margin-top: 16px;
     display: none;
 }
 
-.tab-item.active .tab-item__title {
+.tab-item__header.active {
     border-bottom: 2px solid var(--accent-color);
 }
 
 .tab-item.active .tab-item__content{
     display: block;
-    color: aqua;
 }
-
 
 .tab-item__title {
     cursor: pointer;
@@ -156,4 +153,41 @@
     line-height: 16px;
     font-weight: 600;
     font-size: 12px;
+}
+
+.tab-item__description {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.characteristics {
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.characteristics-item {
+    display: flex;
+    align-items: center;
+    padding: 13px 15px;
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+.characteristics-item:nth-child(odd){
+    background-color: var(--border-color);
+}
+
+.characteristic-property, .characteristic-value {
+    flex: 1 1 50%
+}
+
+@media (max-width: 600px) {
+    .product-info__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .product-info__item {
+        flex: 1 1 50%;
+    }
 }

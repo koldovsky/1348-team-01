@@ -2,6 +2,6 @@
 @import "./global.css";
 @import "./components.css";
 @import "./global.header.css";
-@import "./main-info.css";
-@import "./products-propositions-slider.css";
+@import "./product-info.main.css";
+@import "./product-info.propositions.css";
 @import "./global.footer.css";
