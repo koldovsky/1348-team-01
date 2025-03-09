@@ -8,7 +8,11 @@
         "dpi": "1600",
         "image": "./img/shop/products/a4tech-fbx51c-wireless-grey.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A reliable wireless mouse with 1600 DPI for smooth navigation.",
+        "sensor": "Optical",
+        "connection": "Bluetooth",
+        "color": "Grey"
     },
     {
         "id": 2,
@@ -20,7 +24,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/aoc-34-agon-ag344uxm-black.png",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A high-end 34-inch monitor with IPS panel for stunning visuals.",
+        "responseTime": "1 ms",
+        "refreshRate": "144 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 3,
@@ -33,7 +42,10 @@
         "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-naraka.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A mechanical keyboard with RGB lighting and Red switches.",
+        "specialFeature": "RGB Lighting",
+        "color": "Red"
     },
     {
         "id": 4,
@@ -43,7 +55,12 @@
         "category": "headset",
         "image": "./img/shop/products/asus-rog-theta-electret-90yh02ge-b1ua00-black.png",
         "stock": "pre-order",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A premium headset with high-fidelity audio and comfortable design.",
+        "sensitivity": "98 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 22 kHz",
+        "color": "Black"
     },
     {
         "id": 5,
@@ -54,7 +71,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-pulsar-2-htm-510-black.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A high-precision mouse with 16000 DPI for gaming enthusiasts.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 6,
@@ -66,7 +87,12 @@
         "panel_type": "VA",
         "image": "./img/shop/products/aoc-488-ag493ucx2-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A massive 49-inch monitor with VA panel for immersive viewing.",
+        "responseTime": "4 ms",
+        "refreshRate": "120 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 7,
@@ -79,7 +105,10 @@
         "image": "./img/shop/products/dark-project-alu87-bushido-abs-rgb-mech-g3ms-moonstone-dpkb-bushido-87-ansi-ua-blackwhite.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A mechanical keyboard with Gateron Red switches and durable build.",
+        "specialFeature": "Volume Control",
+        "color": "Black"
     },
     {
         "id": 8,
@@ -89,7 +118,12 @@
         "category": "headset",
         "image": "./img/shop/products/beyerdynamic-dt-1770-pro-black.jpg",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A professional-grade headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "250 Ohms",
+        "frequencyRange": "5 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 9,
@@ -100,7 +134,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-pulsar-2-htm-513-mint.png",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A high-performance mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Mint"
     },
     {
         "id": 10,
@@ -112,7 +150,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/asus-27-rog-strix-27-xg27acs-90lm09q0-b01170-black.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A 27-inch gaming monitor with IPS panel and fast refresh rate.",
+        "responseTime": "1 ms",
+        "refreshRate": "165 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 11,
@@ -124,7 +167,10 @@
         "switches": "Cherry MX Speed Silver",
         "image": "./img/shop/products/ducky-one-3-tkl-cherry-mx-speed-silver-dkon2187-puapxmaeggc1-matcha-cream.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A compact mechanical keyboard with Cherry MX Speed Silver switches.",
+        "specialFeature": "Detachable Cable",
+        "color": "Cream"
     },
     {
         "id": 12,
@@ -135,7 +181,12 @@
         "image": "./img/shop/products/corsair-virtuoso-rgb-wireless-xt-ca-9011188-eu-black.jpg",
         "stock": "pre-order",
         "status": "Sale",
-        "percentage": 4
+        "percentage": 4,
+        "description": "A wireless headset with RGB lighting and high-fidelity audio.",
+        "sensitivity": "109 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 13,
@@ -146,7 +197,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-pulsar-2-htm-514-lilac.png",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A stylish mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Lilac"
     },
     {
         "id": 14,
@@ -158,7 +213,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/asus-27-rog-swift-pg27aqn-90lm0820-b01370-black.png",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A 27-inch monitor with IPS panel and high refresh rate for gaming.",
+        "responseTime": "1 ms",
+        "refreshRate": "240 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 15,
@@ -170,7 +230,10 @@
         "switches": "Mulan Switch",
         "image": "./img/shop/products/epomaker-ep64-rgb-mechanical-mulan-switch-hot-swap-ep64-b-m-black.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A mechanical keyboard with RGB lighting and hot-swappable switches.",
+        "specialFeature": "Hot-Swappable Switches",
+        "color": "Black"
     },
     {
         "id": 16,
@@ -180,7 +243,12 @@
         "category": "headset",
         "image": "./img/shop/products/fifine-h9-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "An affordable headset with clear sound and comfortable fit.",
+        "sensitivity": "98 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 17,
@@ -192,7 +260,11 @@
         "image": "./img/shop/products/hator-pulsar-3-wireless-htm630-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 70
+        "percentage": 70,
+        "description": "A wireless mouse with 16000 DPI and long battery life.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 18,
@@ -204,7 +276,12 @@
         "panel_type": "OLED",
         "image": "./img/shop/products/dell-3418-alienware-aw3423dwf-210-bfrq-black.png",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A 34-inch OLED monitor with stunning visuals and fast response time.",
+        "responseTime": "1 ms",
+        "refreshRate": "165 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 19,
@@ -216,7 +293,10 @@
         "switches": "Outemu Red",
         "image": "./img/shop/products/gamepro-mk130g-pro-outemu-red-hot-swap-rgb-black.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A budget-friendly mechanical keyboard with Outemu Red switches.",
+        "specialFeature": "Hot-Swappable Switches",
+        "color": "Black"
     },
     {
         "id": 20,
@@ -226,7 +306,12 @@
         "category": "headset",
         "image": "./img/shop/products/hator-hypergang-2-hta-910-black.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 21,
@@ -237,7 +322,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-quasar-2-ultra-4k-wireless-htm570bp-blackpink.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A high-end wireless mouse with 16000 DPI and 4K sensor.",
+        "sensor": "4K Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black/Pink"
     },
     {
         "id": 22,
@@ -250,7 +339,12 @@
         "image": "./img/shop/products/gigabyte-34-mo34wqc-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 50
+        "percentage": 50,
+        "description": "A 34-inch VA monitor with high refresh rate and immersive visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "144 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 23,
@@ -262,7 +356,10 @@
         "switches": "Orange Linear",
         "image": "./img/shop/products/hator-gravity-x-tkl-aurum-orange-linear-rev20-htk551ua-white.jpg",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A TKL mechanical keyboard with Orange Linear switches.",
+        "specialFeature": "Volume Control",
+        "color": "White"
     },
     {
         "id": 24,
@@ -272,7 +369,12 @@
         "category": "headset",
         "image": "./img/shop/products/hator-hypergang-2-hta-914-lavander.jpg",
         "stock": "pre-order",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A stylish gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Lavender"
     },
     {
         "id": 25,
@@ -283,7 +385,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-quasar-3-ultra-8k-wireless-htm770-blackviolet.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A top-tier wireless mouse with 8K sensor and 16000 DPI.",
+        "sensor": "8K Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black/Violet"
     },
     {
         "id": 26,
@@ -295,9 +401,13 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/lenovo-27-thinkvision-27-3d-63f1uat3ua-black.jpg",
         "stock": "in stock",
-        "status": "New"
-    },
-    {
+        "status": "New",
+        "description": "A 27-inch 3D monitor with IPS panel for immersive visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "60 Hz",
+        "resolution": "4k",
+        "color": "Black"
+    },{
         "id": 27,
         "title": "Hator Hyperpunk 3 USB",
         "price": 89.99,
@@ -306,7 +416,12 @@
         "image": "./img/shop/products/hator-hyperpunk-3-usb-esh10-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A USB gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 28,
@@ -317,7 +432,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-quasar-3-wireless-htm730-black.jpg",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A high-performance wireless mouse with 16000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 29,
@@ -329,7 +448,10 @@
         "switches": "Blue Switch",
         "image": "./img/shop/products/hator-icefall-htk401ua-blackgrey.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A mechanical keyboard with Blue switches and durable build.",
+        "specialFeature": "RGB Lighting",
+        "color": "Black/Grey"
     },
     {
         "id": 30,
@@ -339,7 +461,12 @@
         "category": "headset",
         "image": "./img/shop/products/hyperx-cloud-mini-7g8f5aa-lavender.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A compact headset with clear sound and comfortable fit.",
+        "sensitivity": "98 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Lavender"
     },
     {
         "id": 31,
@@ -351,7 +478,10 @@
         "switches": "Orange Switch",
         "image": "./img/shop/products/hator-rockfall-2-mecha-orange-htk-711-white.png",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A mechanical keyboard with Orange switches and durable build.",
+        "specialFeature": "Volume Control",
+        "color": "White"
     },
     {
         "id": 32,
@@ -364,7 +494,12 @@
         "image": "./img/shop/products/lenovo-397-thinkvision-p40w-20-62ddgat6ua-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A 39.7-inch IPS monitor with stunning visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "60 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 33,
@@ -375,7 +510,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-stellar-pro-wireless-htm-551-white.png",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A wireless mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "White"
     },
     {
         "id": 34,
@@ -385,7 +524,12 @@
         "category": "headset",
         "image": "./img/shop/products/jbl-quantum-910-jblq910wlblk-black.jpg",
         "stock": "pre-order",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A premium headset with exceptional sound quality.",
+        "sensitivity": "109 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 35,
@@ -397,7 +541,10 @@
         "switches": "Tactile",
         "image": "./img/shop/products/logitech-g-pro-x-tkl-lightspeed-mechanical-tactile-wireless-920-012148-white.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A wireless mechanical keyboard with Tactile switches.",
+        "specialFeature": "Detachable Cable",
+        "color": "White"
     },
     {
         "id": 36,
@@ -409,7 +556,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/msi-27-mag-275qf-black.png",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A 27-inch IPS monitor with fast refresh rate.",
+        "responseTime": "1 ms",
+        "refreshRate": "165 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 37,
@@ -420,7 +572,12 @@
         "image": "./img/shop/products/logitech-g435-lightspeed-981-001050-blackyellow.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 4
+        "percentage": 4,
+        "description": "A lightweight wireless headset with clear sound.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black/Yellow"
     },
     {
         "id": 38,
@@ -431,7 +588,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/logitech-pro-2-lightspeed-wireless-910-007309-pink.jpg",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A high-performance wireless mouse with 16000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Pink"
     },
     {
         "id": 39,
@@ -443,7 +604,12 @@
         "panel_type": "QD-OLED",
         "image": "./img/shop/products/msi-315-mpg-321urx-qd-oled-black.png",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A 31.5-inch QD-OLED monitor with stunning visuals.",
+        "responseTime": "1 ms",
+        "refreshRate": "120 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 40,
@@ -455,7 +621,10 @@
         "switches": "Magnetic Linear",
         "image": "./img/shop/products/logitech-g-pro-x-tkl-rapid-magnetic-linear-920-013253-magenta.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A mechanical keyboard with Magnetic Linear switches.",
+        "specialFeature": "Volume Control",
+        "color": "Magenta"
     },
     {
         "id": 41,
@@ -465,7 +634,12 @@
         "category": "headset",
         "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001263-black.jpg",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A wireless headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 42,
@@ -476,7 +650,11 @@
         "dpi": "26000",
         "image": "./img/shop/products/razer-basilisk-v3-rz01-04000100-r3u1-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A high-precision mouse with 26000 DPI for gaming.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 43,
@@ -489,7 +667,12 @@
         "image": "./img/shop/products/msi-49-mpg-491cqp-qd-oled-black.png",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A 49-inch QD-OLED monitor with immersive visuals.",
+        "responseTime": "1 ms",
+        "refreshRate": "120 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 44,
@@ -500,7 +683,10 @@
         "type": "membrane",
         "image": "./img/shop/products/logitech-k400-plus-wireless-touch-920-007145-black.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A wireless touch keyboard with compact design.",
+        "specialFeature": "Touchpad",
+        "color": "Black"
     },
     {
         "id": 45,
@@ -510,7 +696,12 @@
         "category": "headset",
         "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001269-white.jpg",
         "stock": "pre-order",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A wireless headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "White"
     },
     {
         "id": 46,
@@ -521,7 +712,11 @@
         "dpi": "6400",
         "image": "./img/shop/products/razer-deathadder-essential-2021-rz01-03850100-r3m1-black.png",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A reliable mouse with 6400 DPI for smooth navigation.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 47,
@@ -534,7 +729,12 @@
         "image": "./img/shop/products/philips-488-49b2u6903ch00-blacksilver.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A 48.8-inch VA monitor with immersive visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "60 Hz",
+        "resolution": "4k",
+        "color": "Black/Silver"
     },
     {
         "id": 48,
@@ -545,7 +745,10 @@
         "type": "membrane",
         "image": "./img/shop/products/logitech-pebble-keys-2-k380s-920-011852-white.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A compact wireless keyboard with quiet keys.",
+        "specialFeature": "Quiet Keys",
+        "color": "White"
     },
     {
         "id": 49,
@@ -555,7 +758,12 @@
         "category": "headset",
         "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001275-magenta.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A wireless headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Magenta"
     },
     {
         "id": 50,
@@ -566,7 +774,11 @@
         "dpi": "18000",
         "image": "./img/shop/products/steelseries-aerox-3-wireless-62608-snow.png",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A lightweight wireless mouse with 18000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Snow"
     },
     {
         "id": 51,
@@ -579,7 +791,12 @@
         "image": "./img/shop/products/philips-489-evnia-49m2c890000-white.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A 48.9-inch VA monitor with stunning visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "60 Hz",
+        "resolution": "4k",
+        "color": "White"
     },
     {
         "id": 52,
@@ -591,7 +808,10 @@
         "switches": "Cherry MX Red",
         "image": "./img/shop/products/varmilo-vpe87-change-white-led-cherry-mx-red-a50a054d4a3a01a043-blue.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A mechanical keyboard with Cherry MX Red switches.",
+        "specialFeature": "White LED",
+        "color": "Blue"
     },
     {
         "id": 53,
@@ -601,9 +821,13 @@
         "category": "headset",
         "image": "./img/shop/products/logitech-pro-x-gaming-headset-981-000818-black.jpg",
         "stock": "in stock",
-        "status": "New"
-    },
-    {
+        "status": "New",
+        "description": "A gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
+    },{
         "id": 54,
         "title": "SteelSeries Aerox 5",
         "price": 79.99,
@@ -613,7 +837,11 @@
         "image": "./img/shop/products/steelseries-aerox-5-62401-black.png",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A lightweight mouse with 18000 DPI for precise control.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 55,
@@ -626,7 +854,12 @@
         "image": "./img/shop/products/samsung-24-odyssey-g3-ls24dg300eixci-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 25
+        "percentage": 25,
+        "description": "A 24-inch VA monitor with high refresh rate for gaming.",
+        "responseTime": "4 ms",
+        "refreshRate": "144 Hz",
+        "resolution": "Full HD",
+        "color": "Black"
     },
     {
         "id": 56,
@@ -638,7 +871,10 @@
         "switches": "Red Switch",
         "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-sports-red.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A mechanical keyboard with RGB lighting and Red switches.",
+        "specialFeature": "RGB Lighting",
+        "color": "Red"
     },
     {
         "id": 57,
@@ -648,7 +884,12 @@
         "category": "headset",
         "image": "./img/shop/products/steelseries-arctis-nova-7p-wireless-61561-white.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A wireless headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "White"
     },
     {
         "id": 58,
@@ -659,7 +900,11 @@
         "dpi": "12000",
         "image": "./img/shop/products/steelseries-rival-600-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A high-performance mouse with 12000 DPI for gaming.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 59,
@@ -672,7 +917,12 @@
         "image": "./img/shop/products/samsung-27-odyssey-g3-ls27dg300eixci-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 30
+        "percentage": 30,
+        "description": "A 27-inch VA monitor with high refresh rate for gaming.",
+        "responseTime": "4 ms",
+        "refreshRate": "144 Hz",
+        "resolution": "Full HD",
+        "color": "Black"
     },
     {
         "id": 60,
@@ -684,7 +934,10 @@
         "switches": "Red Switch",
         "image": "./img/shop/products/a4tech-bloody-s98-rgb-blms-red-switch-naraka.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A mechanical keyboard with RGB lighting and Red switches.",
+        "specialFeature": "RGB Lighting",
+        "color": "Red"
     },
     {
         "id": 61,
@@ -694,7 +947,12 @@
         "category": "headset",
         "image": "./img/shop/products/asus-rog-theta-electret-90yh02ge-b1ua00-black.png",
         "stock": "pre-order",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A premium headset with high-fidelity audio and comfortable design.",
+        "sensitivity": "98 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 22 kHz",
+        "color": "Black"
     },
     {
         "id": 62,
@@ -705,7 +963,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-pulsar-2-htm-510-black.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A high-precision mouse with 16000 DPI for gaming enthusiasts.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 63,
@@ -717,7 +979,12 @@
         "panel_type": "VA",
         "image": "./img/shop/products/aoc-488-ag493ucx2-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A massive 49-inch monitor with VA panel for immersive viewing.",
+        "responseTime": "4 ms",
+        "refreshRate": "120 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 64,
@@ -730,7 +997,10 @@
         "image": "./img/shop/products/dark-project-alu87-bushido-abs-rgb-mech-g3ms-moonstone-dpkb-bushido-87-ansi-ua-blackwhite.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A mechanical keyboard with Gateron Red switches and durable build.",
+        "specialFeature": "Volume Control",
+        "color": "Black"
     },
     {
         "id": 65,
@@ -740,7 +1010,12 @@
         "category": "headset",
         "image": "./img/shop/products/beyerdynamic-dt-1770-pro-black.jpg",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A professional-grade headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "250 Ohms",
+        "frequencyRange": "5 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 66,
@@ -751,7 +1026,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-pulsar-2-htm-513-mint.png",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A high-performance mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Mint"
     },
     {
         "id": 67,
@@ -763,7 +1042,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/asus-27-rog-strix-27-xg27acs-90lm09q0-b01170-black.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A 27-inch gaming monitor with IPS panel and fast refresh rate.",
+        "responseTime": "1 ms",
+        "refreshRate": "165 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 68,
@@ -775,7 +1059,10 @@
         "switches": "Cherry MX Speed Silver",
         "image": "./img/shop/products/ducky-one-3-tkl-cherry-mx-speed-silver-dkon2187-puapxmaeggc1-matcha-cream.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A compact mechanical keyboard with Cherry MX Speed Silver switches.",
+        "specialFeature": "Detachable Cable",
+        "color": "Cream"
     },
     {
         "id": 69,
@@ -786,7 +1073,12 @@
         "image": "./img/shop/products/corsair-virtuoso-rgb-wireless-xt-ca-9011188-eu-black.jpg",
         "stock": "pre-order",
         "status": "Sale",
-        "percentage": 4
+        "percentage": 4,
+        "description": "A wireless headset with RGB lighting and high-fidelity audio.",
+        "sensitivity": "109 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 70,
@@ -797,7 +1089,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-pulsar-2-htm-514-lilac.png",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A stylish mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Lilac"
     },
     {
         "id": 71,
@@ -809,7 +1105,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/asus-27-rog-swift-pg27aqn-90lm0820-b01370-black.png",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A 27-inch monitor with IPS panel and high refresh rate for gaming.",
+        "responseTime": "1 ms",
+        "refreshRate": "240 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 72,
@@ -821,7 +1122,10 @@
         "switches": "Mulan Switch",
         "image": "./img/shop/products/epomaker-ep64-rgb-mechanical-mulan-switch-hot-swap-ep64-b-m-black.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A mechanical keyboard with RGB lighting and hot-swappable switches.",
+        "specialFeature": "Hot-Swappable Switches",
+        "color": "Black"
     },
     {
         "id": 73,
@@ -831,7 +1135,12 @@
         "category": "headset",
         "image": "./img/shop/products/fifine-h9-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "An affordable headset with clear sound and comfortable fit.",
+        "sensitivity": "98 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 74,
@@ -843,7 +1152,11 @@
         "image": "./img/shop/products/hator-pulsar-3-wireless-htm630-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 70
+        "percentage": 70,
+        "description": "A wireless mouse with 16000 DPI and long battery life.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 75,
@@ -855,7 +1168,12 @@
         "panel_type": "OLED",
         "image": "./img/shop/products/dell-3418-alienware-aw3423dwf-210-bfrq-black.png",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A 34-inch OLED monitor with stunning visuals and fast response time.",
+        "responseTime": "1 ms",
+        "refreshRate": "165 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 76,
@@ -867,7 +1185,10 @@
         "switches": "Outemu Red",
         "image": "./img/shop/products/gamepro-mk130g-pro-outemu-red-hot-swap-rgb-black.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A budget-friendly mechanical keyboard with Outemu Red switches.",
+        "specialFeature": "Hot-Swappable Switches",
+        "color": "Black"
     },
     {
         "id": 77,
@@ -877,7 +1198,12 @@
         "category": "headset",
         "image": "./img/shop/products/hator-hypergang-2-hta-910-black.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 78,
@@ -888,7 +1214,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-quasar-2-ultra-4k-wireless-htm570bp-blackpink.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A high-end wireless mouse with 16000 DPI and 4K sensor.",
+        "sensor": "4K Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black/Pink"
     },
     {
         "id": 79,
@@ -901,7 +1231,12 @@
         "image": "./img/shop/products/gigabyte-34-mo34wqc-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 50
+        "percentage": 50,
+        "description": "A 34-inch VA monitor with high refresh rate and immersive visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "144 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 80,
@@ -913,7 +1248,24 @@
         "switches": "Orange Linear",
         "image": "./img/shop/products/hator-gravity-x-tkl-aurum-orange-linear-rev20-htk551ua-white.jpg",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A TKL mechanical keyboard with Orange Linear switches.",
+        "specialFeature": "Volume Control",
+        "color": "White"
+    },{
+        "id": 80,
+        "title": "Hator Gravity X TKL Aurum",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "keyboard",
+        "type": "mechanical",
+        "switches": "Orange Linear",
+        "image": "./img/shop/products/hator-gravity-x-tkl-aurum-orange-linear-rev20-htk551ua-white.jpg",
+        "stock": "in stock",
+        "status": "Bestseller",
+        "description": "A TKL mechanical keyboard with Orange Linear switches.",
+        "specialFeature": "Volume Control",
+        "color": "White"
     },
     {
         "id": 81,
@@ -923,7 +1275,12 @@
         "category": "headset",
         "image": "./img/shop/products/hator-hypergang-2-hta-914-lavander.jpg",
         "stock": "pre-order",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A stylish gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Lavender"
     },
     {
         "id": 82,
@@ -934,7 +1291,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-quasar-3-ultra-8k-wireless-htm770-blackviolet.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A top-tier wireless mouse with 8K sensor and 16000 DPI.",
+        "sensor": "8K Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black/Violet"
     },
     {
         "id": 83,
@@ -946,7 +1307,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/lenovo-27-thinkvision-27-3d-63f1uat3ua-black.jpg",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A 27-inch 3D monitor with IPS panel for immersive visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "60 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 84,
@@ -957,7 +1323,12 @@
         "image": "./img/shop/products/hator-hyperpunk-3-usb-esh10-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A USB gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 85,
@@ -968,7 +1339,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-quasar-3-wireless-htm730-black.jpg",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A high-performance wireless mouse with 16000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 86,
@@ -980,7 +1355,10 @@
         "switches": "Blue Switch",
         "image": "./img/shop/products/hator-icefall-htk401ua-blackgrey.jpg",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A mechanical keyboard with Blue switches and durable build.",
+        "specialFeature": "RGB Lighting",
+        "color": "Black/Grey"
     },
     {
         "id": 87,
@@ -990,7 +1368,12 @@
         "category": "headset",
         "image": "./img/shop/products/hyperx-cloud-mini-7g8f5aa-lavender.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A compact headset with clear sound and comfortable fit.",
+        "sensitivity": "98 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Lavender"
     },
     {
         "id": 88,
@@ -1002,7 +1385,10 @@
         "switches": "Orange Switch",
         "image": "./img/shop/products/hator-rockfall-2-mecha-orange-htk-711-white.png",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A mechanical keyboard with Orange switches and durable build.",
+        "specialFeature": "Volume Control",
+        "color": "White"
     },
     {
         "id": 89,
@@ -1015,7 +1401,12 @@
         "image": "./img/shop/products/lenovo-397-thinkvision-p40w-20-62ddgat6ua-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A 39.7-inch IPS monitor with stunning visuals.",
+        "responseTime": "4 ms",
+        "refreshRate": "60 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 90,
@@ -1026,7 +1417,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/hator-stellar-pro-wireless-htm-551-white.png",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A wireless mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "White"
     },
     {
         "id": 91,
@@ -1036,7 +1431,12 @@
         "category": "headset",
         "image": "./img/shop/products/jbl-quantum-910-jblq910wlblk-black.jpg",
         "stock": "pre-order",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A premium headset with exceptional sound quality.",
+        "sensitivity": "109 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 92,
@@ -1048,7 +1448,10 @@
         "switches": "Tactile",
         "image": "./img/shop/products/logitech-g-pro-x-tkl-lightspeed-mechanical-tactile-wireless-920-012148-white.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A wireless mechanical keyboard with Tactile switches.",
+        "specialFeature": "Detachable Cable",
+        "color": "White"
     },
     {
         "id": 93,
@@ -1060,7 +1463,12 @@
         "panel_type": "IPS",
         "image": "./img/shop/products/msi-27-mag-275qf-black.png",
         "stock": "in stock",
-        "status": "New"
+        "status": "New",
+        "description": "A 27-inch IPS monitor with fast refresh rate.",
+        "responseTime": "1 ms",
+        "refreshRate": "165 Hz",
+        "resolution": "2k",
+        "color": "Black"
     },
     {
         "id": 94,
@@ -1071,7 +1479,12 @@
         "image": "./img/shop/products/logitech-g435-lightspeed-981-001050-blackyellow.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 4
+        "percentage": 4,
+        "description": "A lightweight wireless headset with clear sound.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black/Yellow"
     },
     {
         "id": 95,
@@ -1082,7 +1495,11 @@
         "dpi": "16000",
         "image": "./img/shop/products/logitech-pro-2-lightspeed-wireless-910-007309-pink.jpg",
         "stock": "out of stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A high-performance wireless mouse with 16000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Pink"
     },
     {
         "id": 96,
@@ -1094,7 +1511,12 @@
         "panel_type": "QD-OLED",
         "image": "./img/shop/products/msi-315-mpg-321urx-qd-oled-black.png",
         "stock": "in stock",
-        "status": "Free shipping"
+        "status": "Free shipping",
+        "description": "A 31.5-inch QD-OLED monitor with stunning visuals.",
+        "responseTime": "1 ms",
+        "refreshRate": "120 Hz",
+        "resolution": "4k",
+        "color": "Black"
     },
     {
         "id": 97,
@@ -1106,7 +1528,10 @@
         "switches": "Magnetic Linear",
         "image": "./img/shop/products/logitech-g-pro-x-tkl-rapid-magnetic-linear-920-013253-magenta.jpg",
         "stock": "in stock",
-        "status": "Limited"
+        "status": "Limited",
+        "description": "A mechanical keyboard with Magnetic Linear switches.",
+        "specialFeature": "Volume Control",
+        "color": "Magenta"
     },
     {
         "id": 98,
@@ -1116,7 +1541,12 @@
         "category": "headset",
         "image": "./img/shop/products/logitech-g-pro-x-2-lightspeed-wireless-981-001263-black.jpg",
         "stock": "in stock",
-        "status": "Bestseller"
+        "status": "Bestseller",
+        "description": "A wireless headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 99,
@@ -1128,7 +1558,11 @@
         "image": "./img/shop/products/razer-viper-ultimate-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A high-performance wireless mouse with 20000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 100,
@@ -1141,7 +1575,10 @@
         "image": "./img/shop/products/corsair-k95-rgb-platinum-xt-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A mechanical keyboard with Cherry MX Speed switches.",
+        "specialFeature": "RGB Lighting",
+        "color": "Black"
     },
     {
         "id": 101,
@@ -1152,7 +1589,12 @@
         "image": "./img/shop/products/steelseries-arctis-7-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A wireless headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 102,
@@ -1164,7 +1606,11 @@
         "image": "./img/shop/products/logitech-g502-lightspeed-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 25
+        "percentage": 25,
+        "description": "A high-performance wireless mouse with 16000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 103,
@@ -1177,7 +1623,10 @@
         "image": "./img/shop/products/razer-blackwidow-v3-pro-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A mechanical keyboard with Razer Green switches.",
+        "specialFeature": "RGB Lighting",
+        "color": "Black"
     },
     {
         "id": 104,
@@ -1188,7 +1637,12 @@
         "image": "./img/shop/products/hyperx-cloud-ii-wireless-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 30
+        "percentage": 30,
+        "description": "A wireless headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 20 kHz",
+        "color": "Black"
     },
     {
         "id": 105,
@@ -1200,7 +1654,11 @@
         "image": "./img/shop/products/corsair-dark-core-rgb-pro-se-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A high-performance wireless mouse with 18000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 106,
@@ -1213,7 +1671,10 @@
         "image": "./img/shop/products/steelseries-apex-pro-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A mechanical keyboard with OmniPoint switches.",
+        "specialFeature": "RGB Lighting",
+        "color": "Black"
     },
     {
         "id": 107,
@@ -1225,7 +1686,11 @@
         "image": "./img/shop/products/razer-naga-pro-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A high-performance wireless mouse with 20000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 108,
@@ -1238,7 +1703,10 @@
         "image": "./img/shop/products/logitech-g915-tkl-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A wireless mechanical keyboard with GL Tactile switches.",
+        "specialFeature": "Low Profile",
+        "color": "Black"
     },
     {
         "id": 109,
@@ -1250,7 +1718,11 @@
         "image": "./img/shop/products/hyperx-pulsefire-dart-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 25
+        "percentage": 25,
+        "description": "A wireless mouse with 16000 DPI and ergonomic design.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 110,
@@ -1261,7 +1733,12 @@
         "image": "./img/shop/products/corsair-virtuoso-rgb-wireless-se-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A wireless headset with RGB lighting and high-fidelity audio.",
+        "sensitivity": "109 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "20 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 111,
@@ -1273,7 +1750,11 @@
         "image": "./img/shop/products/steelseries-rival-710-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A high-performance mouse with 12000 DPI and OLED display.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 112,
@@ -1286,7 +1767,10 @@
         "image": "./img/shop/products/razer-huntsman-elite-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A mechanical keyboard with Opto-Mechanical switches and RGB lighting.",
+        "specialFeature": "Wrist Rest",
+        "color": "Black"
     },
     {
         "id": 113,
@@ -1298,7 +1782,11 @@
         "image": "./img/shop/products/logitech-g-pro-x-superlight-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A lightweight wireless mouse with 25000 DPI for gaming.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 114,
@@ -1311,7 +1799,10 @@
         "image": "./img/shop/products/hyperx-alloy-origins-core-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A mechanical keyboard with HyperX Red switches and RGB lighting.",
+        "specialFeature": "Compact Design",
+        "color": "Black"
     },
     {
         "id": 115,
@@ -1323,7 +1814,11 @@
         "image": "./img/shop/products/corsair-scimitar-rgb-elite-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A high-performance mouse with 18000 DPI and customizable buttons.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 116,
@@ -1334,7 +1829,12 @@
         "image": "./img/shop/products/steelseries-arctis-pro-wireless-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A premium wireless headset with exceptional sound quality.",
+        "sensitivity": "102 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "10 Hz - 40 kHz",
+        "color": "Black"
     },
     {
         "id": 117,
@@ -1346,7 +1846,11 @@
         "image": "./img/shop/products/razer-deathadder-v2-pro-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A high-performance wireless mouse with 20000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 118,
@@ -1359,7 +1863,10 @@
         "image": "./img/shop/products/logitech-g915-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A wireless mechanical keyboard with GL Clicky switches.",
+        "specialFeature": "Low Profile",
+        "color": "Black"
     },
     {
         "id": 119,
@@ -1370,7 +1877,12 @@
         "image": "./img/shop/products/hyperx-cloud-alpha-s-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "98 dB",
+        "impedance": "65 Ohms",
+        "frequencyRange": "13 Hz - 27 kHz",
+        "color": "Black"
     },
     {
         "id": 120,
@@ -1383,7 +1895,10 @@
         "image": "./img/shop/products/corsair-k70-rgb-mk2-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A mechanical keyboard with Cherry MX Red switches and RGB lighting.",
+        "specialFeature": "Dedicated Media Controls",
+        "color": "Black"
     },
     {
         "id": 121,
@@ -1395,7 +1910,11 @@
         "image": "./img/shop/products/steelseries-sensei-ten-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 5
+        "percentage": 5,
+        "description": "A high-performance mouse with 18000 DPI and ambidextrous design.",
+        "sensor": "Optical",
+        "connection": "Wired",
+        "color": "Black"
     },
     {
         "id": 122,
@@ -1406,7 +1925,12 @@
         "image": "./img/shop/products/razer-blackshark-v2-pro-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 20
+        "percentage": 20,
+        "description": "A wireless gaming headset with clear sound and comfortable fit.",
+        "sensitivity": "100 dB",
+        "impedance": "32 Ohms",
+        "frequencyRange": "12 Hz - 28 kHz",
+        "color": "Black"
     },
     {
         "id": 123,
@@ -1418,7 +1942,11 @@
         "image": "./img/shop/products/logitech-g903-lightspeed-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 15
+        "percentage": 15,
+        "description": "A high-performance wireless mouse with 16000 DPI.",
+        "sensor": "Optical",
+        "connection": "Radio Transmitter",
+        "color": "Black"
     },
     {
         "id": 124,
@@ -1431,6 +1959,9 @@
         "image": "./img/shop/products/hyperx-alloy-fps-pro-black.jpg",
         "stock": "in stock",
         "status": "Sale",
-        "percentage": 10
+        "percentage": 10,
+        "description": "A mechanical keyboard with Cherry MX Blue switches and compact design.",
+        "specialFeature": "Detachable Cable",
+        "color": "Black"
     }
 ]

@@ -13,6 +13,20 @@ export function getCachedProducts(size) {
   return products.slice(0, size);
 }
 
+async function productInfoClick(event) {
+    const parent = document.querySelector(".product-info-page-link");
+    let currentClick = event.target;
+    console.log("First click",currentClick);
+    while (String(parent) != String(currentClick)) {
+        currentClick = currentClick.parentElement
+        console.log(currentClick);
+    }
+    const productId = currentClick.dataset.id;
+    const product = products.filter((product) => product.id == productId)[0];
+    localStorage.product = JSON.stringify(product);
+    alert("yep")
+}
+
 export async function renderProducts(destination, amount, displayAllInfo = false, statusFilters = [], stockFilters = [], countAll = false) {
     const products = await fetchProducts();
     let productsHTML = "";
@@ -35,10 +49,12 @@ export async function renderProducts(destination, amount, displayAllInfo = false
         const stockClass = product.stock ? `stock__${product.stock.toLowerCase().replace(/(?<=\S) (\S)/g, '-').trim()}` : "";
         productClasses += ` ${statusClass} ${stockClass}`;
 
+
+
         productsHTML += `
             <div class="${productClasses.trim()}">
                 <div class="product__item-wrapper">
-                    <a href="#">
+                    <a class="product-info-page-link" href="product-info.html" data-id="${product.id}">
                         <div class="product__item-image">
                             <img src="${product.image}" alt="${product.title}">
                             ${isFiltering ? `<div class="product__item-stock${product.stock === "pre order" ? " pre-order" : (product.stock === "out of stock" ? " out-of-stock" : "")}">${product.stock !== "in stock" ? product.stock : ""}</div>` : ""}
@@ -54,10 +70,12 @@ export async function renderProducts(destination, amount, displayAllInfo = false
                 </div>
             </div>
         `;
-    }
 
+    }
+    
     const productsContainer = document.querySelector(destination);
     if (productsContainer) {
         productsContainer.innerHTML = productsHTML;
+        document.querySelectorAll(".product-info-page-link").forEach((link) => {link.addEventListener("click", productInfoClick)})
     }
 }

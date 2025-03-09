@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="page-title"></title>
+    <link rel="stylesheet" href="css/product-info.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="body__wrapper">
+        <header class="header">
+            <nav
+              class="header__nav"
+              data-hx-trigger="load"
+              data-hx-swap="outerHTML"
+              data-hx-get="global.header-nav.partial.html"
+            ></nav>
+        </header>
+        <main class="main">
+            <section
+                data-hx-trigger="load"
+                data-hx-swap="outerHTML"
+                data-hx-get="product-info.main-info.partial.html"
+            ></section>
+            <section
+                data-hx-trigger="load"
+                data-hx-swap="outerHTML"
+                data-hx-get="product-info.products-propositions-slider.partial.html"
+            ></section>
+        </main>
+        <footer 
+            class="footer"
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="global.footer.partial.html">
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

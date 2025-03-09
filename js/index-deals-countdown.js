@@ -3,7 +3,7 @@ const hours = document.querySelectorAll(".hour")
 const minutes = document.querySelectorAll(".minute")
 const seconds = document.querySelectorAll(".second")
 
-const targetDate = new Date(2025, 3, 12, 20, 30);
+const targetDate = new Date(2025, 2, 12, 20, 30);
 
 function timer(){
     const currentDate = new Date();
@@ -18,7 +18,6 @@ function timer(){
 
     days.forEach((day) => {
         day.innerHTML = Math.floor(distance / 1000 / 60 / 60 / 24)
-
     })
 
     hours.forEach((hour) => {

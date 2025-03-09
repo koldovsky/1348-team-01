@@ -1,5 +1,5 @@
 import { renderProducts } from "./render-products.js";
-// alert("bbrbrb")
+
 renderProducts(".slider__items", 5, true, ["Sale"], [""]).then(() => {
     const slider = document.querySelector(".slider__container");
     const sliderItemsContainer = document.querySelector(".slider__items");
