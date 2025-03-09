@@ -15,6 +15,7 @@ function init() {
   import('./index-deals-countdown.js');
   import('./info-page-render.js');
   import('./info-page-slider.js');
+  import('./index.partners.js');
 }
 
 const totalPartials = document.querySelectorAll(
