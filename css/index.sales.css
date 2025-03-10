@@ -1,40 +1,85 @@
 .sales {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../img/index/sales-bunner.png");
-  text-align: center;
-  background-position: center;
-  background-attachment: fixed; 
-  background-size: cover;
-  background-repeat:no-repeat;
+    padding-bottom: 120px;
 }
 
-.sales__title {
-  color: var(--light-color);
+.sales__wrapper {
+    position: relative;
 }
 
-.sales__description {
-  margin-top: 40px;
-  margin-bottom: 70px;
+.sales__info {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 35px;
 }
 
-.sales__shop-btn {
-  background: var(--accent-color);
-  color: var(--light-color);
-} 
-
-.sales__shop-btn:hover {
-  background: var(--main-bg-color);
-  color: var(--light-color);
+.slider__container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
-@media (max-width: 320px) {
-  .sales {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-attachment: scroll;
-    background-size: cover;
-    
-  }
+.slider__items {
+    display: flex;
+    gap: 20px;
+    transition: transform 1.5s ease-in-out;
+    will-change: transform;
 }
+
+.slider__items .product__item .product__item-wrapper {
+    width: 220px;
+}
+
+.slider__btn-prev, 
+.slider__btn-next {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    height: 20px;
+    width: 20px;
+    display: flex;justify-content: center;align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background 0.3s ease-in-out;
+}
+
+.slider__btn-prev:hover,
+.slider__btn-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.slider__btn-prev {
+    left: 0;
+}
+
+.slider__btn-next {
+    right: 0;
+}
+
+@media (max-width: 600px) {
+    .slider__items .product__item .product__item-wrapper {
+        width: 260px;
+    }
+}
+
+@media (max-width: 468px) {
+    .slider__items {
+    }
+    .product__item-btn {
+        align-self: center;
+    }
+    .slider__items .product__item .product__item-wrapper {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .product__item-status {
+        left: 20px;
+    }
+}
+

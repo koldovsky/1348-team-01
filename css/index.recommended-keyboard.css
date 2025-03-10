@@ -1,5 +1,5 @@
 .recommended-keyboard {
-  background-color: var(--light-bg-color);
+  background-color: var(--light-color);
 }
 
 .recommended-keyboard__wrapper {
@@ -24,13 +24,8 @@
   padding: 120px 30px;
 }
 
-.recommended-keyboard__label {
-  margin-bottom: 35px;
-  color:var(--accent-color);
-  font-size:15px ;
-}
 
-.recommended-keyboard__title{
+.recommended-keyboard__subtitle{
   font-size:42px;
 }
 
@@ -81,10 +76,8 @@
   .recommended-keyboard__content {
     padding: 60px 15px;
   }
-  .recommended-keyboard__label {
-    margin-bottom: 25px;
-  }
-  .recommended-keyboard__title{
+
+  .recommended-keyboard__subtitle{
     font-size:32px;
   }
   .recommended-keyboard__divider {
@@ -105,9 +98,6 @@
 @media (max-width: 500px) {
   .recommended-keyboard__content {
     padding: 40px 10px;
-  }
-  .recommended-keyboard__label {
-    margin-bottom: 15px;
   }
   .recommended-keyboard__price {
     font-size: 24px;

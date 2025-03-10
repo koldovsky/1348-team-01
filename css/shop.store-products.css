@@ -28,7 +28,7 @@
 
 .store-products__name {
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -124,4 +124,26 @@
   color: var(--light-color);
   background:var(--title-color);
 
+}
+
+.store-products__status {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 6px 0;
+  margin-top: 24.5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.store-products__out-of-stock {
+  background: rgba(255, 0, 0, 0.1);
+  color: red;
+}
+
+.store-products__pre-order {
+  background: rgba(0, 128, 0, 0.1);
+  color: green;
 }

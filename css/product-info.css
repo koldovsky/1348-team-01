@@ -1,0 +1,7 @@
+@import "./reset.css";
+@import "./global.css";
+@import "./components.css";
+@import "./global.header.css";
+@import "./product-info.main.css";
+@import "./product-info.propositions.css";
+@import "./global.footer.css";
