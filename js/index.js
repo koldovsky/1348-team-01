@@ -4,6 +4,7 @@ function init() {
   import("./index-popular.js");
   import("./render-products.js");
   import("./countdown.js")
+  import("./index-categories.js")
   import("./index-sales.js")
   import('./index-real-stories.js');
   import('./index-deals-accordion.js');

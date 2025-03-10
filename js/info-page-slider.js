@@ -7,7 +7,7 @@ function showPropositionsSlider(){
     console.log("sfsfsfs",productCategory, typeof productCategory);
 
 
-    renderProducts(".propositions__slider-container", 10, true, ["New", "Sale"], ["in stock", "pre order"], [productCategory], true, [product.id]).then(() => {
+    renderProducts(".propositions__slider-container", 5, true, ["New", "Sale"], ["in stock", "pre order"], [productCategory], true, [product.id]).then(() => {
         const slider = document.querySelector(".propositions__slider-container");
         // const sliderItemsContainer = document.querySelector(".slider__items");
         const prevBtn = document.querySelector(".propositions__slider-prev-btn");
