@@ -15,8 +15,16 @@
     line-height: 1.4;
 }
 
+.navbar-item {
+    border-bottom: 1px solid var(--border-color);
+}
+
 .navbar-item .navbar-item__category-options {
     display: none;
+}
+
+.navbar-item.open {
+    padding-bottom: 10px;
 }
 .navbar-item.open .navbar-item__category-options {
     display: flex;
