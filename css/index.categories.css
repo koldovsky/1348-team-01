@@ -89,6 +89,7 @@
 }
 
 .categories__items-btn button {
+    display: none;
     font-weight: 700;
     border: none;
     background-color: transparent;
@@ -99,6 +100,10 @@
     border: 2px solid var(--title-color);
     color: var(--title-color);
     margin-top: 40px;
+}
+
+.categories__items-container.load-btn .categories__items-btn button {
+    display: block;
 }
 
 .categories__items-btn button:hover {

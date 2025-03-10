@@ -1,6 +1,37 @@
 import { renderProducts, fetchProducts, getLastProductId} from "./render-products.js";
 const filterItems = document.querySelector(".filters__navbar")
 const products = await fetchProducts();
+const categories = getProductsCategories(products);
+
+const categoryProperties = {
+    "mouse": {
+        "DPI": [],
+        "Sensor": [],
+        "Connection": [],
+        "Color": []
+    },
+    "monitor": {
+        "Diagonal": [],
+        "Panel Type": [],
+        "Response Time": [],
+        "Refresh Rate": [],
+        "Resolution": [],
+        "Color": []
+        },
+    "keyboard": {
+        "Type": [],
+        "Switches": [],
+        "Special Feature": [],
+        "Color": []
+        },
+    "headset": {
+        "Sensitivity": [],
+        "Impedance": [],
+        "Frequency Range": [],
+        "Color": []
+    }
+}
+
 
 // ACCORDION ITEMS
 const accordionItems = document.querySelectorAll(".navbar-item")
@@ -21,31 +52,21 @@ accordionItems.forEach((item, index) => {
 })
 // -------------------------//
 
-const categories = getProductsCategories(products);
 renderProducts(".categories__items", 12, true, [], [], [], false, [], 0)
-displayProductsCategories(categories, ".navbar-item__category-options")
+loadAdditionProducts();
 
-function loadAdditionProducts(category) {
+
+function loadAdditionProducts() {
     const additionContainer = document.querySelector(".addition-items");
     const btnLoadMore = document.querySelector(".categories__items-btn button");
-    console.log("CATEGORY",category);
     
     btnLoadMore.addEventListener("click", () => {   
         const destination = ".addition-items";
-        const filterCategorie = [];
-        if (category !== null) {
-            filterCategorie.push(category);
-        } 
-        renderProducts(destination, 2, true, [], [], filterCategorie, false, [], getLastProductId());
+        renderProducts(destination, 4, true, [], [], [], false, [], getLastProductId());
         
-        console.log("Section: ", category);
-        
-        console.log("Add products");
     });
 }
 
-
-loadAdditionProducts();
 
 function getProductsCategories(products){
     const result = [];
@@ -71,22 +92,21 @@ function displayProductsCategories(categories, destination){
         wrapper.innerHTML = innerContent;
         wrapper.querySelectorAll('button').forEach(element => {
             element.addEventListener("click", () => {
+                const loadBtnContainer = document.querySelector(".categories__items-container");
                 const category = element.textContent.toLowerCase();
-                console.log(category, typeof category);
                 
                 if (category.toLowerCase() === "all") {
                     document.querySelector(".categories__items").innerHTML = ""
                     document.querySelector(".addition-items").innerHTML = ""
                     renderProducts(".categories__items", 12, true, [], [], [], true, [], 0);
-                    loadAdditionProducts(null);
+                    loadBtnContainer.classList.add("load-btn")
+                    loadAdditionProducts();
 
                 } else {
                     document.querySelector(".categories__items").innerHTML = ""
                     document.querySelector(".addition-items").innerHTML = ""
-                    renderProducts(".categories__items", 12, true, [], [], [category], true, [], 0);
-                    loadAdditionProducts(category);
-                    
-                    
+                    renderProducts(".categories__items", 12, true, [], [], [category], true, [], 0);                   
+                    loadBtnContainer.classList.remove("load-btn")
                 }
                 
                 
@@ -95,4 +115,4 @@ function displayProductsCategories(categories, destination){
     }
 }
 
-
+displayProductsCategories(categories, ".navbar-item__category-options")
