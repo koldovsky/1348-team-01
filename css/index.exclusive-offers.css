@@ -1,6 +1,6 @@
 .exclusive-offers {
-    padding-top: 30px;
-    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .exclusive-offers__items {
@@ -57,7 +57,7 @@
     text-transform: uppercase;
     margin-right: 30px;
     text-align: right;
-    padding-top: 100px;
+    margin-top: 100px;
     color: var(--secondary-bg-color);
 }
 
@@ -132,9 +132,10 @@
 
 @media (max-width:1200px) {
 
-    .exclusive-offers__item-subtitle-1{
+    .exclusive-offers__item-subtitle-1 {
         font-size: 13px;
     }
+
     .exclusive-offers__item-subtitle-2,
     .exclusive-offers__item-subtitle-2-1,
     .exclusive-offers__item-subtitle-3 {
@@ -161,7 +162,7 @@
     }
 
     .exclusive-offers__item {
-        padding: 50px 40px;
+        margin: 30px 20px;
     }
 
     .item-03 {
@@ -170,15 +171,17 @@
 }
 
 @media (max-width: 425px) {
+
     .exclusive-offers__item-title-1,
     .exclusive-offers__item-title-2,
     .exclusive-offers__item-title-3 {
-        margin-bottom: 25px;
+
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 }
-@media(min-width: 320px) {
-    
-}
+
+
 
 .countdown {
     display: flex;
@@ -188,13 +191,13 @@
 }
 
 .countdown div {
-    
+
     padding: 10px;
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    min-width: 70px;
+    min-width: 50px;
 }
 
 .countdown span {
@@ -203,3 +206,4 @@
     font-weight: bold;
     color: var(--title-color);
 }
+
