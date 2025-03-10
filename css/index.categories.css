@@ -29,6 +29,10 @@
 }
 
 
+.navbar-item.open .navbar-item__btn img{
+    transform: rotate(180deg);
+}
+
 .navbar-item__header {
     display: flex;
     align-items: center;

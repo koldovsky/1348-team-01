@@ -8,7 +8,6 @@ const accordionItems = document.querySelectorAll(".navbar-item")
 accordionItems.forEach((item, index) => {
     const title = item.querySelector(".navbar-item__header")
     const description = item.querySelector(".navbar-item__category-options")
-    const btn = item.querySelector(".navbar-item__btn")
 
     title.addEventListener("click", () => {
         item.classList.toggle("open")
