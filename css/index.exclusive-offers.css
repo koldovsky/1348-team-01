@@ -40,6 +40,7 @@
     margin-left: 19px;
     font-size: 25px;
     font-family: "Nunito", sans-serif;
+    color: var(--title-color);
 }
 
 .exclusive-offers__item-subtitle-1 {
@@ -59,11 +60,12 @@
     text-align: right;
     margin-top: 100px;
     color: var(--secondary-bg-color);
+    font-size: 15px;
 }
 
 .exclusive-offers__item-subtitle-2 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     text-align: right;
     margin-top: 15px;
     margin-right: 32px;
@@ -72,7 +74,7 @@
 
 .exclusive-offers__item-subtitle-2-1 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     text-align: right;
     margin-right: 32px;
     margin-bottom: 20px;
@@ -130,6 +132,42 @@
     color: var(--secondary-bg-color);
 }
 
+
+.countdown {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 19px;
+
+}
+
+.countdown div {
+
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+}
+
+.countdown span {
+    display: block;
+    font-weight: bold;
+    color: var(--title-color);
+    max-width: 50px;
+}
+
+.countdown-timer {
+    font-size: 20px;
+
+}
+
+.countdown__time {
+    font-size: 20px;
+
+}
+
 @media (max-width:1200px) {
 
     .exclusive-offers__item-subtitle-1 {
@@ -159,11 +197,10 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 15px;
+        max-width: 100%;
     }
 
-    .exclusive-offers__item {
-        margin: 30px 20px;
-    }
+
 
     .item-03 {
         grid-column: 1/1;
@@ -179,31 +216,29 @@
         grid-template-columns: 1fr;
         gap: 40px;
     }
+
+    .item-02 {
+        background-position: 85% 50%;
+    }
+
+    .item-03 {
+        background-position: 90% 50%;
+    }
+
+    .exclusive-offers__item-title-1 {
+        font-size: 17px;
+    }
+
+    .countdown-timer {
+        font-size: 14px;
+        max-width: 50px;
+    }
+    .countdown div{
+        border: 1px solid transparent;
+    }
+
+    .countdown__time {
+        font-size: 18px;
+
+    }
 }
-
-
-
-.countdown {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    margin-left: 19px;
-}
-
-.countdown div {
-
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    min-width: 50px;
-}
-
-.countdown span {
-    display: block;
-    font-size: 22px;
-    font-weight: bold;
-    color: var(--title-color);
-}
-
