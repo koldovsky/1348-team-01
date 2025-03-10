@@ -28,7 +28,6 @@
 .real-stories__slider {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
   overflow: hidden;
 }
 

@@ -39,7 +39,6 @@
     margin-bottom: 20px;
     padding: 20px;
     display: flex;
-    justify-content: space-between; /* Рівномірно розподіляє контент */
     align-items: center; /* Вирівнює по центру вертикально */
     background-color: var(--light-color);
 }
