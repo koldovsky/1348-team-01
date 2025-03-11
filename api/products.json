@@ -11,7 +11,7 @@
         "stock": "in stock",
         "status": "New",
         "description": "A reliable wireless keyboard with build-in touchpad",
-        "specialFeature": "Touchpad",
+        "special_feature": "Touchpad",
         "color": "Grey"
     },
     {
@@ -26,8 +26,8 @@
         "stock": "in stock",
         "status": "Bestseller",
         "description": "A high-end 34-inch monitor with IPS panel for stunning visuals.",
-        "responseTime": "1 ms",
-        "refreshRate": "144 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "144 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -44,7 +44,7 @@
         "status": "Sale",
         "percentage": 20,
         "description": "A mechanical keyboard with RGB lighting and Red switches.",
-        "specialFeature": "RGB Lighting",
+        "special_feature": "RGB Lighting",
         "color": "Red"
     },
     {
@@ -59,7 +59,7 @@
         "description": "A premium headset with high-fidelity audio and comfortable design.",
         "sensitivity": "98 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 22 kHz",
+        "frequency_range": "20 Hz - 22 kHz",
         "color": "Black"
     },
     {
@@ -89,8 +89,8 @@
         "stock": "in stock",
         "status": "New",
         "description": "A massive 49-inch monitor with VA panel for immersive viewing.",
-        "responseTime": "4 ms",
-        "refreshRate": "120 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "120 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -107,7 +107,7 @@
         "status": "Sale",
         "percentage": 5,
         "description": "A mechanical keyboard with Gateron Red switches and durable build.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "Black"
     },
     {
@@ -122,7 +122,7 @@
         "description": "A professional-grade headset with exceptional sound quality.",
         "sensitivity": "102 dB",
         "impedance": "250 Ohms",
-        "frequencyRange": "5 Hz - 40 kHz",
+        "frequency_range": "5 Hz - 40 kHz",
         "color": "Black"
     },
     {
@@ -152,8 +152,8 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A 27-inch gaming monitor with IPS panel and fast refresh rate.",
-        "responseTime": "1 ms",
-        "refreshRate": "165 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "165 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -169,7 +169,7 @@
         "stock": "in stock",
         "status": "New",
         "description": "A compact mechanical keyboard with Cherry MX Speed Silver switches.",
-        "specialFeature": "Detachable Cable",
+        "special_feature": "Detachable Cable",
         "color": "Cream"
     },
     {
@@ -185,7 +185,7 @@
         "description": "A wireless headset with RGB lighting and high-fidelity audio.",
         "sensitivity": "109 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 40 kHz",
+        "frequency_range": "20 Hz - 40 kHz",
         "color": "Black"
     },
     {
@@ -215,8 +215,8 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A 27-inch monitor with IPS panel and high refresh rate for gaming.",
-        "responseTime": "1 ms",
-        "refreshRate": "240 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "240 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -232,7 +232,7 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A mechanical keyboard with RGB lighting and hot-swappable switches.",
-        "specialFeature": "Hot-Swappable Switches",
+        "special_feature": "Hot-Swappable Switches",
         "color": "Black"
     },
     {
@@ -247,7 +247,7 @@
         "description": "An affordable headset with clear sound and comfortable fit.",
         "sensitivity": "98 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -278,8 +278,8 @@
         "stock": "out of stock",
         "status": "Bestseller",
         "description": "A 34-inch OLED monitor with stunning visuals and fast response time.",
-        "responseTime": "1 ms",
-        "refreshRate": "165 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "165 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -295,7 +295,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A budget-friendly mechanical keyboard with Outemu Red switches.",
-        "specialFeature": "Hot-Swappable Switches",
+        "special_feature": "Hot-Swappable Switches",
         "color": "Black"
     },
     {
@@ -310,7 +310,7 @@
         "description": "A gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -341,8 +341,8 @@
         "status": "Sale",
         "percentage": 50,
         "description": "A 34-inch VA monitor with high refresh rate and immersive visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "144 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "144 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -358,7 +358,7 @@
         "stock": "in stock",
         "status": "Bestseller",
         "description": "A TKL mechanical keyboard with Orange Linear switches.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "White"
     },
     {
@@ -373,7 +373,7 @@
         "description": "A stylish gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Lavender"
     },
     {
@@ -403,8 +403,8 @@
         "stock": "in stock",
         "status": "New",
         "description": "A 27-inch 3D monitor with IPS panel for immersive visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "60 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "60 Hz",
         "resolution": "4k",
         "color": "Black"
     },{
@@ -420,7 +420,7 @@
         "description": "A USB gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -450,7 +450,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A mechanical keyboard with Blue switches and durable build.",
-        "specialFeature": "RGB Lighting",
+        "special_feature": "RGB Lighting",
         "color": "Black/Grey"
     },
     {
@@ -465,7 +465,7 @@
         "description": "A compact headset with clear sound and comfortable fit.",
         "sensitivity": "98 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Lavender"
     },
     {
@@ -480,7 +480,7 @@
         "stock": "in stock",
         "status": "New",
         "description": "A mechanical keyboard with Orange switches and durable build.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "White"
     },
     {
@@ -496,8 +496,8 @@
         "status": "Sale",
         "percentage": 5,
         "description": "A 39.7-inch IPS monitor with stunning visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "60 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "60 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -528,7 +528,7 @@
         "description": "A premium headset with exceptional sound quality.",
         "sensitivity": "109 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 40 kHz",
+        "frequency_range": "20 Hz - 40 kHz",
         "color": "Black"
     },
     {
@@ -543,7 +543,7 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A wireless mechanical keyboard with Tactile switches.",
-        "specialFeature": "Detachable Cable",
+        "special_feature": "Detachable Cable",
         "color": "White"
     },
     {
@@ -558,8 +558,8 @@
         "stock": "in stock",
         "status": "New",
         "description": "A 27-inch IPS monitor with fast refresh rate.",
-        "responseTime": "1 ms",
-        "refreshRate": "165 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "165 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -576,7 +576,7 @@
         "description": "A lightweight wireless headset with clear sound.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black/Yellow"
     },
     {
@@ -606,8 +606,8 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A 31.5-inch QD-OLED monitor with stunning visuals.",
-        "responseTime": "1 ms",
-        "refreshRate": "120 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "120 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -623,7 +623,7 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A mechanical keyboard with Magnetic Linear switches.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "Magenta"
     },
     {
@@ -638,7 +638,7 @@
         "description": "A wireless headset with exceptional sound quality.",
         "sensitivity": "102 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -669,8 +669,8 @@
         "status": "Sale",
         "percentage": 20,
         "description": "A 49-inch QD-OLED monitor with immersive visuals.",
-        "responseTime": "1 ms",
-        "refreshRate": "120 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "120 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -685,7 +685,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A wireless touch keyboard with compact design.",
-        "specialFeature": "Touchpad",
+        "special_feature": "Touchpad",
         "color": "Black"
     },
     {
@@ -700,7 +700,7 @@
         "description": "A wireless headset with exceptional sound quality.",
         "sensitivity": "102 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "White"
     },
     {
@@ -731,8 +731,8 @@
         "status": "Sale",
         "percentage": 5,
         "description": "A 48.8-inch VA monitor with immersive visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "60 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "60 Hz",
         "resolution": "4k",
         "color": "Black/Silver"
     },
@@ -747,7 +747,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A compact wireless keyboard with quiet keys.",
-        "specialFeature": "Quiet Keys",
+        "special_feature": "Quiet Keys",
         "color": "White"
     },
     {
@@ -762,7 +762,7 @@
         "description": "A wireless headset with exceptional sound quality.",
         "sensitivity": "102 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Magenta"
     },
     {
@@ -793,8 +793,8 @@
         "status": "Sale",
         "percentage": 10,
         "description": "A 48.9-inch VA monitor with stunning visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "60 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "60 Hz",
         "resolution": "4k",
         "color": "White"
     },
@@ -810,7 +810,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A mechanical keyboard with Cherry MX Red switches.",
-        "specialFeature": "White LED",
+        "special_feature": "White LED",
         "color": "Blue"
     },
     {
@@ -825,7 +825,7 @@
         "description": "A gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },{
         "id": 54,
@@ -856,8 +856,8 @@
         "status": "Sale",
         "percentage": 25,
         "description": "A 24-inch VA monitor with high refresh rate for gaming.",
-        "responseTime": "4 ms",
-        "refreshRate": "144 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "144 Hz",
         "resolution": "Full HD",
         "color": "Black"
     },
@@ -873,7 +873,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A mechanical keyboard with RGB lighting and Red switches.",
-        "specialFeature": "RGB Lighting",
+        "special_feature": "RGB Lighting",
         "color": "Red"
     },
     {
@@ -888,7 +888,7 @@
         "description": "A wireless headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "White"
     },
     {
@@ -919,8 +919,8 @@
         "status": "Sale",
         "percentage": 30,
         "description": "A 27-inch VA monitor with high refresh rate for gaming.",
-        "responseTime": "4 ms",
-        "refreshRate": "144 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "144 Hz",
         "resolution": "Full HD",
         "color": "Black"
     },
@@ -936,7 +936,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A mechanical keyboard with RGB lighting and Red switches.",
-        "specialFeature": "RGB Lighting",
+        "special_feature": "RGB Lighting",
         "color": "Red"
     },
     {
@@ -951,7 +951,7 @@
         "description": "A premium headset with high-fidelity audio and comfortable design.",
         "sensitivity": "98 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 22 kHz",
+        "frequency_range": "20 Hz - 22 kHz",
         "color": "Black"
     },
     {
@@ -981,8 +981,8 @@
         "stock": "in stock",
         "status": "New",
         "description": "A massive 49-inch monitor with VA panel for immersive viewing.",
-        "responseTime": "4 ms",
-        "refreshRate": "120 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "120 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -999,7 +999,7 @@
         "status": "Sale",
         "percentage": 5,
         "description": "A mechanical keyboard with Gateron Red switches and durable build.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "Black"
     },
     {
@@ -1014,7 +1014,7 @@
         "description": "A professional-grade headset with exceptional sound quality.",
         "sensitivity": "102 dB",
         "impedance": "250 Ohms",
-        "frequencyRange": "5 Hz - 40 kHz",
+        "frequency_range": "5 Hz - 40 kHz",
         "color": "Black"
     },
     {
@@ -1044,8 +1044,8 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A 27-inch gaming monitor with IPS panel and fast refresh rate.",
-        "responseTime": "1 ms",
-        "refreshRate": "165 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "165 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -1061,7 +1061,7 @@
         "stock": "in stock",
         "status": "New",
         "description": "A compact mechanical keyboard with Cherry MX Speed Silver switches.",
-        "specialFeature": "Detachable Cable",
+        "special_feature": "Detachable Cable",
         "color": "Cream"
     },
     {
@@ -1077,7 +1077,7 @@
         "description": "A wireless headset with RGB lighting and high-fidelity audio.",
         "sensitivity": "109 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 40 kHz",
+        "frequency_range": "20 Hz - 40 kHz",
         "color": "Black"
     },
     {
@@ -1107,8 +1107,8 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A 27-inch monitor with IPS panel and high refresh rate for gaming.",
-        "responseTime": "1 ms",
-        "refreshRate": "240 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "240 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -1124,7 +1124,7 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A mechanical keyboard with RGB lighting and hot-swappable switches.",
-        "specialFeature": "Hot-Swappable Switches",
+        "special_feature": "Hot-Swappable Switches",
         "color": "Black"
     },
     {
@@ -1139,7 +1139,7 @@
         "description": "An affordable headset with clear sound and comfortable fit.",
         "sensitivity": "98 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -1170,8 +1170,8 @@
         "stock": "out of stock",
         "status": "Bestseller",
         "description": "A 34-inch OLED monitor with stunning visuals and fast response time.",
-        "responseTime": "1 ms",
-        "refreshRate": "165 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "165 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -1187,7 +1187,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A budget-friendly mechanical keyboard with Outemu Red switches.",
-        "specialFeature": "Hot-Swappable Switches",
+        "special_feature": "Hot-Swappable Switches",
         "color": "Black"
     },
     {
@@ -1202,7 +1202,7 @@
         "description": "A gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -1233,8 +1233,8 @@
         "status": "Sale",
         "percentage": 50,
         "description": "A 34-inch VA monitor with high refresh rate and immersive visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "144 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "144 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -1250,7 +1250,7 @@
         "stock": "in stock",
         "status": "Bestseller",
         "description": "A TKL mechanical keyboard with Orange Linear switches.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "White"
     },{
         "id": 80,
@@ -1264,7 +1264,7 @@
         "stock": "in stock",
         "status": "Bestseller",
         "description": "A TKL mechanical keyboard with Orange Linear switches.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "White"
     },
     {
@@ -1279,7 +1279,7 @@
         "description": "A stylish gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Lavender"
     },
     {
@@ -1309,8 +1309,8 @@
         "stock": "in stock",
         "status": "New",
         "description": "A 27-inch 3D monitor with IPS panel for immersive visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "60 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "60 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -1327,7 +1327,7 @@
         "description": "A USB gaming headset with clear sound and comfortable fit.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     },
     {
@@ -1357,7 +1357,7 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A mechanical keyboard with Blue switches and durable build.",
-        "specialFeature": "RGB Lighting",
+        "special_feature": "RGB Lighting",
         "color": "Black/Grey"
     },
     {
@@ -1372,7 +1372,7 @@
         "description": "A compact headset with clear sound and comfortable fit.",
         "sensitivity": "98 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Lavender"
     },
     {
@@ -1387,7 +1387,7 @@
         "stock": "in stock",
         "status": "New",
         "description": "A mechanical keyboard with Orange switches and durable build.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "White"
     },
     {
@@ -1403,8 +1403,8 @@
         "status": "Sale",
         "percentage": 5,
         "description": "A 39.7-inch IPS monitor with stunning visuals.",
-        "responseTime": "4 ms",
-        "refreshRate": "60 Hz",
+        "response_time": "4 ms",
+        "refresh_rate": "60 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -1435,7 +1435,7 @@
         "description": "A premium headset with exceptional sound quality.",
         "sensitivity": "109 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 40 kHz",
+        "frequency_range": "20 Hz - 40 kHz",
         "color": "Black"
     },
     {
@@ -1450,7 +1450,7 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A wireless mechanical keyboard with Tactile switches.",
-        "specialFeature": "Detachable Cable",
+        "special_feature": "Detachable Cable",
         "color": "White"
     },
     {
@@ -1465,8 +1465,8 @@
         "stock": "in stock",
         "status": "New",
         "description": "A 27-inch IPS monitor with fast refresh rate.",
-        "responseTime": "1 ms",
-        "refreshRate": "165 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "165 Hz",
         "resolution": "2k",
         "color": "Black"
     },
@@ -1483,7 +1483,7 @@
         "description": "A lightweight wireless headset with clear sound.",
         "sensitivity": "100 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black/Yellow"
     },
     {
@@ -1513,8 +1513,8 @@
         "stock": "in stock",
         "status": "Free shipping",
         "description": "A 31.5-inch QD-OLED monitor with stunning visuals.",
-        "responseTime": "1 ms",
-        "refreshRate": "120 Hz",
+        "response_time": "1 ms",
+        "refresh_rate": "120 Hz",
         "resolution": "4k",
         "color": "Black"
     },
@@ -1530,7 +1530,7 @@
         "stock": "in stock",
         "status": "Limited",
         "description": "A mechanical keyboard with Magnetic Linear switches.",
-        "specialFeature": "Volume Control",
+        "special_feature": "Volume Control",
         "color": "Magenta"
     },
     {
@@ -1545,7 +1545,7 @@
         "description": "A wireless headset with exceptional sound quality.",
         "sensitivity": "102 dB",
         "impedance": "32 Ohms",
-        "frequencyRange": "20 Hz - 20 kHz",
+        "frequency_range": "20 Hz - 20 kHz",
         "color": "Black"
     }
 ]
