@@ -1,3 +1,8 @@
+.categories {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
 .categories__wrapper {
     display: flex;
     gap: 30px;
@@ -19,14 +24,14 @@
     border-bottom: 1px solid var(--border-color);
 }
 
-.navbar-item .navbar-item__category-options {
+.navbar-item .accordion-description {
     display: none;
 }
 
 .navbar-item.open {
     padding-bottom: 10px;
 }
-.navbar-item.open .navbar-item__category-options {
+.navbar-item.open .accordion-description {
     display: flex;
     flex-direction: column;
     text-align-last: left;
@@ -47,18 +52,40 @@
     justify-content: space-between;
     padding: 10px 10px 10px 0;
     cursor: pointer;
+    font-size: 20px;
+    line-height: 1.4;
 }
 
 .navbar-item__btn {
     width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-item__category-options li button {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
 }
 
+.navbar-item-options label{
+    display: flex;
+    gap: 10px;
+}
+
+
+.selected {
+    color: var(--accent-color);
+}
+
+input[type="checkbox"] {
+    accent-color: var(--accent-color);
+    width: 16px;
+    height: 16px;
+}
 
 
 
@@ -83,6 +110,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
+}
+
+.categories__items.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    height: 100%;
 }
 
 .addition-items {
