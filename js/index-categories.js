@@ -8,8 +8,10 @@ filtersMenuBtn.addEventListener("click", () => {
     const menu = document.querySelector(".filters")
     menu.classList.toggle("full-screen")
     if (menu.classList.contains("full-screen")){
+        // document.querySelector('body').classList.add("lock")
         filtersMenuBtn.src = "./img/index/close.svg"
     } else {
+        // document.querySelector('body').classList.remove("lock")
         filtersMenuBtn.src = "./img/index/filters.png"
     }
 })
