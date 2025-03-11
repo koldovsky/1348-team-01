@@ -54,6 +54,7 @@
     cursor: pointer;
     font-size: 20px;
     line-height: 1.4;
+    gap: 10px;
 }
 
 .navbar-item__btn {
@@ -86,21 +87,6 @@ input[type="checkbox"] {
     width: 16px;
     height: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .categories__items-container {
     flex: 1 1 70%;
@@ -155,4 +141,103 @@ input[type="checkbox"] {
     color: var(--light-color);
     transition: all 1.5s ease;
     border: 2px solid var(--title-color);
+}
+
+
+@media (max-width: 1024px) {
+    .filters {
+        flex: 1 1 20%
+    }
+    .categories__items-container {
+        flex: 1 1 80%;
+    }
+    .checkbox-label {
+        font-size: 15px;
+    }
+    .product__item-name {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 800px) {
+    .categories__items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .addition-items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.filters__btn {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.filters__btn img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 650px) {
+    .categories__wrapper {
+        flex-direction: column;   
+    }
+    .categories {
+        position: relative;
+    }
+    .filters__navbar {
+        display: none;
+    }
+    .filters__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .filters.filters.full-screen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        background-color: var(--light-color);
+        scroll-behavior: no-scroll;
+        padding: 30px;
+    }
+    .filters.full-screen .filters__navbar {
+        display: block;
+    }
+    .filters__btn {
+        display: block;
+    }
+    .categories__items-container {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .categories__items {
+        grid-template-columns: 1fr 1fr;
+    }
+    .addition-items {
+        grid-template-columns: 1fr 1fr;
+    }
+    .navbar-item__header {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 400px) {
+    .categories__items {
+        grid-template-columns: 1fr;
+    }
+    .addition-items {
+        grid-template-columns: 1fr;
+    }
+    .navbar-item__header {
+        font-size: 17px;
+    }
 }

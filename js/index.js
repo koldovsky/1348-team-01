@@ -1,15 +1,15 @@
 function init() {
-  // import("./header-navigation.js");
-  // import("./header_burger-menu.js");
-  // import("./index-popular.js");
+  import("./header-navigation.js");
+  import("./header_burger-menu.js");
+  import("./index-popular.js");
   import("./render-products.js");
-  // import("./countdown.js")
+  import("./countdown.js")
   import("./index-categories.js")
-  // import("./index-sales.js")
-  // import('./index-real-stories.js');
-  // import('./index-deals-accordion.js');
-  // import('./index-deals-countdown.js');
-  // import('./index.partners.js');
+  import("./index-sales.js")
+  import('./index-real-stories.js');
+  import('./index-deals-accordion.js');
+  import('./index-deals-countdown.js');
+  import('./index.partners.js');
 }
 
 const totalPartials = document.querySelectorAll(

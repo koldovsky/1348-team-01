@@ -3,6 +3,17 @@ const products = await fetchProducts();
 const categories = getProductsCategories(products);
 const navbarContainer = document.querySelector(".filters__navbar") //.filters__navbar
 
+const filtersMenuBtn = document.querySelector(".filters__btn img");
+filtersMenuBtn.addEventListener("click", () => {
+    const menu = document.querySelector(".filters")
+    menu.classList.toggle("full-screen")
+    if (menu.classList.contains("full-screen")){
+        filtersMenuBtn.src = "./img/index/close.svg"
+    } else {
+        filtersMenuBtn.src = "./img/index/filters.png"
+    }
+})
+
 const categoryProperties = {
     "mouse": {
         "dpi": [],
