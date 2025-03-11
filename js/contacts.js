@@ -3,6 +3,8 @@ function init() {
     import("./header_burger-menu.js");
     import("./shop_products.js");
     import('./contacts-faq_accordion.js');
+    import("./contacts.stores-location_carousel.js");
+    import("./contacts.stores-location_map.js");
   }
   
   const totalPartials = document.querySelectorAll(

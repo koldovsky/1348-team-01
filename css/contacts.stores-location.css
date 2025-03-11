@@ -6,56 +6,169 @@
 .stores-location__header {
   text-align: center;
   margin-bottom: 30px;
+
   @media (min-width: 768px) {
     margin-bottom: 50px;
   }
 }
-  .stores-location__label {
-    font-weight: bold;
-    font-size: 12.5px;
-    color: var(--accent-color);
-    text-transform: uppercase;
-    letter-spacing: 2px;
+
+.stores-location__label {
+  font-weight: bold;
+  font-size: 12.5px;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.stores-location__title {
+  line-height: 1.2;
+  margin-top: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: var(--main-bg-color);
+  text-transform: uppercase;
+
+  .stores-location__highlight {
+    color: var(--secondary-bg-color);
   }
 
-  .stores-location__title {
-    line-height: 1.2;
-    margin-top: 20px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
-    color: var(--main-bg-color);
-    text-transform: uppercase;
-    .stores-location__highlight {
-      color: var(--secondary-bg-color);
-    }
+  @media (min-width: 768px) {
+    font-size: 52px;
+  }
 
+  @media (min-width: 991px) {
+    font-size: 64px;
+  }
+}
+
+.stores-location__subtitle {
+  font-size: 19px;
+  color: var(--subtitle-color);
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.stores-location__divider {
+  svg {
+    width: 100%;
+  }
+
+  path {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.07);
+    stroke-width: 1px;
+  }
+}
+
+.girl-listening-music-img {
+  margin-top: 15px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.stores-locations__timeline-container {
+  .stores-locations__timeline {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .stores-locations__event {
+      padding: 0 15px;
+      border-radius: 5px;
+      background-color: var(--light-color);
+
+      .store-location__title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 25px;
+
+        @media (min-width: 768px) {
+          font-size: 23px;
+        }
+        @media (min-width: 991px) {
+          font-size: 24px;
+        }
+      }
+      .item_text {
+        font-size: 15px;
+        color: var(--text-color);
+        line-height: 1.4;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .stores-location__button {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #474747;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0 6px;
+  
+    .arrow-svg_1j4 {
+      fill: var(--light-color);
+  
+      @media (min-width: 1200px) {
+        fill: var(--title-color);
+      }
+    }
     @media (min-width: 768px) {
-      font-size: 52px;
+      width: 32px;
+      height: 32px;
     }
-    @media (min-width: 991px) {
-      font-size: 64px;
+    @media (min-width: 1200px) {
+      background-color: transparent;
+      height: 30px;
+      width: 30px;
+      padding: 0 0;
     }
   }
+}
 
-  .stores-location__subtitle {
-    font-size: 19px;
-    color: var(--subtitle-color);
-    margin-top: 25px;
-    font-weight: 600;
-  }
+.store-location__map-item {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
 
-  .stores-location__divider {
-    svg {
-      width: 100%;
-    }
-    path {
-      fill: none;
-      stroke: rgba(0, 0, 0, 0.07);
-      stroke-width: 1px;
-    }
-  }
+.store-location__icons {
+  max-height: 20px;
+  max-width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  fill: var(--accent-color);
+}
 
-  .girl-listening-music-img {
-    overflow: hidden;
-    border-radius: 15px;
-  }
+.store-location__item-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin: 16px 0px;
+  min-height: 100%;
+}
+
+.store-location__title {
+  font-size: 22px;
+  min-height: 100%;
+  color: black;
+  margin-top: 20px;
+}
+
+.info-window-content {
+  font-family: "Nunito", serif;
+}
+
+.info-window-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info-window-description {
+  font-size: 14px;
+}
